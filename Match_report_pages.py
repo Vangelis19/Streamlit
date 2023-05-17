@@ -180,7 +180,7 @@ def overview_page(df):
     st.subheader("Match Details")
     st.write("AGF vs FCN")
     st.write("Sunday 14/05/2023 19:00")
-    image = Image.open("C:/Users/vangj/Desktop/1.png")
+    image = Image.open("C:/Users/vangj/Desktop/stlitpic.png")
 
     # Display the image on the Streamlit report
     st.image(image, caption='Your Image', use_column_width=True)
