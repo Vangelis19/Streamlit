@@ -22,7 +22,7 @@ def analysis(df):
     #1st & 2nd O4 & D4
     FFH=Finishing['Half'].value_counts().get('1st Half', 0)
     FSH=Finishing['Half'].value_counts().get('2nd Half', 0)
-    DFH=Defending['Half'].value_counts()['1st Half']
+    DFH=Defending['Half'].value_counts().get('1st Half', 0)
     DSH=Defending['Half'].value_counts().get('2nd Half', 0)
 
     #Events O4
@@ -46,7 +46,7 @@ def analysis(df):
     #counting occurence of events (attacking transition and established play for O4 & D4)
     Attacking_transition=Finishing['01. Phase'].value_counts().get('Transition', 0)
     Established_play_A=Finishing['01. Phase'].value_counts().get('Established Play', 0)
-    Defending_transition=Defending['01. Phase'].value_counts()['Transition']
+    Defending_transition=Defending['01. Phase'].value_counts().get('Transition', 0)
     Established_play_D=Defending['01. Phase'].value_counts().get('Established Play', 0)
 
     #counters for finishing & defending and calculation of the set pieces for O4 & D4
@@ -121,7 +121,7 @@ def anal(df):
     #1st & 2nd O4 & D4
     FFH=Finishing['Half'].value_counts().get('1st Half', 0)
     FSH=Finishing['Half'].value_counts().get('2nd Half', 0)
-    DFH=Defending['Half'].value_counts()['1st Half']
+    DFH=Defending['Half'].value_counts().get('1st Half', 0)
     DSH=Defending['Half'].value_counts().get('2nd Half', 0)
 
     #Events O4
