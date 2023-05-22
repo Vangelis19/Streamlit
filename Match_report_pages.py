@@ -239,8 +239,6 @@ def time_period(df):
     SEP61_75=Re_ep['04. Rating'].value_counts().get('Successful', 0)
     STR61_75=Re_tr['04. Rating'].value_counts().get('Successful', 0)
     SSP61_75=Re_sp['04. Rating'].value_counts().get('Successful', 0)
-    Re_tr
-    Re_sp
 
     SEP76_90=Act2_ep['04. Rating'].value_counts().get('Successful', 0)
     STR76_90=Act2_tr['04. Rating'].value_counts().get('Successful', 0)
@@ -266,12 +264,9 @@ def time_period(df):
 
 def overview_page(df):
     st.subheader("Match Details")
-    st.write("AGF vs FCN")
+    st.write("Information about the game and pics")
     st.write("Sunday 14/05/2023 19:00")
-    image = Image.open("C:/Users/vangj/Desktop/fcn.png")
-
-    # Display the image on the Streamlit report
-    st.image(image, caption='Your Image', use_column_width=True)
+    
 
 def statistics_page(df):
     st.subheader("Finishing & Defending")
@@ -457,18 +452,20 @@ def visualization_page(df):
         counts = situation_counts[:, i]
 
         # Create the bar for the situation
-        bar = ax.bar(situation_positions, counts, bar_width, label=situation, color=colors[i])
+        bar = ax.bar(situation_positions, counts, bar_width, label=situation, color=colors[i], linewidth=2, edgecolor='black')
+    c=max(EP0_15,EP16_30,EP31_45,EP46_60,EP61_75,EP76_90)
+    for i in range(len(time_periods) - 1):
+            line_x = i + 0.75  # x-coordinate of the line (adjust as needed)
 
-        # Connect the top points of bars for each situation with lines
-        x_coords = [rect.get_x() + rect.get_width() / 2 for rect in bar]
-        y_coords = [rect.get_height() for rect in bar]
-        color = bar[0].get_facecolor()  # Get the color of the bars
-        ax.plot(x_coords, y_coords, marker='o', color=color)
+            # Plotting the dotted line
+            ax.plot([line_x, line_x], [0, c], linestyle='dotted', color='gray')
+
+        
 
     # Set labels and title
     ax.set_xlabel('Time Periods')
     ax.set_ylabel('Count')
-    ax.set_title('Situations by Time Period')
+    ax.set_title('15-Minutes O4 from phases')
 
     # Set the x-axis ticks and labels
     ax.set_xticks(bar_positions)
@@ -483,22 +480,7 @@ def visualization_page(df):
     # Convert the Matplotlib figure to a Streamlit figure
     st.pyplot(fig)
 
-    
 
-
-def fourth_page(df):
-    st.subheader("15 Minutes periods")
-    st.write("This is the visualization page.")
-    FFH,FSH,FT,DFH,DSH,DT=O4_D4(df)
-
-
-    
-
-def fifth_page(df):
-    st.subheader("2022/2023 Finishing table")
-    st.write("This is the visualization page.")
-    column = st.selectbox("Select a column for bar chart", df.columns)
-    st.bar_chart(df[column])
     
 
 def main():
@@ -511,19 +493,16 @@ def main():
         df = pd.read_csv(csv_file)
 
         # Create a page navigation sidebar
-        page = st.sidebar.selectbox("Select a page", ("Match Details", "Finishing & Defending", "Finishing efficiency","15 Minutes periods","2022/2023 Finishing table"))
+        page = st.sidebar.selectbox("Select a page", ("Match Details", "Finishing & Defending", "15-Minutes O4 from phases"))
 
         # Display the selected page
         if page == "Match Details":
             overview_page(df)
         elif page == "Finishing & Defending":
             statistics_page(df)
-        elif page == "Finishing efficiency":
+        elif page == "15-Minutes O4 from phases":
             visualization_page(df)
-        elif page == "15 Minutes periods":
-            fourth_page(df)
-        elif page == "2022/2023 Finishing table":
-            visualization_page(df)
+
 
 if __name__ == "__main__":
     main()
