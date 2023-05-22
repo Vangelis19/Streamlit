@@ -76,188 +76,192 @@ def O4_D4(df):
     return SF,UF,NF,SD,UD,ND,A_SEp,A_UEp,A_NEp,A_ST,A_UT,A_NT,A_SSp,A_USp,A_NSp,D_SEp,D_UEp,D_NEp,D_ST,D_UT,D_NT,D_SSp,D_USp,D_NSp
 
 def time_period(df):
-    #15-Minutes periods:
-    Finishing = df[df['code'] == 'O4 Finishing']
-    Finishing = Finishing.reset_index(drop=True)
-    Reading = Finishing[Finishing['Time Period'] == '0 - 15 min']
-    Reading = Reading.reset_index(drop=True)
-    Reacting = Finishing[Finishing['Time Period'] == '16 - 30 min']
-    Reacting = Reacting.reset_index(drop=True)
-    Acting_1= Finishing[Finishing['Time Period'] == '31 - 45 min']
-    Acting_1 = Acting_1.reset_index(drop=True)
-    Trap_1=Finishing[Finishing['Time Period'] == '45+ min']
-    Trap_1 = Trap_1.reset_index(drop=True)
-    Breathe=Finishing[Finishing['Time Period'] == '46 - 60 min']
-    Breathe = Breathe.reset_index(drop=True)
-    Refresh=Finishing[Finishing['Time Period'] == '61 - 75 min']
-    Refresh = Refresh.reset_index(drop=True)
-    Acting_2=Finishing[Finishing['Time Period'] == '76 - 90 min']
-    Acting_2 = Acting_2.reset_index(drop=True)
-    Trap_2=Finishing[Finishing['Time Period'] == '90+ min']
-    Trap_2 = Trap_2.reset_index(drop=True)
-    #0-15:
-    Read_ep=Reading[Reading['01. Phase']=='Established Play']
-    Read_ep = Read_ep.reset_index(drop=True)
-    EP0_15=Read_ep['01. Phase'].value_counts().get('Established Play', 0)
-    Read_tr=Reading[Reading['01. Phase']=='Transition']
-    Read_tr = Read_tr.reset_index(drop=True)
-    TR0_15=Read_tr['01. Phase'].value_counts().get('Transition', 0)
-    Read_sp = pd.DataFrame(columns=Reacting.columns)
-    Read_sp = Read_sp.reset_index(drop=True)
-    SP0_15 = 0
+    if 'Time Period' in df.columns:
+        #15-Minutes periods:
+        Finishing = df[df['code'] == 'O4 Finishing']
+        Finishing = Finishing.reset_index(drop=True)
+        Reading = Finishing[Finishing['Time Period'] == '0 - 15 min']
+        Reading = Reading.reset_index(drop=True)
+        Reacting = Finishing[Finishing['Time Period'] == '16 - 30 min']
+        Reacting = Reacting.reset_index(drop=True)
+        Acting_1= Finishing[Finishing['Time Period'] == '31 - 45 min']
+        Acting_1 = Acting_1.reset_index(drop=True)
+        Trap_1=Finishing[Finishing['Time Period'] == '45+ min']
+        Trap_1 = Trap_1.reset_index(drop=True)
+        Breathe=Finishing[Finishing['Time Period'] == '46 - 60 min']
+        Breathe = Breathe.reset_index(drop=True)
+        Refresh=Finishing[Finishing['Time Period'] == '61 - 75 min']
+        Refresh = Refresh.reset_index(drop=True)
+        Acting_2=Finishing[Finishing['Time Period'] == '76 - 90 min']
+        Acting_2 = Acting_2.reset_index(drop=True)
+        Trap_2=Finishing[Finishing['Time Period'] == '90+ min']
+        Trap_2 = Trap_2.reset_index(drop=True)
+        #0-15:
+        Read_ep=Reading[Reading['01. Phase']=='Established Play']
+        Read_ep = Read_ep.reset_index(drop=True)
+        EP0_15=Read_ep['01. Phase'].value_counts().get('Established Play', 0)
+        Read_tr=Reading[Reading['01. Phase']=='Transition']
+        Read_tr = Read_tr.reset_index(drop=True)
+        TR0_15=Read_tr['01. Phase'].value_counts().get('Transition', 0)
+        Read_sp = pd.DataFrame(columns=Reacting.columns)
+        Read_sp = Read_sp.reset_index(drop=True)
+        SP0_15 = 0
 
-    for i in range(len(Reading)):
-        if (Reading['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
-            Read_sp = Read_sp.append(Reading.iloc[i])
-            SP0_15 += 1
-    #16-30:
-    React_ep=Reacting[Reacting['01. Phase']=='Established Play']
-    React_ep = React_ep.reset_index(drop=True)
-    EP16_30=React_ep['01. Phase'].value_counts().get('Established Play', 0)
-    React_tr=Reacting[Reacting['01. Phase']=='Transition']
-    React_tr = React_tr.reset_index(drop=True)
-    TR16_30=React_tr['01. Phase'].value_counts().get('Transition', 0)
-    React_sp = pd.DataFrame(columns=Reacting.columns)
-    React_sp = React_sp.reset_index(drop=True)
-    SP16_30 = 0
+        for i in range(len(Reading)):
+            if (Reading['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
+                Read_sp = Read_sp.append(Reading.iloc[i])
+                SP0_15 += 1
+        #16-30:
+        React_ep=Reacting[Reacting['01. Phase']=='Established Play']
+        React_ep = React_ep.reset_index(drop=True)
+        EP16_30=React_ep['01. Phase'].value_counts().get('Established Play', 0)
+        React_tr=Reacting[Reacting['01. Phase']=='Transition']
+        React_tr = React_tr.reset_index(drop=True)
+        TR16_30=React_tr['01. Phase'].value_counts().get('Transition', 0)
+        React_sp = pd.DataFrame(columns=Reacting.columns)
+        React_sp = React_sp.reset_index(drop=True)
+        SP16_30 = 0
 
-    for i in range(len(Reacting)):
-        if (Reacting['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
-            React_sp = React_sp.append(Reacting.iloc[i])
-            SP16_30 += 1
-    #31-45:
-    Act1_ep=Acting_1[Acting_1['01. Phase']=='Established Play']
-    Act1_ep = Act1_ep.reset_index(drop=True)
-    EP31_45=Act1_ep['01. Phase'].value_counts().get('Established Play', 0)
-    Act1_tr=Acting_1[Acting_1['01. Phase']=='Transition']
-    Act1_tr = Act1_tr.reset_index(drop=True)
-    TR31_45=Act1_tr['01. Phase'].value_counts().get('Transition', 0)
-    Act1_sp = pd.DataFrame(columns=Acting_1.columns)
-    Act1_sp = Act1_sp.reset_index(drop=True)
-    SP31_45 = 0
+        for i in range(len(Reacting)):
+            if (Reacting['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
+                React_sp = React_sp.append(Reacting.iloc[i])
+                SP16_30 += 1
+        #31-45:
+        Act1_ep=Acting_1[Acting_1['01. Phase']=='Established Play']
+        Act1_ep = Act1_ep.reset_index(drop=True)
+        EP31_45=Act1_ep['01. Phase'].value_counts().get('Established Play', 0)
+        Act1_tr=Acting_1[Acting_1['01. Phase']=='Transition']
+        Act1_tr = Act1_tr.reset_index(drop=True)
+        TR31_45=Act1_tr['01. Phase'].value_counts().get('Transition', 0)
+        Act1_sp = pd.DataFrame(columns=Acting_1.columns)
+        Act1_sp = Act1_sp.reset_index(drop=True)
+        SP31_45 = 0
 
-    for i in range(len(Acting_1)):
-        if (Acting_1['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
-            Act1_sp = Act1_sp.append(Acting_1.iloc[i])
-            SP31_45 += 1
-    #45+:
-    Trp1_ep=Trap_1[Trap_1['01. Phase']=='Established Play']
-    Trp1_ep = Trp1_ep.reset_index(drop=True)
-    EP45_=Trp1_ep['01. Phase'].value_counts().get('Established Play', 0)
-    Trp1_tr=Trap_1[Trap_1['01. Phase']=='Transition']
-    Trp1_tr = Trp1_tr.reset_index(drop=True)
-    TR45_=Trp1_ep['01. Phase'].value_counts().get('Transition', 0)
-    Trp1_sp = pd.DataFrame(columns=Trap_1.columns)
-    Trp1_sp = Trp1_sp.reset_index(drop=True)
-    SP45_ = 0
+        for i in range(len(Acting_1)):
+            if (Acting_1['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
+                Act1_sp = Act1_sp.append(Acting_1.iloc[i])
+                SP31_45 += 1
+        #45+:
+        Trp1_ep=Trap_1[Trap_1['01. Phase']=='Established Play']
+        Trp1_ep = Trp1_ep.reset_index(drop=True)
+        EP45_=Trp1_ep['01. Phase'].value_counts().get('Established Play', 0)
+        Trp1_tr=Trap_1[Trap_1['01. Phase']=='Transition']
+        Trp1_tr = Trp1_tr.reset_index(drop=True)
+        TR45_=Trp1_ep['01. Phase'].value_counts().get('Transition', 0)
+        Trp1_sp = pd.DataFrame(columns=Trap_1.columns)
+        Trp1_sp = Trp1_sp.reset_index(drop=True)
+        SP45_ = 0
 
-    for i in range(len(Trap_1)):
-        if (Trap_1['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
-            Trp1_sp = Trp1_sp.append(Trap_1.iloc[i])
-            SP45_ += 1
-    #46-60:
-    Br_ep=Breathe[Breathe['01. Phase']=='Established Play']
-    Br_ep = Br_ep.reset_index(drop=True)
-    EP46_60=Br_ep['01. Phase'].value_counts().get('Established Play', 0)
-    Br_tr=Breathe[Breathe['01. Phase']=='Transition']
-    Br_tr = Br_tr.reset_index(drop=True)
-    TR46_60=Br_ep['01. Phase'].value_counts().get('Transition', 0)
-    Br_sp = pd.DataFrame(columns=Breathe.columns)
-    Br_sp = Br_sp.reset_index(drop=True)
-    SP46_60 = 0
+        for i in range(len(Trap_1)):
+            if (Trap_1['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
+                Trp1_sp = Trp1_sp.append(Trap_1.iloc[i])
+                SP45_ += 1
+        #46-60:
+        Br_ep=Breathe[Breathe['01. Phase']=='Established Play']
+        Br_ep = Br_ep.reset_index(drop=True)
+        EP46_60=Br_ep['01. Phase'].value_counts().get('Established Play', 0)
+        Br_tr=Breathe[Breathe['01. Phase']=='Transition']
+        Br_tr = Br_tr.reset_index(drop=True)
+        TR46_60=Br_ep['01. Phase'].value_counts().get('Transition', 0)
+        Br_sp = pd.DataFrame(columns=Breathe.columns)
+        Br_sp = Br_sp.reset_index(drop=True)
+        SP46_60 = 0
 
-    for i in range(len(Breathe)):
-        if (Breathe['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
-            Br_sp = Br_sp.append(Breathe.iloc[i])
-            SP46_60 += 1
-    #61-75:
-    Re_ep=Refresh[Refresh['01. Phase']=='Established Play']
-    Re_ep = Re_ep.reset_index(drop=True)
-    EP61_75=Re_ep['01. Phase'].value_counts().get('Established Play', 0)
-    Re_tr=Refresh[Refresh['01. Phase']=='Transition']
-    Re_tr = Re_tr.reset_index(drop=True)
-    TR61_75=Re_ep['01. Phase'].value_counts().get('Transition', 0)
-    Re_sp = pd.DataFrame(columns=Refresh.columns)
-    Re_sp = Re_sp.reset_index(drop=True)
-    SP61_75 = 0
+        for i in range(len(Breathe)):
+            if (Breathe['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
+                Br_sp = Br_sp.append(Breathe.iloc[i])
+                SP46_60 += 1
+        #61-75:
+        Re_ep=Refresh[Refresh['01. Phase']=='Established Play']
+        Re_ep = Re_ep.reset_index(drop=True)
+        EP61_75=Re_ep['01. Phase'].value_counts().get('Established Play', 0)
+        Re_tr=Refresh[Refresh['01. Phase']=='Transition']
+        Re_tr = Re_tr.reset_index(drop=True)
+        TR61_75=Re_ep['01. Phase'].value_counts().get('Transition', 0)
+        Re_sp = pd.DataFrame(columns=Refresh.columns)
+        Re_sp = Re_sp.reset_index(drop=True)
+        SP61_75 = 0
 
-    for i in range(len(Refresh)):
-        if (Refresh['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
-            Re_sp = Re_sp.append(Refresh.iloc[i])
-            SP61_75 += 1
-    #76-90:
-    Act2_ep=Acting_2[Acting_2['01. Phase']=='Established Play']
-    Act2_ep = Act2_ep.reset_index(drop=True)
-    EP76_90=Act2_ep['01. Phase'].value_counts().get('Established Play', 0)
-    Act2_tr=Acting_2[Acting_2['01. Phase']=='Transition']
-    Act2_tr = Act2_tr.reset_index(drop=True)
-    TR76_90=Act2_tr['01. Phase'].value_counts().get('Transition', 0)
-    Act2_sp = pd.DataFrame(columns=Acting_2.columns)
-    Act2_sp = Act2_sp.reset_index(drop=True)
-    SP76_90 = 0
+        for i in range(len(Refresh)):
+            if (Refresh['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
+                Re_sp = Re_sp.append(Refresh.iloc[i])
+                SP61_75 += 1
+        #76-90:
+        Act2_ep=Acting_2[Acting_2['01. Phase']=='Established Play']
+        Act2_ep = Act2_ep.reset_index(drop=True)
+        EP76_90=Act2_ep['01. Phase'].value_counts().get('Established Play', 0)
+        Act2_tr=Acting_2[Acting_2['01. Phase']=='Transition']
+        Act2_tr = Act2_tr.reset_index(drop=True)
+        TR76_90=Act2_tr['01. Phase'].value_counts().get('Transition', 0)
+        Act2_sp = pd.DataFrame(columns=Acting_2.columns)
+        Act2_sp = Act2_sp.reset_index(drop=True)
+        SP76_90 = 0
 
-    for i in range(len(Acting_2)):
-        if (Acting_2['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
-            Act2_sp = Act2_sp.append(Acting_2.iloc[i])
-            SP76_90 += 1
-    #90+:
-    Trp2_ep=Trap_2[Trap_2['01. Phase']=='Established Play']
-    Trp2_ep = Trp2_ep.reset_index(drop=True)
-    EP90_=Trp2_ep['01. Phase'].value_counts().get('Established Play', 0)
-    Trp2_tr=Trap_2[Trap_2['01. Phase']=='Transition']
-    Trp2_tr = Trp2_tr.reset_index(drop=True)
-    TR90_=Trp2_ep['01. Phase'].value_counts().get('Transition', 0)
-    Trp2_sp = pd.DataFrame(columns=Trap_2.columns)
-    Trp2_sp = Trp2_sp.reset_index(drop=True)
-    SP90_ = 0
+        for i in range(len(Acting_2)):
+            if (Acting_2['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
+                Act2_sp = Act2_sp.append(Acting_2.iloc[i])
+                SP76_90 += 1
+        #90+:
+        Trp2_ep=Trap_2[Trap_2['01. Phase']=='Established Play']
+        Trp2_ep = Trp2_ep.reset_index(drop=True)
+        EP90_=Trp2_ep['01. Phase'].value_counts().get('Established Play', 0)
+        Trp2_tr=Trap_2[Trap_2['01. Phase']=='Transition']
+        Trp2_tr = Trp2_tr.reset_index(drop=True)
+        TR90_=Trp2_ep['01. Phase'].value_counts().get('Transition', 0)
+        Trp2_sp = pd.DataFrame(columns=Trap_2.columns)
+        Trp2_sp = Trp2_sp.reset_index(drop=True)
+        SP90_ = 0
 
-    for i in range(len(Trap_2)):
-        if (Trap_2['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
-            Trp2_sp = Trp2_sp.append(Trap_2.iloc[i])
-            SP90_ += 1
-    #Page2:
-    SEP0_15=Read_ep['04. Rating'].value_counts().get('Successful', 0)
-    STR0_15=Read_tr['04. Rating'].value_counts().get('Successful', 0)
-    SSP0_15=Read_sp['04. Rating'].value_counts().get('Successful', 0)
+        for i in range(len(Trap_2)):
+            if (Trap_2['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
+                Trp2_sp = Trp2_sp.append(Trap_2.iloc[i])
+                SP90_ += 1
+        #Page2:
+        SEP0_15=Read_ep['04. Rating'].value_counts().get('Successful', 0)
+        STR0_15=Read_tr['04. Rating'].value_counts().get('Successful', 0)
+        SSP0_15=Read_sp['04. Rating'].value_counts().get('Successful', 0)
 
-    SEP16_30=React_ep['04. Rating'].value_counts().get('Successful', 0)
-    STR16_30=React_tr['04. Rating'].value_counts().get('Successful', 0)
-    SSP16_30=React_sp['04. Rating'].value_counts().get('Successful', 0)
+        SEP16_30=React_ep['04. Rating'].value_counts().get('Successful', 0)
+        STR16_30=React_tr['04. Rating'].value_counts().get('Successful', 0)
+        SSP16_30=React_sp['04. Rating'].value_counts().get('Successful', 0)
+        
+        SEP31_45=Act1_ep['04. Rating'].value_counts().get('Successful', 0)
+        STR31_45=Act1_tr['04. Rating'].value_counts().get('Successful', 0)
+        SSP31_45=Act1_sp['04. Rating'].value_counts().get('Successful', 0)
+
+        SEP45_=Trp1_ep['04. Rating'].value_counts().get('Successful', 0)
+        STR45_=Trp1_tr['04. Rating'].value_counts().get('Successful', 0)
+        SSP45_=Trp1_sp['04. Rating'].value_counts().get('Successful', 0)
+
+        SEP46_60=Br_ep['04. Rating'].value_counts().get('Successful', 0)
+        STR46_60=Br_tr['04. Rating'].value_counts().get('Successful', 0)
+        SSP46_60=Br_sp['04. Rating'].value_counts().get('Successful', 0)
+
+        SEP61_75=Re_ep['04. Rating'].value_counts().get('Successful', 0)
+        STR61_75=Re_tr['04. Rating'].value_counts().get('Successful', 0)
+        SSP61_75=Re_sp['04. Rating'].value_counts().get('Successful', 0)
+
+        SEP76_90=Act2_ep['04. Rating'].value_counts().get('Successful', 0)
+        STR76_90=Act2_tr['04. Rating'].value_counts().get('Successful', 0)
+        SSP76_90=Act2_sp['04. Rating'].value_counts().get('Successful', 0)
+
+        SEP90_=Trp2_ep['04. Rating'].value_counts().get('Successful', 0)
+        STR90_=Trp2_tr['04. Rating'].value_counts().get('Successful', 0)
+        SSP90_=Trp2_sp['04. Rating'].value_counts().get('Successful', 0)
+
+        return (EP0_15,TR0_15,SP0_15,EP16_30,TR16_30,
+                SP16_30,EP31_45,TR31_45,SP31_45,EP45_,
+                TR45_,SP45_,EP46_60,TR46_60,SP46_60,
+                EP61_75,TR61_75,SP61_75,EP76_90,TR76_90,
+                SP76_90,EP90_,TR90_,SP90_,SEP0_15,
+                STR0_15,SSP0_15,SEP16_30,STR16_30,SSP16_30,
+                SEP31_45,STR31_45,SSP31_45,SEP45_,STR45_,
+                SSP45_,SEP46_60,STR46_60,SSP46_60,SEP61_75,
+                STR61_75,SSP61_75,SEP76_90,STR76_90,SSP76_90,
+                SEP90_,STR90_,SSP90_)
+    else:
+        return None
     
-    SEP31_45=Act1_ep['04. Rating'].value_counts().get('Successful', 0)
-    STR31_45=Act1_tr['04. Rating'].value_counts().get('Successful', 0)
-    SSP31_45=Act1_sp['04. Rating'].value_counts().get('Successful', 0)
-
-    SEP45_=Trp1_ep['04. Rating'].value_counts().get('Successful', 0)
-    STR45_=Trp1_tr['04. Rating'].value_counts().get('Successful', 0)
-    SSP45_=Trp1_sp['04. Rating'].value_counts().get('Successful', 0)
-
-    SEP46_60=Br_ep['04. Rating'].value_counts().get('Successful', 0)
-    STR46_60=Br_tr['04. Rating'].value_counts().get('Successful', 0)
-    SSP46_60=Br_sp['04. Rating'].value_counts().get('Successful', 0)
-
-    SEP61_75=Re_ep['04. Rating'].value_counts().get('Successful', 0)
-    STR61_75=Re_tr['04. Rating'].value_counts().get('Successful', 0)
-    SSP61_75=Re_sp['04. Rating'].value_counts().get('Successful', 0)
-
-    SEP76_90=Act2_ep['04. Rating'].value_counts().get('Successful', 0)
-    STR76_90=Act2_tr['04. Rating'].value_counts().get('Successful', 0)
-    SSP76_90=Act2_sp['04. Rating'].value_counts().get('Successful', 0)
-
-    SEP90_=Trp2_ep['04. Rating'].value_counts().get('Successful', 0)
-    STR90_=Trp2_tr['04. Rating'].value_counts().get('Successful', 0)
-    SSP90_=Trp2_sp['04. Rating'].value_counts().get('Successful', 0)
-
-    return (EP0_15,TR0_15,SP0_15,EP16_30,TR16_30,
-            SP16_30,EP31_45,TR31_45,SP31_45,EP45_,
-            TR45_,SP45_,EP46_60,TR46_60,SP46_60,
-            EP61_75,TR61_75,SP61_75,EP76_90,TR76_90,
-            SP76_90,EP90_,TR90_,SP90_,SEP0_15,
-            STR0_15,SSP0_15,SEP16_30,STR16_30,SSP16_30,
-            SEP31_45,STR31_45,SSP31_45,SEP45_,STR45_,
-            SSP45_,SEP46_60,STR46_60,SSP46_60,SEP61_75,
-            STR61_75,SSP61_75,SEP76_90,STR76_90,SSP76_90,
-            SEP90_,STR90_,SSP90_)
 
 
     
@@ -415,70 +419,75 @@ def statistics_page(df):
 def visualization_page(df):
     st.subheader("Quarters")
     st.write("This is the visualization page.")
-    EP0_15,TR0_15,SP0_15,EP16_30,TR16_30,SP16_30,EP31_45,TR31_45,SP31_45,EP45_,TR45_,SP45_,EP46_60,TR46_60,SP46_60,EP61_75,TR61_75,SP61_75,EP76_90,TR76_90,SP76_90,EP90_,TR90_,SP90_,SEP0_15,STR0_15,SSP0_15,SEP16_30,STR16_30,SSP16_30,SEP31_45,STR31_45,SSP31_45,SEP45_,STR45_,SSP45_,SEP46_60,STR46_60,SSP46_60,SEP61_75,STR61_75,SSP61_75,SEP76_90,STR76_90,SSP76_90,SEP90_,STR90_,SSP90_=time_period(df)
-    # Define the time periods
-    time_periods = ['0-15', '16-30', '31-45', '45+', '46-60', '61-75', '76-90', '90+']
+    column = time_period(df)
+    if 'Time Period' in df.columns:
+        EP0_15,TR0_15,SP0_15,EP16_30,TR16_30,SP16_30,EP31_45,TR31_45,SP31_45,EP45_,TR45_,SP45_,EP46_60,TR46_60,SP46_60,EP61_75,TR61_75,SP61_75,EP76_90,TR76_90,SP76_90,EP90_,TR90_,SP90_,SEP0_15,STR0_15,SSP0_15,SEP16_30,STR16_30,SSP16_30,SEP31_45,STR31_45,SSP31_45,SEP45_,STR45_,SSP45_,SEP46_60,STR46_60,SSP46_60,SEP61_75,STR61_75,SSP61_75,SEP76_90,STR76_90,SSP76_90,SEP90_,STR90_,SSP90_=time_period(df)
+        # Define the time periods
+        time_periods = ['0-15', '16-30', '31-45', '45+', '46-60', '61-75', '76-90', '90+']
 
-    # Define the situations
-    situations = ['Established Play', 'Transition', 'Set Piece']
+        # Define the situations
+        situations = ['Established Play', 'Transition', 'Set Piece']
 
-    # Sample data for situation counts
-    situation_counts = np.array([[EP0_15, TR0_15, SP0_15],
-                                [EP16_30, TR16_30, SP16_30],
-                                [EP31_45, TR31_45, SP31_45],
-                                [EP45_, TR45_, SP45_],
-                                [EP46_60, TR46_60, SP46_60],
-                                [EP61_75, TR61_75, SP61_75],
-                                [EP76_90, TR76_90, SP76_90],
-                                [EP90_, TR90_, SP90_]])
+        # Sample data for situation counts
+        situation_counts = np.array([[EP0_15, TR0_15, SP0_15],
+                                    [EP16_30, TR16_30, SP16_30],
+                                    [EP31_45, TR31_45, SP31_45],
+                                    [EP45_, TR45_, SP45_],
+                                    [EP46_60, TR46_60, SP46_60],
+                                    [EP61_75, TR61_75, SP61_75],
+                                    [EP76_90, TR76_90, SP76_90],
+                                    [EP90_, TR90_, SP90_]])
 
-    # Set up the chart
-    fig, ax = plt.subplots()
+        # Set up the chart
+        fig, ax = plt.subplots()
 
-    # Calculate the width for each bar
-    bar_width = 0.2
+        # Calculate the width for each bar
+        bar_width = 0.2
 
-    # Set the positions of the bars on the x-axis
-    bar_positions = np.arange(len(time_periods))
+        # Set the positions of the bars on the x-axis
+        bar_positions = np.arange(len(time_periods))
 
-    colors = ['purple', 'black', 'red']
+        colors = ['purple', 'black', 'red']
 
-    # Create a bar for each situation
-    for i, situation in enumerate(situations):
-        # Set the x-position for the bars of each situation
-        situation_positions = [pos + i * bar_width for pos in bar_positions]
+        # Create a bar for each situation
+        for i, situation in enumerate(situations):
+            # Set the x-position for the bars of each situation
+            situation_positions = [pos + i * bar_width for pos in bar_positions]
 
-        # Get the counts for the current situation
-        counts = situation_counts[:, i]
+            # Get the counts for the current situation
+            counts = situation_counts[:, i]
 
-        # Create the bar for the situation
-        bar = ax.bar(situation_positions, counts, bar_width, label=situation, color=colors[i], linewidth=2, edgecolor='black')
-    c=max(EP0_15,EP16_30,EP31_45,EP46_60,EP61_75,EP76_90)
-    for i in range(len(time_periods) - 1):
-            line_x = i + 0.75  # x-coordinate of the line (adjust as needed)
+            # Create the bar for the situation
+            bar = ax.bar(situation_positions, counts, bar_width, label=situation, color=colors[i], linewidth=2, edgecolor='black')
+        c=max(EP0_15,EP16_30,EP31_45,EP46_60,EP61_75,EP76_90)
+        for i in range(len(time_periods) - 1):
+                line_x = i + 0.75  # x-coordinate of the line (adjust as needed)
 
-            # Plotting the dotted line
-            ax.plot([line_x, line_x], [0, c], linestyle='dotted', color='gray')
+                # Plotting the dotted line
+                ax.plot([line_x, line_x], [0, c], linestyle='dotted', color='gray')
 
-        
+            
 
-    # Set labels and title
-    ax.set_xlabel('Time Periods')
-    ax.set_ylabel('Count')
-    ax.set_title('15-Minutes O4 from phases')
+        # Set labels and title
+        ax.set_xlabel('Time Periods')
+        ax.set_ylabel('Count')
+        ax.set_title('15-Minutes O4 from phases')
 
-    # Set the x-axis ticks and labels
-    ax.set_xticks(bar_positions)
-    ax.set_xticklabels(time_periods)
+        # Set the x-axis ticks and labels
+        ax.set_xticks(bar_positions)
+        ax.set_xticklabels(time_periods)
 
-    # Add a legend
-    ax.legend()
+        # Add a legend
+        ax.legend()
 
-    # Remove the extra whitespace from the figure
-    plt.tight_layout()
+        # Remove the extra whitespace from the figure
+        plt.tight_layout()
 
-    # Convert the Matplotlib figure to a Streamlit figure
-    st.pyplot(fig)
+        # Convert the Matplotlib figure to a Streamlit figure
+        st.pyplot(fig)
+    else: 
+        print("15 Minutes intervals do not exist")
+        st.write("15 Minutes intervals do not exist")
 
 
     
