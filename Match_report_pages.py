@@ -169,7 +169,7 @@ def time_period(df):
     for i in range(len(Breathe)):
         if (Breathe['01. Phase'][i] in ['Throw In', 'Lateral Free Kick', 'Corner Kick', 'Free Kick', 'Penalty', 'Direct Free Kick']):
             Br_sp = Br_sp.append(Breathe.iloc[i])
-            SP45_60 += 1
+            SP46_60 += 1
     #61-75:
     Re_ep=Refresh[Refresh['01. Phase']=='Established Play']
     Re_ep = Re_ep.reset_index(drop=True)
