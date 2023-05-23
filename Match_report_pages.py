@@ -8,15 +8,21 @@ import plotly.graph_objects as go
 
 # Add the custom CSS styles
 st.markdown('<link href="https://github.com/Vangelis19/Streamlit/styles.css" rel="stylesheet">', unsafe_allow_html=True)
+def chances(df):
+    if 'code' in df.columns:
+        Finishing = df[df['code'] == 'O4 Finishing']
+        Defending = df[df['code'] == 'D4 Defending the Box']
+    else:
+        Finishing = df[df['Row'] == 'O4 Finishing']
+        Defending = df[df['Row'] == 'D4 Defending the Box']
+    Finishing = Finishing.reset_index(drop=True)
+    Defending = Defending.reset_index(drop=True)
+    return Finishing,Defending
 
 def O4_D4(df):
     #O4 & D4-Total Dataframes
-    Finishing = df[df['code'] == 'O4 Finishing']
-    Finishing = Finishing.reset_index(drop=True)
-    Defending = df[df['code'] == 'D4 Defending the Box']
-    Defending = Defending.reset_index(drop=True)
-
     #Attacking Phases Dataframes
+    Finishing,Defending=chances(df)
     a_est=Finishing[Finishing['01. Phase'] == 'Established Play']
     a_est = a_est.reset_index(drop=True)
     a_tr=Finishing[Finishing['01. Phase'] == 'Transition']
@@ -76,10 +82,9 @@ def O4_D4(df):
     return SF,UF,NF,SD,UD,ND,A_SEp,A_UEp,A_NEp,A_ST,A_UT,A_NT,A_SSp,A_USp,A_NSp,D_SEp,D_UEp,D_NEp,D_ST,D_UT,D_NT,D_SSp,D_USp,D_NSp
 
 def time_period(df):
+    Finishing,Defending=chances(df)
     if 'Time Period' in df.columns:
         #15-Minutes periods:
-        Finishing = df[df['code'] == 'O4 Finishing']
-        Finishing = Finishing.reset_index(drop=True)
         Reading = Finishing[Finishing['Time Period'] == '0 - 15 min']
         Reading = Reading.reset_index(drop=True)
         Reacting = Finishing[Finishing['Time Period'] == '16 - 30 min']
