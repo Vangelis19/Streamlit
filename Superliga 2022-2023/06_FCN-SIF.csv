@@ -1,0 +1,298 @@
+,code_id,period_id,timestamp,end_timestamp,code,Half,Opponent,00. Start Phase,02. Situation Type,04. Rating,03. Outcomes,Time Period,01. Phase,<flag>New Flag
+0,1,1,0.0,2828.9577347456516,KO,1st Half,Silkeborg,,,,,,,
+1,2,1,9.183032117750543,35.85485905708356,O2 Build Up,,Silkeborg,O2 Build Up,O2 Free Kick,Unsuccessful,Ball Loss --> D3 Press,0 - 15 min,,
+2,3,1,36.85401748808408,39.42083901341715,D1 Counterpress,,Silkeborg,,After O2 build-up,Neutral,Establishing Pressing,0 - 15 min,,
+3,4,1,41.13821193641752,50.7667649934171,D3 Middle / Lower Pressing,,Silkeborg,,D3 Press on Throw-In,Successful,"Intercept. -> Estab. (O1, O2, O3)",0 - 15 min,,
+4,5,1,53.25153988941719,57.689668696417414,O1 Play from the Back,,Silkeborg,O1 Play from the Back,O1 After Regain,Successful,Progress to Next Phase,0 - 15 min,,
+5,6,1,58.6381219974171,82.10631612975055,O2 Build Up,,Silkeborg,O2 Build Up,O1 to O2,Successful,Progress to Next Phase,0 - 15 min,,
+6,7,1,63.11190364675065,95.43496523541717,O3 Break Through,,Silkeborg,O3 Break Through,1v1 Wide / Halfspace,Successful,Lead to O4 chance,0 - 15 min,Established Play,
+7,8,1,70.26108888888889,100.26108888888889,Bench,,Silkeborg,,,,,,,True
+8,9,1,76.08909206741725,103.38805384508407,O4 Finishing,,Silkeborg,O4 Finishing,Square Pass,Successful,Chance,0 - 15 min,Established Play,
+9,10,1,103.31690092241735,131.94315624341698,O3 Break Through,,Silkeborg,O3 Break Through,Transition After CP,Successful,"Cross, Shot, Set-Piece or Box Entry",0 - 15 min,Transition,
+10,11,1,105.08806942408398,113.07074558475085,O2 Build Up,,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,0 - 15 min,,
+11,12,1,113.18534578741719,138.76837566075056,O4 Finishing,,Silkeborg,O4 Finishing,Cutback,Neutral,"Cross, Shot, Set-Piece or Box Entry",0 - 15 min,Transition,
+12,13,1,114.58270670575064,120.9625635667507,D3 High Pressing,,Silkeborg,,After Ball Loss,Successful,Direct to O3/O4 OFF Transit,0 - 15 min,,
+13,14,1,127.77046594408387,172.6655853070837,O4 Finishing,,Silkeborg,O4 Finishing,Back Area,Unsuccessful,DEF Transition,0 - 15 min,Corner Kick,True
+14,15,1,152.54506666666666,172.54506666666666,Ndividual,,Silkeborg,,,,,,,
+15,16,1,155.61616066808404,188.27650623075067,D4 Defending the Box,,Silkeborg,,Through Pass,Unsuccessful,Open Chance,0 - 15 min,Transition,
+16,17,1,156.92367968650936,193.40257372975066,Goal OPP,,Silkeborg,,Corner Kick,,,,,True
+17,18,1,159.78718980041725,170.7871898004173,off corner,,Silkeborg,,Back Area,,,,,
+18,19,1,163.48087777777778,178.79789373599857,D2 Finding Balance,,Silkeborg,,After Offensive Set-Piece,Unsuccessful,D4 Chance,0 - 15 min,,
+19,20,1,236.62204369441724,262.52023565341733,O2 Build Up,,Silkeborg,O2 Build Up,O2 Free Kick,Unsuccessful,Ball Loss --> D3 Press,0 - 15 min,,
+20,21,1,264.66983824508395,270.33444304075056,D2 Finding Balance,,Silkeborg,,After Ball Loss,Neutral,Establishing Pressing,0 - 15 min,,
+21,22,1,266.4991646939991,298.3979828049975,O3 Break Through,,Silkeborg,O3 Break Through,D3 Win Ball Low/Middle,Successful,Lead to O4 chance,0 - 15 min,Transition,
+22,23,1,271.73222147975,286.5524144654171,D3 Middle / Lower Pressing,,Silkeborg,,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",0 - 15 min,,
+23,24,1,274.6826111111111,304.6826111111111,Bench,,Silkeborg,,,,,,,True
+24,25,1,285.05574783775046,322.4546920174171,O4 Finishing,,Silkeborg,O4 Finishing,1v1,Successful,Open Chance,0 - 15 min,Transition,
+25,26,1,305.830544475084,340.6878569150841,O4 Finishing,,Silkeborg,O4 Finishing,Back Area,Unsuccessful,Intercepted by Defence,0 - 15 min,Corner Kick,
+26,27,1,326.5197432717505,337.5197432717505,off corner,,Silkeborg,,,,,,,
+27,28,1,346.93017905208376,383.5864881027509,D3 High Pressing,,Silkeborg,,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",0 - 15 min,,
+28,29,1,385.78496551975013,419.4423078590837,O2 Build Up,,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,0 - 15 min,,True
+29,30,1,427.56931233308376,449.02463789175044,D3 High Pressing,,Silkeborg,,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",0 - 15 min,,
+30,31,1,435.8961247900837,469.8861807464169,O3 Break Through,,Silkeborg,O3 Break Through,Short Throw-In,Unsuccessful,Ball Loss --> D3 Press,0 - 15 min,Throw In,
+31,32,1,472.24015359908356,476.93224676641705,D2 Finding Balance,,Silkeborg,,After Ball Loss,Neutral,Establishing Pressing,0 - 15 min,,
+32,33,1,474.5352675151713,514.6403666666666,Bench,,Silkeborg,,,,,,,True
+33,34,1,478.1501065940839,499.25521013241735,D3 Middle / Lower Pressing,,Silkeborg,,After Ball Loss,Successful,Direct to O3/O4 OFF Transit,0 - 15 min,,
+34,35,1,480.8887952327507,514.0087739777504,O3 Break Through,,Silkeborg,O3 Break Through,D3 Win Ball Low/Middle,Successful,"Cross, Shot, Set-Piece or Box Entry",0 - 15 min,Transition,
+35,36,1,494.7362251440842,518.8148144874173,O4 Finishing,,Silkeborg,O4 Finishing,Chipball,Neutral,"Cross, Shot, Set-Piece or Box Entry",0 - 15 min,Transition,
+36,37,1,519.8116771364172,550.4735245184172,O2 Build Up,,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,0 - 15 min,,
+37,38,1,552.1818440454172,556.4726947730835,D1 Counterpress,,Silkeborg,,After O2 build-up,Successful,"Intercept. -> Estab. (O1, O2, O3)",0 - 15 min,,
+38,39,1,557.420934198084,599.7703018010839,O2 Build Up,,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,0 - 15 min,,
+39,40,1,580.7916957237505,608.0829842500837,O3 Break Through,,Silkeborg,O3 Break Through,Central Play Infront of Backline,Successful,"Cross, Shot, Set-Piece or Box Entry",0 - 15 min,Established Play,
+40,41,1,592.3594145817507,617.0509443037504,O4 Finishing,,Silkeborg,O4 Finishing,Pass Infront of Backline,Neutral,"Cross, Shot, Set-Piece or Box Entry",0 - 15 min,Established Play,
+41,42,1,618.7428356387505,648.1074696557506,O2 Build Up,,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,0 - 15 min,,
+42,43,1,647.240777797417,680.5405605467506,O3 Break Through,,Silkeborg,O3 Break Through,D3 High Press on Opp. Half,Neutral,Keep The Ball,0 - 15 min,Transition,True
+43,44,1,649.7417173200838,652.3571365757506,D1 Counterpress,,Silkeborg,,After O2 build-up,Neutral,Establishing Pressing,0 - 15 min,,
+44,45,1,655.2755399770839,665.1645413800838,D3 High Pressing,,Silkeborg,,After Ball Loss,Successful,Direct to O3/O4 OFF Transit,0 - 15 min,,
+45,46,1,674.9180293093276,724.0889025271546,Ndividual,,Silkeborg,,,,,,,True
+46,47,1,681.6853662894171,688.4609393067501,O2 Build Up,,Silkeborg,O2 Build Up,O3 to O2,Unsuccessful,Ball Loss --> D3 Press,0 - 15 min,,
+47,48,1,705.8333784920728,728.045187456259,O3 Break Through,,Silkeborg,O3 Break Through,D3 High Press on Opp. Half,Unsuccessful,Ball Loss --> D3 Press,0 - 15 min,Transition,True
+48,49,1,708.3972793170838,720.8547929644171,D3 High Pressing,,Silkeborg,,D3 Goal Kick or Free Kick,Successful,Direct to O3/O4 OFF Transit,0 - 15 min,,
+49,50,1,730.0741777777778,760.0741777777778,Bench,,Silkeborg,,,,,,,True
+50,51,1,730.5739960484168,752.3938779220839,D3 High Pressing,,Silkeborg,,After Ball Loss,Successful,Direct to O3/O4 OFF Transit,0 - 15 min,,
+51,52,1,733.497982235084,760.3722882514173,O3 Break Through,,Silkeborg,O3 Break Through,D3 High Press on Opp. Half,Successful,Lead to O4 chance,0 - 15 min,Transition,
+52,53,1,741.2141964824173,764.7699614927503,O4 Finishing,,Silkeborg,O4 Finishing,1v1,Successful,Chance,0 - 15 min,Transition,
+53,54,1,753.1080419337502,812.8435918620837,O4 Finishing,,Silkeborg,O4 Finishing,Front Area,Neutral,"Cross, Shot, Set-Piece or Box Entry",0 - 15 min,Corner Kick,
+54,55,1,785.1099124884668,813.0719222222224,Bench,,Silkeborg,,,,,,,True
+55,56,1,789.2209591647506,813.3940714175328,off corner,,Silkeborg,,,,,,,True
+56,57,1,793.5550079867505,818.4839552427504,O4 Finishing,,Silkeborg,O4 Finishing,Chipball,Unsuccessful,Intercepted by Defence,0 - 15 min,Established Play,
+57,58,1,818.4467352714059,890.954710160417,Goal OPP,,Silkeborg,,Established Play,,,,,True
+58,59,1,820.3477542247504,858.2846251447502,D3 High Pressing,,Silkeborg,,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,0 - 15 min,,
+59,60,1,821.6951666666666,841.6951666666666,Ndividual,,Silkeborg,,,,,,,
+60,61,1,855.9279206154172,885.1567415500838,D4 Defending the Box,,Silkeborg,,Square Pass,Unsuccessful,Chance,0 - 15 min,Established Play,
+61,62,1,859.2901559960842,874.996564254084,D3 Middle / Lower Pressing,,Silkeborg,,D3 From High to Med/Low,Unsuccessful,D4 Chance,0 - 15 min,,
+62,63,1,955.6240408726275,995.0710848855362,O2 Build Up,,Silkeborg,O2 Build Up,O2 Free Kick,Unsuccessful,Ball Loss --> D3 Press,16 - 30 min,,True
+63,64,1,990.028896784084,1000.7934453810838,D1 Counterpress,,Silkeborg,,After O2 build-up,Neutral,Establishing Pressing,16 - 30 min,,
+64,65,1,1002.1501963840838,1017.1515223690838,D3 Middle / Lower Pressing,,Silkeborg,,D3 Press on Throw-In,Neutral,Stay In Phase,16 - 30 min,,
+65,66,1,1018.0749253074168,1029.1933985977505,D3 High Pressing,,Silkeborg,,D3 From Low/Med to High,Successful,"Intercept. -> Estab. (O1, O2, O3)",16 - 30 min,,
+66,67,1,1034.2532112120837,1068.255587589417,O2 Build Up,,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,16 - 30 min,,
+67,68,1,1070.160004946417,1098.2005473970837,D3 High Pressing,,Silkeborg,,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,16 - 30 min,,
+68,69,1,1099.4758502904167,1103.9464422457506,D2 Finding Balance,,Silkeborg,,D3 High Press on Opp. Half,Neutral,Establishing Pressing,16 - 30 min,,
+69,70,1,1105.254072421417,1138.0054742854172,D3 Middle / Lower Pressing,,Silkeborg,,D3 From High to Med/Low,Neutral,Stay In Phase,16 - 30 min,,
+70,71,1,1139.098807488751,1171.6673711667504,D3 Middle / Lower Pressing,,Silkeborg,,D3 From High to Med/Low,Unsuccessful,D4 Chance,16 - 30 min,,
+71,72,1,1152.687367522084,1182.6235621357507,D4 Defending the Box,,Silkeborg,,Through Pass,Unsuccessful,Chance,16 - 30 min,Established Play,
+72,73,1,1178.3535824637504,1203.0784145344176,O3 Break Through,,Silkeborg,O3 Break Through,Wide Link Up Play,Neutral,Keep The Ball,16 - 30 min,Established Play,
+73,74,1,1184.0847740117501,1197.2161598567507,O2 Build Up,,Silkeborg,O2 Build Up,O2 Free Kick,Successful,Progress to Next Phase,16 - 30 min,,
+74,75,1,1184.157130594417,1210.9009789567504,O3 Break Through,,Silkeborg,O3 Break Through,Quick Restart,Neutral,Keep The Ball,16 - 30 min,Throw In,
+75,76,1,1211.7270917067501,1230.3140597844172,O2 Build Up,,Silkeborg,O2 Build Up,O3 to O2,Unsuccessful,Ball Loss --> D3 Press,16 - 30 min,,True
+76,77,1,1216.9403179382045,1235.9859513093095,D1 Counterpress,,Silkeborg,,After O3/O4,Neutral,Establishing Pressing,16 - 30 min,,True
+77,78,1,1236.4448408190838,1248.0124841454171,D3 High Pressing,,Silkeborg,,D3 Press on Throw-In,Successful,"Intercept. -> Estab. (O1, O2, O3)",16 - 30 min,,
+78,79,1,1249.3931033124172,1302.0526871500838,O2 Build Up,,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,16 - 30 min,,
+79,80,1,1276.5785,1296.5785,Ndividual,,Silkeborg,,,,,,,True
+80,81,1,1276.5991358319995,1301.8002155279978,O3 Break Through,,Silkeborg,O3 Break Through,Central Play Infront of Backline,Unsuccessful,Ball Loss --> D3 Press,16 - 30 min,Established Play,True
+81,82,1,1305.1786577430837,1356.3651972767507,D3 High Pressing,,Silkeborg,,After Ball Loss,Neutral,Stay In Phase,16 - 30 min,,
+82,83,1,1357.2231997287508,1382.7819961100838,D3 Middle / Lower Pressing,,Silkeborg,,D3 From High to Med/Low,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",16 - 30 min,,
+83,84,1,1365.43816813675,1389.3785206807504,D4 Defending the Box,,Silkeborg,,Chipball,Neutral,"Cross, Shot, Set-Piece or Box Entry",16 - 30 min,Transition,
+84,85,1,1471.5770950444169,1504.8380877780837,O2 Build Up,,Silkeborg,O2 Build Up,O2 Free Kick,Unsuccessful,Ball Loss --> D3 Press,16 - 30 min,,
+85,86,1,1506.0478532074173,1512.9641658467506,D3 High Pressing,,Silkeborg,,After Ball Loss,Neutral,Stay In Phase,16 - 30 min,,
+86,87,1,1507.3339156917505,1540.079855936084,O3 Break Through,,Silkeborg,O3 Break Through,Short Throw-In,Neutral,Keep The Ball,16 - 30 min,Throw In,
+87,88,1,1514.3761603454172,1518.0566291244168,D2 Finding Balance,,Silkeborg,,D3 High Press on Opp. Half,Successful,"Intercept. -> Estab. (O1, O2, O3)",16 - 30 min,,
+88,89,1,1520.2144723464173,1526.2637487820834,O2 Build Up,,Silkeborg,O2 Build Up,O2 Throw-In,Neutral,Stay In Phase,16 - 30 min,,
+89,90,1,1540.699668613751,1652.4719163247503,O2 Build Up,,Silkeborg,O2 Build Up,O3 to O2,Unsuccessful,Ball Loss --> D3 Press,16 - 30 min,,
+90,91,1,1637.4067666666667,1657.4067666666667,Ndividual,,Silkeborg,,,,,,,True
+91,92,1,1654.246232781417,1660.4336968464177,D2 Finding Balance,,Silkeborg,,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",16 - 30 min,,
+92,93,1,1661.80654105975,1744.034959245417,O2 Build Up,,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,16 - 30 min,,True
+93,94,1,1674.872,1694.872,Ndividual,,Silkeborg,,,,,,,True
+94,95,1,1695.6714555555557,1724.5912878064303,Ndividual,,Silkeborg,,,,,,,True
+95,96,1,1726.9768888888889,1746.9768888888889,Ndividual,,Silkeborg,,,,,,,True
+96,97,1,1745.6693070007507,1755.4554062720838,D2 Finding Balance,,Silkeborg,,After Ball Loss,Neutral,Establishing Pressing,16 - 30 min,,
+97,98,1,1756.362537236084,1794.4049243424172,D3 Middle / Lower Pressing,,Silkeborg,,After Ball Loss,Neutral,Stay In Phase,16 - 30 min,,
+98,99,1,1795.3572899927497,1827.3221856300836,D3 High Pressing,,Silkeborg,,D3 From Low/Med to High,Neutral,Stay In Phase,16 - 30 min,,
+99,100,1,1828.1641191280835,1865.8109065254168,D3 Middle / Lower Pressing,,Silkeborg,,D3 From High to Med/Low,Successful,"Intercept. -> Estab. (O1, O2, O3)",31 - 45 min,,
+100,101,1,1868.7345350930839,1898.5379514150839,O3 Break Through,,Silkeborg,O3 Break Through,Wide Link Up Play,Unsuccessful,Ball Loss --> D3 Press,31 - 45 min,Established Play,
+101,102,1,1873.5199406847507,1888.031645604084,O2 Build Up,,Silkeborg,O2 Build Up,O1 to O2,Successful,Progress to Next Phase,31 - 45 min,,True
+102,103,1,1899.4864911074176,1903.8923673150837,D1 Counterpress,,Silkeborg,,After O3/O4,Neutral,Establishing Pressing,31 - 45 min,,
+103,104,1,1921.3251946754174,1939.1436664044165,D3 Middle / Lower Pressing,,Silkeborg,,D3 Press on Throw-In,Successful,"Intercept. -> Estab. (O1, O2, O3)",31 - 45 min,,
+104,105,1,1941.87329990275,1979.9284127044177,O2 Build Up,,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,31 - 45 min,,
+105,106,1,1954.6905333333334,1974.6905333333334,Ndividual,,Silkeborg,,,,,,,True
+106,107,1,1975.6152444444444,2005.6152444444444,Bench,,Silkeborg,,,,,,,True
+107,108,1,1980.73039306975,1982.9861096404177,D1 Counterpress,,Silkeborg,,After O2 build-up,Successful,"Intercept. -> Estab. (O1, O2, O3)",31 - 45 min,,
+108,109,1,1983.7297651617494,2004.118534309084,O2 Build Up,,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,31 - 45 min,,
+109,110,1,1984.4140165622337,2008.5315679798007,O3 Break Through,,Silkeborg,O3 Break Through,Early Through Pass or Cross,Successful,"Cross, Shot, Set-Piece or Box Entry",31 - 45 min,Established Play,True
+110,111,1,1989.4797474743095,2012.5138543587511,O4 Finishing,,Silkeborg,O4 Finishing,Chipball,Unsuccessful,Intercepted by Defence,31 - 45 min,Established Play,True
+111,112,1,2026.8172663547496,2060.2801509244164,D3 High Pressing,,Silkeborg,,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",31 - 45 min,,
+112,113,1,2061.2617295807495,2095.5541337250834,O2 Build Up,,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,31 - 45 min,,
+113,114,1,2066.6646,2086.6646,Ndividual,,Silkeborg,,,,,,,True
+114,115,1,2103.4829649654166,2130.529664217416,D3 High Pressing,,Silkeborg,,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",31 - 45 min,,
+115,116,1,2131.206413808417,2156.14653973875,O2 Build Up,,Silkeborg,O2 Build Up,O2 Throw-In,Unsuccessful,Ball Loss --> D3 Press,31 - 45 min,,
+116,117,1,2158.648065921084,2165.0371302407502,D3 High Pressing,,Silkeborg,,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",31 - 45 min,,
+117,118,1,2166.614929829083,2249.8673686500833,O2 Build Up,,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,31 - 45 min,,
+118,119,1,2230.521674743083,2261.2210113144165,O3 Break Through,,Silkeborg,O3 Break Through,Wide Link Up Play,Unsuccessful,Ball Loss --> D3 Press,31 - 45 min,Established Play,
+119,120,1,2262.537079908084,2265.1689682524175,D1 Counterpress,,Silkeborg,,After O3/O4,Successful,"Intercept. -> Estab. (O1, O2, O3)",31 - 45 min,,
+120,121,1,2267.4826136630836,2282.680713550417,O2 Build Up,,Silkeborg,O2 Build Up,O2 Throw-In,Unsuccessful,Ball Loss --> D3 Press,31 - 45 min,,True
+121,122,1,2284.1441559760838,2312.4514783677305,D3 Middle / Lower Pressing,,Silkeborg,,After Ball Loss,Unsuccessful,D4 Chance,31 - 45 min,,True
+122,123,1,2291.8050314597504,2319.7912518344174,D4 Defending the Box,,Silkeborg,,Chipball,Unsuccessful,Chance,31 - 45 min,Established Play,
+123,124,1,2324.7282692897497,2364.1756365187493,O2 Build Up,,Silkeborg,O2 Build Up,O1 to O2,Unsuccessful,Ball Loss --> D3 Press,31 - 45 min,,
+124,125,1,2366.39058735475,2386.03472675375,D3 High Pressing,,Silkeborg,,D3 Press on Throw-In,Neutral,Stay In Phase,31 - 45 min,,
+125,126,1,2387.2855473214167,2408.4769191930836,D3 High Pressing,,Silkeborg,,D3 Press on Throw-In,Neutral,Stay In Phase,31 - 45 min,,
+126,127,1,2409.3841385207506,2416.1112462320834,D3 Middle / Lower Pressing,,Silkeborg,,D3 From High to Med/Low,Successful,"Intercept. -> Estab. (O1, O2, O3)",31 - 45 min,,
+127,128,1,2462.56945214175,2481.07431676775,O2 Build Up,,Silkeborg,O2 Build Up,O1 to O2,Unsuccessful,Ball Loss --> D3 Press,31 - 45 min,,
+128,129,1,2483.3391282044167,2528.3677628174164,D3 High Pressing,,Silkeborg,,D3 Press on Throw-In,Neutral,Stay In Phase,31 - 45 min,,
+129,130,1,2529.3155477987493,2542.4046079957498,D3 Middle / Lower Pressing,,Silkeborg,,D3 From High to Med/Low,Neutral,Stay In Phase,31 - 45 min,,
+130,131,1,2543.098978218083,2563.894790823084,D3 High Pressing,,Silkeborg,,D3 From Low/Med to High,Neutral,Stay In Phase,31 - 45 min,,
+131,132,1,2564.7201801024157,2602.6686645667505,D3 Middle / Lower Pressing,,Silkeborg,,D3 From High to Med/Low,Successful,"Intercept. -> Estab. (O1, O2, O3)",31 - 45 min,,
+132,133,1,2607.6460809704167,2658.0562606947506,O2 Build Up,,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,31 - 45 min,,
+133,134,1,2659.41300038775,2696.9378249734173,D3 High Pressing,,Silkeborg,,D3 Press on Throw-In,Neutral,Stay In Phase,31 - 45 min,,
+134,135,1,2699.4874766614175,2724.306093864084,D3 Middle / Lower Pressing,,Silkeborg,,D3 From High to Med/Low,Neutral,Stay In Phase,45+ min,,
+135,136,1,2726.5780375384165,2754.308391591084,D3 Middle / Lower Pressing,,Silkeborg,,D3 Goal Kick or Free Kick,Unsuccessful,D4 Chance,45+ min,,
+136,137,1,2735.1009132570834,2759.11423979775,D4 Defending the Box,,Silkeborg,,1v1,Unsuccessful,Chance,45+ min,Established Play,
+137,138,1,2772.6455028064174,2825.2341083844176,O2 Build Up,,Silkeborg,O2 Build Up,O1 to O2,Neutral,Stay In Phase,45+ min,,
+138,139,1,2828.9583333333335,5842.635816970998,KO,2nd Half,Silkeborg,,,,,,,
+139,140,1,2837.1761399656652,2852.925783978999,D3 Middle / Lower Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,46 - 60 min,,
+140,141,1,2853.964068713332,2858.347315459332,D3 High Pressing,2nd Half,Silkeborg,,D3 From Low/Med to High,Successful,"Intercept. -> Estab. (O1, O2, O3)",46 - 60 min,,
+141,142,1,2854.420650620332,2881.4008853003324,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Wide Link Up Play,Unsuccessful,Ball Loss --> D3 Press,46 - 60 min,Established Play,True
+142,143,1,2896.4165151039992,2930.724560523332,D3 High Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,46 - 60 min,,
+143,144,1,2930.2920555555556,2960.2920555555556,Bench,,Silkeborg,,,,,,,True
+144,145,1,2931.3946537419997,2947.020567087999,D3 Middle / Lower Pressing,2nd Half,Silkeborg,,D3 From High to Med/Low,Successful,"Intercept. -> Estab. (O1, O2, O3)",46 - 60 min,,
+145,146,1,2950.004391341332,2952.366705524332,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,46 - 60 min,,
+146,147,1,2953.6089337146655,2986.3383758756654,D3 Middle / Lower Pressing,2nd Half,Silkeborg,,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",46 - 60 min,,
+147,148,1,2987.457768552332,3021.4899058409987,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 Throw-In,Unsuccessful,Ball Loss --> D3 Press,46 - 60 min,,
+148,149,1,3029.9700383283316,3062.620467526999,D3 High Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,46 - 60 min,,
+149,150,1,3063.9935726813324,3084.995444230332,D3 High Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,46 - 60 min,,
+150,151,1,3067.3133022035213,3099.7532999999994,Bench,,Silkeborg,,,,,,,True
+151,152,1,3073.922109108332,3098.1314086829993,D4 Defending the Box,2nd Half,Silkeborg,,Square Pass,Unsuccessful,Open Chance,46 - 60 min,Established Play,True
+152,153,1,3086.981626468665,3092.933286171332,D2 Finding Balance,2nd Half,Silkeborg,,D3 High Press on Opp. Half,Unsuccessful,D4 Chance,46 - 60 min,,
+153,154,1,3098.6860333333334,3118.6860333333334,Ndividual,,Silkeborg,,,,,,,True
+154,155,1,3106.291479884665,3129.962050102999,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O1 to O2,Successful,Progress to Next Phase,46 - 60 min,,
+155,156,1,3110.6324750969984,3134.212555911999,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Early Through Pass or Cross,Successful,"Cross, Shot, Set-Piece or Box Entry",46 - 60 min,Established Play,
+156,157,1,3115.3079570189984,3138.8639494789986,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,1v1,Neutral,"Cross, Shot, Set-Piece or Box Entry",46 - 60 min,Established Play,
+157,158,1,3120.833738530332,3182.2553524149985,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Front Area,Neutral,"Cross, Shot, Set-Piece or Box Entry",46 - 60 min,Corner Kick,
+158,159,1,3159.057822689332,3185.831746695814,off corner,2nd Half,Silkeborg,,Front Area,,,,,
+159,160,1,3208.451644489666,3255.019413922332,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 Throw-In,Successful,Progress to Next Phase,46 - 60 min,,
+160,161,1,3236.6715396086656,3264.4076867659996,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Early Through Pass or Cross,Unsuccessful,Ball Loss --> D3 Press,46 - 60 min,Established Play,
+161,162,1,3265.8226368253327,3288.9954975883325,D3 High Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",46 - 60 min,,
+162,163,1,3290.213856971999,3330.7361595213324,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,46 - 60 min,,
+163,164,1,3307.7511555555557,3327.7511555555557,Ndividual,,Silkeborg,,,,,,,True
+164,165,1,3309.3654256172586,3354.330877777778,Bench,,Silkeborg,,,,,,,True
+165,166,1,3311.872145474332,3342.4683708663324,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Central Play Infront of Backline,Successful,"Cross, Shot, Set-Piece or Box Entry",46 - 60 min,Established Play,
+166,167,1,3323.155114061333,3348.5090602169985,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Cutback,Unsuccessful,Intercepted by Defence,46 - 60 min,Established Play,
+167,168,1,3349.735222502665,3387.362520573665,D3 Middle / Lower Pressing,2nd Half,Silkeborg,,After Ball Loss,Neutral,Stay In Phase,46 - 60 min,,
+168,169,1,3388.1708743643326,3417.6539577286653,D3 High Pressing,2nd Half,Silkeborg,,D3 From Low/Med to High,Neutral,Stay In Phase,46 - 60 min,,
+169,170,1,3418.520449246332,3447.8380391266655,D3 Middle / Lower Pressing,2nd Half,Silkeborg,,D3 From High to Med/Low,Successful,Direct to O3/O4 OFF Transit,46 - 60 min,,
+170,171,1,3428.671192962999,3456.8451265403323,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,D3 High Press on Opp. Half,Successful,"Cross, Shot, Set-Piece or Box Entry",46 - 60 min,Transition,True
+171,172,1,3437.6464758603315,3463.8671161486654,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Square Pass,Unsuccessful,Intercepted by Defence,46 - 60 min,Transition,
+172,173,1,3466.1389988463325,3474.757388158894,D3 High Pressing,2nd Half,Silkeborg,,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",46 - 60 min,,True
+173,174,1,3474.963593301665,3493.196544507999,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,46 - 60 min,,
+174,175,1,3496.1065188983316,3498.485422127999,D2 Finding Balance,2nd Half,Silkeborg,,After Ball Loss,Neutral,Establishing Pressing,46 - 60 min,,
+175,176,1,3499.6297794019983,3537.295502971999,D3 Middle / Lower Pressing,2nd Half,Silkeborg,,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",46 - 60 min,,
+176,177,1,3532.3678080159984,3561.2448529509984,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Early Through Pass or Cross,Unsuccessful,Ball Loss --> D3 Press,46 - 60 min,Established Play,
+177,178,1,3542.0526005919987,3551.402652865332,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,46 - 60 min,,
+178,179,1,3556.798043303998,3584.498493806,O3 Break Through,,Silkeborg,O3 Break Through,D3 High Press on Opp. Half,Unsuccessful,Ball Loss --> D3 Press,46 - 60 min,Transition,
+179,180,1,3562.388558232998,3592.5806616106656,D3 High Pressing,2nd Half,Silkeborg,,D3 Press on Throw-In,Successful,"Intercept. -> Estab. (O1, O2, O3)",46 - 60 min,,
+180,181,1,3568.3638111111113,3588.3638111111113,Ndividual,,Silkeborg,,,,,,,True
+181,182,1,3574.1965441809994,3594.1989546389977,D2 Finding Balance,,Silkeborg,,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",46 - 60 min,,
+182,183,1,3596.7086537063315,3603.8328453485997,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O1 to O2,Unsuccessful,Ball Loss --> D3 Press,46 - 60 min,,
+183,184,1,3598.3851332499976,3623.3977029159987,O3 Break Through,,Silkeborg,O3 Break Through,4v4 or Less On Half Pitch,Unsuccessful,Ball Loss --> D3 Press,46 - 60 min,Established Play,
+184,185,1,3605.0081594763324,3612.3567833036655,D2 Finding Balance,2nd Half,Silkeborg,,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",46 - 60 min,,
+185,186,1,3614.0244274459983,3623.614379109332,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,46 - 60 min,,
+186,187,1,3627.5423174416655,3687.966993373999,D3 High Pressing,2nd Half,Silkeborg,,After Ball Loss,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",46 - 60 min,,
+187,188,1,3692.615106655666,3723.4708530473326,D3 Middle / Lower Pressing,2nd Half,Silkeborg,,D3 From High to Med/Low,Successful,"Intercept. -> Estab. (O1, O2, O3)",46 - 60 min,,
+188,189,1,3732.613075905332,3761.2077577993327,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,,Neutral,Keep The Ball,61 - 75 min,Established Play,
+189,190,1,3735.5517091577794,3751.705908124332,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 Free Kick,Successful,Progress to Next Phase,61 - 75 min,,
+190,191,1,3762.0419347063316,3780.6261552429983,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O3 to O2,Unsuccessful,Ball Loss --> D3 Press,61 - 75 min,,
+191,192,1,3764.736322222222,3784.736322222222,Ndividual,,Silkeborg,,,,,,,True
+192,193,1,3781.557781285332,3785.350883572665,D1 Counterpress,2nd Half,Silkeborg,,After O2 build-up,Successful,"Intercept. -> Estab. (O1, O2, O3)",61 - 75 min,,
+193,194,1,3786.183640935666,3840.596495751331,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Neutral,Stay In Phase,61 - 75 min,,
+194,195,1,3796.503164832347,3825.9104333333335,Ndividual,,Silkeborg,,,,,,,True
+195,196,1,3842.0920519843326,3845.6528794939986,D1 Counterpress,2nd Half,Silkeborg,,After O3/O4,Successful,"Intercept. -> Estab. (O1, O2, O3)",61 - 75 min,,
+196,197,1,3844.6458729303604,3867.3611777777774,Ndividual,,Silkeborg,,,,,,,True
+197,198,1,3847.0944630079985,3880.7975728729984,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,61 - 75 min,,
+198,199,1,3861.9828062013316,3885.5628135883317,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Wide Link Up Play,Successful,"Cross, Shot, Set-Piece or Box Entry",61 - 75 min,Established Play,
+199,200,1,3883.5404135629988,3915.9121402509986,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Back Area,Neutral,"Cross, Shot, Set-Piece or Box Entry",61 - 75 min,Corner Kick,
+200,201,1,3902.2565498329986,3913.2565498329986,off corner,2nd Half,Silkeborg,,,,,,,True
+201,202,1,3917.098561885665,3956.459330265666,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Front Area,Neutral,"Cross, Shot, Set-Piece or Box Entry",61 - 75 min,Corner Kick,
+202,203,1,3935.9734704333314,3965.1145661535493,off corner,2nd Half,Silkeborg,,,,,,,True
+203,204,1,3938.2902381699987,3969.450421100665,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Wide Link Up Play,Neutral,Keep The Ball,61 - 75 min,Established Play,
+204,205,1,4015.345030275999,4043.199664130665,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 Throw-In,Unsuccessful,Ball Loss --> D3 Press,61 - 75 min,,
+205,206,1,4019.3712,4039.3712,Ndividual,,Silkeborg,,,,,,,True
+206,207,1,4067.253408474666,4075.9718166913317,D3 High Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",61 - 75 min,,
+207,208,1,4077.492192069665,4122.920038556333,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,61 - 75 min,,
+208,209,1,4103.958052744665,4146.009556654665,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Wide Link Up Play,Successful,"Cross, Shot, Set-Piece or Box Entry",61 - 75 min,Established Play,
+209,210,1,4112.688933333333,4142.688933333333,Bench,,Silkeborg,,,,,,,True
+210,211,1,4126.777910565332,4150.341893670999,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Chipball,Neutral,"Cross, Shot, Set-Piece or Box Entry",61 - 75 min,Established Play,
+211,212,1,4154.347165951999,4157.485913948665,D1 Counterpress,2nd Half,Silkeborg,,After O3/O4,Neutral,Establishing Pressing,61 - 75 min,,
+212,213,1,4159.700870433998,4200.302482282998,D3 High Pressing,2nd Half,Silkeborg,,D3 Press on Throw-In,Successful,"Intercept. -> Estab. (O1, O2, O3)",61 - 75 min,,
+213,214,1,4201.659296620665,4210.209831237333,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Neutral,Stay In Phase,61 - 75 min,,
+214,215,1,4211.078945624666,4247.537777781332,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 Throw-In,Unsuccessful,Ball Loss --> D3 Press,61 - 75 min,,
+215,216,1,4225.575944444445,4255.497383625,O3 Break Through,,Silkeborg,O3 Break Through,Central Play Infront of Backline,Unsuccessful,Ball Loss --> D3 Press,61 - 75 min,Established Play,
+216,217,1,4228.783377777778,4258.783377777778,Bench,,Silkeborg,,,,,,,True
+217,218,1,4248.5680332816655,4258.897524797332,D1 Counterpress,2nd Half,Silkeborg,,After O2 build-up,Successful,"Intercept. -> Estab. (O1, O2, O3)",61 - 75 min,,
+218,219,1,4260.466719914666,4297.511929494332,O1 Play from the Back,2nd Half,Silkeborg,O1 Play from the Back,O1 After Regain,Successful,Progress to Next Phase,61 - 75 min,,
+219,220,1,4298.157716372331,4317.987839300332,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O1 to O2,Successful,Progress to Next Phase,61 - 75 min,,
+220,221,1,4298.993467782999,4325.270620844998,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Early Through Pass or Cross,Unsuccessful,Ball Loss --> D3 Press,61 - 75 min,Established Play,
+221,222,1,4326.742174535666,4338.75896481,D3 High Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",61 - 75 min,,
+222,223,1,4339.789264642332,4369.376479118332,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 Throw-In,Successful,Progress to Next Phase,61 - 75 min,,
+223,224,1,4350.112120114665,4379.578957114998,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Central Play Infront of Backline,Successful,"Cross, Shot, Set-Piece or Box Entry",61 - 75 min,Established Play,
+224,225,1,4351.047605530666,4384.519788888889,Bench,,Silkeborg,,,,,,,True
+225,226,1,4360.241392092666,4384.098997102332,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Chipball,Neutral,"Cross, Shot, Set-Piece or Box Entry",61 - 75 min,Established Play,
+226,227,1,4386.1343808483325,4411.4971724513325,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,61 - 75 min,,
+227,228,1,4470.765276351,4482.077117107667,D3 High Pressing,2nd Half,Silkeborg,,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",61 - 75 min,,
+228,229,1,4479.268253579666,4507.460921186665,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Early Through Pass or Cross,Successful,"Cross, Shot, Set-Piece or Box Entry",61 - 75 min,Established Play,
+229,230,1,4483.705002433333,4494.9116769816665,D1 Counterpress,2nd Half,Silkeborg,,After O3/O4,Successful,"Intercept. -> Estab. (O1, O2, O3)",61 - 75 min,,
+230,231,1,4488.474521652332,4513.852672894333,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Chipball,Neutral,"Cross, Shot, Set-Piece or Box Entry",61 - 75 min,Established Play,
+231,232,1,4494.7192871473335,4517.816433404999,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Chipball,Neutral,"Cross, Shot, Set-Piece or Box Entry",61 - 75 min,Established Play,
+232,233,1,4495.557867259999,4498.467110269667,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,61 - 75 min,,
+233,234,1,4499.623216724665,4523.759086222999,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Chipball,Unsuccessful,Intercepted by Defence,61 - 75 min,Established Play,
+234,235,1,4509.177823204332,4534.130939424331,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Transition After CP,Unsuccessful,Ball Loss --> D3 Press,61 - 75 min,Transition,
+235,236,1,4575.374117355999,4581.519440875331,D3 High Pressing,2nd Half,Silkeborg,,D3 Press on Throw-In,Successful,"Intercept. -> Estab. (O1, O2, O3)",61 - 75 min,,
+236,237,1,4582.484120474332,4607.326887011667,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,61 - 75 min,,
+237,238,1,4588.193609690333,4612.811981962665,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Central Play Infront of Backline,Successful,"Cross, Shot, Set-Piece or Box Entry",61 - 75 min,Established Play,
+238,239,1,4593.514684169666,4617.872085951332,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Chipball,Unsuccessful,Intercepted by Defence,61 - 75 min,Established Play,
+239,240,1,4619.245137951664,4646.533454314331,D3 High Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",61 - 75 min,,
+240,241,1,4648.791234694333,4683.758744207,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Back Area,,,76 - 90 min,Lateral Free Kick,
+241,242,1,4660.72378912563,4685.6950491403995,off free kick,2nd Half,Silkeborg,,Back Area,Unsuccessful,Intercepted by Defence,,,True
+242,243,1,4693.157288242664,4741.911175977,D3 High Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",76 - 90 min,,
+243,244,1,4742.548985423331,4748.858810439666,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,76 - 90 min,,
+244,245,1,4751.360399304331,4767.867415166665,D3 High Pressing,2nd Half,Silkeborg,,D3 Press on Throw-In,Successful,"Intercept. -> Estab. (O1, O2, O3)",76 - 90 min,,
+245,246,1,4768.545492668334,4795.912932186333,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,76 - 90 min,,
+246,247,1,4783.604437605665,4825.368098734332,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Wide Link Up Play,Unsuccessful,Ball Loss --> D3 Press,76 - 90 min,Established Play,
+247,248,1,4797.572146923999,4800.833386480332,D1 Counterpress,2nd Half,Silkeborg,,After O3/O4,Successful,"Intercept. -> Estab. (O1, O2, O3)",76 - 90 min,,
+248,249,1,4806.202206031666,4831.106943988667,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Chipball,Unsuccessful,Intercepted by Defence,76 - 90 min,Established Play,
+249,250,1,4833.238806701665,4854.961911892666,D3 High Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,76 - 90 min,,
+250,251,1,4856.392446832332,4882.533600740331,D3 High Pressing,2nd Half,Silkeborg,,D3 Press on Throw-In,Successful,Direct to O3/O4 OFF Transit,76 - 90 min,,
+251,252,1,4863.546976838,4889.991197869998,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,D3 High Press on Opp. Half,Successful,Lead to O4 chance,76 - 90 min,Transition,True
+252,253,1,4870.726760811667,4895.941662375666,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Through Pass,Successful,Chance,76 - 90 min,Transition,
+253,254,1,4897.568305996665,4924.3011116319985,D3 High Pressing,2nd Half,Silkeborg,,After Ball Loss,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",76 - 90 min,,
+254,255,1,4933.064251891665,4959.123493437664,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O1 to O2,Successful,Progress to Next Phase,76 - 90 min,,
+255,256,1,4940.300760586665,4964.722951881333,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,1v1 Wide / Halfspace,Unsuccessful,Ball Loss --> D3 Press,76 - 90 min,Established Play,
+256,257,1,4976.245899299667,5032.734988206333,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Central Play Infront of Backline,Successful,Lead to O4 chance,76 - 90 min,Established Play,True
+257,258,1,4978.289014777332,4993.850748114331,D3 High Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",76 - 90 min,,
+258,259,1,5013.576561231666,5046.037514669999,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Chipball,Successful,Intercepted by Defence,76 - 90 min,Established Play,
+259,260,1,5196.4500531526655,5219.381571111999,D3 High Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",76 - 90 min,,
+260,261,1,5220.787801475999,5244.689890737998,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,76 - 90 min,,
+261,262,1,5246.839533416998,5248.343758392999,D1 Counterpress,2nd Half,Silkeborg,,After O2 build-up,Successful,"Intercept. -> Estab. (O1, O2, O3)",76 - 90 min,,
+262,263,1,5248.964289319665,5285.043851701665,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,76 - 90 min,,
+263,264,1,5264.81732362725,5291.386905810331,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,1v1 Wide / Halfspace,Unsuccessful,Ball Loss --> D3 Press,76 - 90 min,Established Play,True
+264,265,1,5330.783347080998,5342.915464325332,D3 Middle / Lower Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",76 - 90 min,,
+265,266,1,5343.952996633998,5352.871007888331,O1 Play from the Back,2nd Half,Silkeborg,O1 Play from the Back,O1 After Regain,Successful,Progress to Next Phase,76 - 90 min,,
+266,267,1,5353.5657891973315,5378.372725869665,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O1 to O2,Successful,Progress to Next Phase,76 - 90 min,,
+267,268,1,5359.304197156665,5389.582738455665,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Wide Link Up Play,Neutral,Keep The Ball,76 - 90 min,Established Play,
+268,269,1,5395.448266025665,5401.145493233997,D1 Counterpress,2nd Half,Silkeborg,,After O3/O4,Neutral,Establishing Pressing,76 - 90 min,,
+269,270,1,5418.084590744667,5438.122304477665,D3 Middle / Lower Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",76 - 90 min,,
+270,271,1,5439.242420214,5474.444777722665,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,76 - 90 min,,
+271,272,1,5455.336167288666,5482.709125906998,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Wide Link Up Play,Successful,"Cross, Shot, Set-Piece or Box Entry",76 - 90 min,Established Play,
+272,273,1,5463.509955411333,5486.363159662998,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Chipball,Neutral,"Cross, Shot, Set-Piece or Box Entry",76 - 90 min,Established Play,True
+273,274,1,5478.920331104331,5499.411789821997,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,,,,76 - 90 min,,
+274,275,1,5479.411789821997,5502.876677519998,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,D3 High Press on Opp. Half,Successful,"Cross, Shot, Set-Piece or Box Entry",76 - 90 min,Transition,
+275,276,1,5489.085306725332,5497.775481300332,D3 High Pressing,2nd Half,Silkeborg,,After Ball Loss,Successful,Direct to O3/O4 OFF Transit,76 - 90 min,,
+276,277,1,5507.3930513706655,5529.369693935,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,76 - 90 min,,
+277,278,1,5510.211568942999,5539.154878606332,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Wide Link Up Play,Successful,"Cross, Shot, Set-Piece or Box Entry",76 - 90 min,Established Play,
+278,279,1,5519.955741617667,5542.832954524331,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Chipball,Neutral,Intercepted by Defence,76 - 90 min,Established Play,True
+279,280,1,5556.867984800332,5606.836969312999,D3 High Pressing,2nd Half,Silkeborg,,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",90+ min,,
+280,281,1,5600.629662312331,5627.226904571999,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,1v1 Wide / Halfspace,Successful,"Cross, Shot, Set-Piece or Box Entry",90+ min,Established Play,
+281,282,1,5607.605213770665,5619.575332183,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,90+ min,,
+282,283,1,5634.124504931664,5666.251248612664,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Front Area,Neutral,"Cross, Shot, Set-Piece or Box Entry",90+ min,Lateral Free Kick,
+283,284,1,5652.434308844664,5669.4245197295695,off free kick,2nd Half,Silkeborg,,Front Area,,,,,True
+284,285,1,5682.5017182253305,5717.0824508493315,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Quick Restart,Successful,"Cross, Shot, Set-Piece or Box Entry",90+ min,Throw In,
+285,286,1,5686.200031901333,5690.548797758666,D3 Middle / Lower Pressing,2nd Half,Silkeborg,,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",90+ min,,
+286,287,1,5691.325184894332,5699.370862685997,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Neutral,Stay In Phase,90+ min,,
+287,288,1,5697.981824440997,5724.153897575665,O4 Finishing,2nd Half,Silkeborg,O4 Finishing,Chipball,Unsuccessful,Intercepted by Defence,90+ min,Established Play,
+288,289,1,5733.678352327997,5737.251112400998,D3 Middle / Lower Pressing,2nd Half,Silkeborg,,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",90+ min,,
+289,290,1,5737.801009909666,5761.806954415664,O3 Break Through,2nd Half,Silkeborg,O3 Break Through,Wide Link Up Play,Unsuccessful,Ball Loss --> D3 Press,90+ min,Established Play,
+290,291,1,5738.705994928998,5757.114592927997,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Successful,Progress to Next Phase,90+ min,,
+291,292,1,5752.396944444445,5772.396944444445,Ndividual,,Silkeborg,,,,,,,True
+292,293,1,5763.156071173333,5768.927584548666,D1 Counterpress,2nd Half,Silkeborg,,After O3/O4,Successful,"Intercept. -> Estab. (O1, O2, O3)",90+ min,,
+293,294,1,5770.758553766998,5793.781833936333,O2 Build Up,2nd Half,Silkeborg,O2 Build Up,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,90+ min,,
+294,295,1,5795.514839448997,5806.555000314665,D2 Finding Balance,2nd Half,Silkeborg,,After Ball Loss,Neutral,Establishing Pressing,90+ min,,
+295,296,1,5809.367313374331,5827.068772660332,D3 Middle / Lower Pressing,2nd Half,Silkeborg,,After Ball Loss,Neutral,Stay In Phase,90+ min,,
+296,297,1,5827.8126744269985,5837.3488866166645,D3 Middle / Lower Pressing,2nd Half,Silkeborg,,D3 Press on Throw-In,Successful,"Intercept. -> Estab. (O1, O2, O3)",90+ min,,

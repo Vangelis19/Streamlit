@@ -1,0 +1,361 @@
+,code_id,period_id,timestamp,end_timestamp,code,00. Start Phase,02. Situation Type,03. Outcomes,04. Rating,Time Period,Opponent,<flag>New Flag,Half,01. Phase
+0,1,1,0.0,5.280749829999275,O2 Build Up,O2 Build Up,O2 Free Kick,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Randers,,,
+1,2,1,0.0,12.788745323999814,D1 Counterpress,,After O2 build-up,Establishing Pressing,Neutral,0 - 15 min,Randers,,,
+2,3,1,0.0,245.7021184749043,Bench,,,,,,Randers,True,,
+3,4,1,0.0,2816.6432486984254,KO,,,,,,Randers,,1st Half,
+4,5,1,6.577601327999041,30.88049923799885,O3 Break Through,O3 Break Through,Quick Restart,Lead to O4 chance,Successful,0 - 15 min,Randers,,,Throw In
+5,6,1,9.57916841000091,31.527533333333334,O4 Finishing,O4 Finishing,Quick Restart,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Randers,,,Throw In
+6,7,1,10.780396319999413,23.681743211999944,D3 Middle / Lower Pressing,,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Randers,,,
+7,8,1,18.60912141106103,32.94296182522656,Ndividual,,,,,,Randers,,,
+8,9,1,33.98824331799877,56.091196904997766,D3 High Pressing,,After Ball Loss,Stay In Phase,Neutral,0 - 15 min,Randers,,,
+9,10,1,46.68813437499952,103.09969615141348,O3 Break Through,O3 Break Through,Short Throw-In,"Cross, Shot, Set-Piece or Box Entry",Successful,0 - 15 min,Randers,,,Throw In
+10,11,1,55.280611554999794,64.39226998399823,D3 High Pressing,,D3 Press on Throw-In,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Randers,,,
+11,12,1,69.48037283099953,117.51954776915716,O4 Finishing,O4 Finishing,Long Throw,Chance,Successful,0 - 15 min,Randers,True,,Throw In
+12,13,1,72.59825373699759,82.51339868760691,off throw,,,,,,Randers,,,
+13,14,1,83.09498503527236,96.63302279481856,off throw,,,,,,Randers,True,,
+14,15,1,84.62575306856299,138.03213746469623,Goal FCN,,Established Play,,,,Randers,,1st Half,
+15,16,1,137.5710989979992,147.79125704299918,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Randers,,,
+16,17,1,146.0859593390008,152.78239762299853,O2 Build Up,O2 Build Up,O2 Throw-In,Stay In Phase,Neutral,0 - 15 min,Randers,,,
+17,18,1,150.79223582699876,164.086922383,O1 Play from the Back,O1 Play from the Back,O2 to O1,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Randers,,,
+18,19,1,165.59066865799937,172.5800717790005,D3 Middle / Lower Pressing,,D3 Press on Throw-In,Stay In Phase,Neutral,0 - 15 min,Randers,,,
+19,20,1,168.17205194100006,188.4930093849979,D3 High Pressing,,D3 From Low/Med to High,Direct to O3/O4 OFF Transit,Successful,0 - 15 min,Randers,,,
+20,21,1,170.89258491799893,201.4779034910003,O3 Break Through,O3 Break Through,D3 High Press on Opp. Half,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Randers,,,Transition
+21,22,1,192.20187777777778,205.88948708099795,D1 Counterpress,,Transition on Transition,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Randers,,,
+22,23,1,204.68826015199926,230.37916830299912,O2 Build Up,O2 Build Up,O2 After Regain,Progress to Next Phase,Successful,0 - 15 min,Randers,,,
+23,24,1,211.28168286999963,238.19048822899896,O3 Break Through,O3 Break Through,1v1 Wide / Halfspace,"Cross, Shot, Set-Piece or Box Entry",Successful,0 - 15 min,Randers,,,Established Play
+24,25,1,250.88409889500076,276.8828308099997,O4 Finishing,O4 Finishing,Central Area,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Randers,,,Lateral Free Kick
+25,26,1,267.8354753452983,290.08657611664444,off free kick,,,,,,Randers,True,,
+26,27,1,283.4878220290007,288.5787871450003,D3 High Pressing,,D3 Goal Kick or Free Kick,Stay In Phase,Neutral,0 - 15 min,Randers,True,,
+27,28,1,287.18581177799945,314.48594284599767,D3 Middle / Lower Pressing,,D3 From High to Med/Low,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,0 - 15 min,Randers,,,
+28,29,1,299.3941991419991,319.8920930140004,D4 Defending the Box,,Square Pass,Intercepted by Defence,Successful,0 - 15 min,Randers,,,Established Play
+29,30,1,300.0870612935656,321.63604444444445,Ndividual,,,,,,Randers,True,,
+30,31,1,318.089187286999,340.08923683799907,O1 Play from the Back,O1 Play from the Back,O1 After Regain,Progress to Next Phase,Successful,0 - 15 min,Randers,,,
+31,32,1,331.79938100300035,351.79938100300035,Ndividual,,,,,,Randers,,,
+32,33,1,337.8863793519988,361.58460495499907,O2 Build Up,O2 Build Up,O1 to O2,Progress to Next Phase,Successful,0 - 15 min,Randers,,,
+33,34,1,342.38313372499937,368.983093321999,O3 Break Through,O3 Break Through,1v1 Wide / Halfspace,"Cross, Shot, Set-Piece or Box Entry",Successful,0 - 15 min,Randers,,,Established Play
+34,35,1,370.93247777777776,403.1865203399996,O4 Finishing,O4 Finishing,Back Area,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Randers,,,Corner Kick
+35,36,1,391.02009702519064,402.02009702519064,off corner,,,,,,Randers,,,
+36,37,1,406.7895966159999,420.2883932439984,O2 Build Up,O2 Build Up,O3 to O2,Stay In Phase,Neutral,0 - 15 min,Randers,,,
+37,38,1,418.0811896529991,441.5928121319995,O1 Play from the Back,O1 Play from the Back,O2 to O1,Progress to Next Phase,Successful,0 - 15 min,Randers,,,
+38,39,1,422.55304108219156,452.55304108219156,Bench,,,,,,Randers,True,,
+39,40,1,439.3915231239997,453.27887487899955,O2 Build Up,O2 Build Up,O1 to O2,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Randers,,,
+40,41,1,444.19734554500013,464.38924188399864,D1 Counterpress,,After O2 build-up,Direct to O3/O4 OFF Transit,Successful,0 - 15 min,Randers,,,
+41,42,1,445.4777564139994,473.98523695199856,O3 Break Through,O3 Break Through,Transition After CP,"Cross, Shot, Set-Piece or Box Entry",Successful,0 - 15 min,Randers,,,Transition
+42,43,1,451.8934834519998,477.18650189599913,O4 Finishing,O4 Finishing,Square Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Randers,,,Transition
+43,44,1,472.9909226149986,482.19335534299915,O2 Build Up,O2 Build Up,O2 After Regain,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Randers,,,
+44,45,1,472.9974847299981,492.8850226389977,D1 Counterpress,,After O2 build-up,Establishing Pressing,Neutral,0 - 15 min,Randers,,,
+45,46,1,491.59155439299803,497.78975544699966,D3 Middle / Lower Pressing,,After Ball Loss,Stay In Phase,Neutral,0 - 15 min,Randers,,,
+46,47,1,495.3840806229989,506.68425764299917,D3 High Pressing,,D3 From Low/Med to High,Stay In Phase,Neutral,0 - 15 min,Randers,,,
+47,48,1,501.283536635999,531.5918101819997,O3 Break Through,O3 Break Through,D3 Win Ball Low/Middle,"Cross, Shot, Set-Piece or Box Entry",Successful,0 - 15 min,Randers,,,Transition
+48,49,1,504.6828065929984,520.188242606,D3 Middle / Lower Pressing,,D3 From High to Med/Low,Direct to O3/O4 OFF Transit,Successful,0 - 15 min,Randers,,,
+49,50,1,511.4992309889992,531.4992309889992,Ndividual,,,,,,Randers,,,
+50,51,1,512.5809148999984,538.5870420679988,O4 Finishing,O4 Finishing,Cutback,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Randers,,,Transition
+51,52,1,522.2902795559984,542.7784639340005,D1 Counterpress,,After O3/O4,Establishing Pressing,Neutral,0 - 15 min,Randers,,,
+52,53,1,553.2848909689997,562.2935526409998,D3 High Pressing,,D3 From Low/Med to High,Stay In Phase,Neutral,0 - 15 min,Randers,,,
+53,54,1,560.3823615419986,589.3913010329984,D3 Middle / Lower Pressing,,D3 From High to Med/Low,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,0 - 15 min,Randers,,,
+54,55,1,588.4774100489977,614.2806118449989,D4 Defending the Box,,Long Throw,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Randers,,,Throw In
+55,56,1,605.8694048448579,616.8694048448579,def throw,,,,,,Randers,True,,
+56,57,1,615.0841584599999,628.6800115559982,D3 High Pressing,,D3 From Low/Med to High,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Randers,,,
+57,58,1,626.4786094259989,635.0882052289993,O2 Build Up,O2 Build Up,O2 After Regain,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Randers,,,
+58,59,1,632.9888559699988,644.5830623309981,D3 Middle / Lower Pressing,,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Randers,,,
+59,60,1,643.0925035979992,665.7814358069982,O1 Play from the Back,O1 Play from the Back,O1 After Regain,Progress to Next Phase,Successful,0 - 15 min,Randers,,,
+60,61,1,663.6931377499992,677.8842107309997,O2 Build Up,O2 Build Up,O1 to O2,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Randers,,,
+61,62,1,676.1800497599992,701.7792054889999,D3 Middle / Lower Pressing,,D3 Press on Throw-In,Stay In Phase,Neutral,0 - 15 min,Randers,,,
+62,63,1,699.5835998129993,713.5899386699992,D3 High Pressing,,D3 From Low/Med to High,Stay In Phase,Neutral,0 - 15 min,Randers,,,
+63,64,1,711.485408512,722.2845219599985,D3 Middle / Lower Pressing,,D3 From High to Med/Low,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Randers,,,
+64,65,1,720.2974554739997,754.078825824998,D1 Counterpress,,After O2 build-up,Establishing Pressing,Neutral,0 - 15 min,Randers,,,
+65,66,1,721.7922212589992,729.5898142979999,O2 Build Up,O2 Build Up,O2 Throw-In,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Randers,,,
+66,67,1,730.0020896648575,741.0020896648575,off throw,,,,,,Randers,,,
+67,68,1,750.5717730890003,803.8893168899989,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,0 - 15 min,Randers,,,
+68,69,1,785.8804046529991,805.689203418998,D4 Defending the Box,,Chipball,Intercepted by Defence,Successful,0 - 15 min,Randers,,,Established Play
+69,70,1,804.0885080389994,817.2803135080004,O1 Play from the Back,O1 Play from the Back,O1 After Regain,Stay In Phase,Neutral,0 - 15 min,Randers,,,
+70,71,1,815.7816518659988,861.0806881949995,O2 Build Up,O2 Build Up,O2 Throw-In,Progress to Next Phase,Successful,0 - 15 min,Randers,,,
+71,72,1,841.9916335879985,882.290349406999,O3 Break Through,O3 Break Through,,Ball Loss --> D4 Defend The Box,Unsuccessful,0 - 15 min,Randers,,,Established Play
+72,73,1,857.0902787659998,882.490490538999,D1 Counterpress,,After O3/O4,D4 Chance,Unsuccessful,0 - 15 min,Randers,,,
+73,74,1,865.4802107859982,883.4898106589985,D4 Defending the Box,,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Randers,True,,Transition
+74,75,1,880.9664341098427,925.7110173475997,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to Next Phase,Successful,16 - 30 min,Randers,True,,
+75,76,1,900.2941092129978,944.580736312999,O2 Build Up,O2 Build Up,O1 to O2,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Randers,,,
+76,77,1,944.7799137699992,965.3890744309979,D3 High Pressing,,D3 Press on Throw-In,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Randers,,,
+77,78,1,975.9872336579984,1010.992925671998,O4 Finishing,O4 Finishing,Central Area,"Cross, Shot, Set-Piece or Box Entry",Neutral,16 - 30 min,Randers,,,Lateral Free Kick
+78,79,1,1003.1936513289985,1011.0877418339985,O2 Build Up,O2 Build Up,O3 to O2,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Randers,,,
+79,80,1,1004.2884047209991,1028.680607182999,O3 Break Through,O3 Break Through,D3 High Press on Opp. Half,Keep The Ball,Neutral,16 - 30 min,Randers,,,Transition
+80,81,1,1009.7902120629981,1022.6893294059993,D3 High Pressing,,D3 Press on Throw-In,Direct to O3/O4 OFF Transit,Successful,16 - 30 min,Randers,,,
+81,82,1,1011.4005367548577,1022.4005367548577,off free kick,,,,,,Randers,,,
+82,83,1,1021.4908452549998,1044.9878264019985,O3 Break Through,O3 Break Through,1v1 Wide / Halfspace,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Randers,,,Established Play
+83,84,1,1026.7841447459987,1040.5880159619983,O2 Build Up,O2 Build Up,O3 to O2,Progress to Next Phase,Successful,16 - 30 min,Randers,,,
+84,85,1,1034.284519747999,1048.1878556299987,D1 Counterpress,,After O3/O4,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Randers,,,
+85,86,1,1041.187967251,1083.1825222222221,O3 Break Through,O3 Break Through,Long Throw,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Randers,,,Throw In
+86,87,1,1041.2849567339986,1079.2774541329989,O3 Break Through,O3 Break Through,Long Throw,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Randers,,,Throw In
+87,88,1,1052.6977386039987,1072.6977386039987,Ndividual,,,,,,Randers,,,
+88,89,1,1078.6844744209986,1106.0794673379992,D3 High Pressing,,D3 Press on Throw-In,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Randers,,,
+89,90,1,1093.2939671641343,1122.2778888888888,Ndividual,,,,,,Randers,True,,
+90,91,1,1105.3815057890001,1140.794348414999,O2 Build Up,O2 Build Up,O2 After Regain,Progress to Next Phase,Successful,16 - 30 min,Randers,,,
+91,92,1,1122.789274341999,1143.8917130369994,O3 Break Through,O3 Break Through,Early Through Pass or Cross,"Cross, Shot, Set-Piece or Box Entry",Successful,16 - 30 min,Randers,,,Established Play
+92,93,1,1123.4888781509985,1146.283560841999,O4 Finishing,O4 Finishing,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,16 - 30 min,Randers,,,Established Play
+93,94,1,1134.2807011479986,1147.8829894749988,D1 Counterpress,,After O3/O4,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Randers,,,
+94,95,1,1153.7836677149983,1170.5808500029977,D3 High Pressing,,D3 Press on Throw-In,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Randers,,,
+95,96,1,1156.4865903899993,1182.1877875549983,O3 Break Through,O3 Break Through,Early Through Pass or Cross,"Cross, Shot, Set-Piece or Box Entry",Successful,16 - 30 min,Randers,,,Established Play
+96,97,1,1162.2796627629994,1185.1813693219983,O4 Finishing,O4 Finishing,Cutback,"Cross, Shot, Set-Piece or Box Entry",Neutral,16 - 30 min,Randers,,,Established Play
+97,98,1,1168.5864405829982,1175.5906580560004,O2 Build Up,O2 Build Up,O2 After Regain,Progress to Next Phase,Successful,16 - 30 min,Randers,,,
+98,99,1,1182.483961455,1219.293296722999,O3 Break Through,O3 Break Through,D3 High Press on Opp. Half,Lead to O4 chance,Successful,16 - 30 min,Randers,,,Transition
+99,100,1,1183.0881451649993,1201.285220742999,D3 High Pressing,,After Ball Loss,Direct to O3/O4 OFF Transit,Successful,16 - 30 min,Randers,,,
+100,101,1,1192.1780813829998,1220.2873656289994,O4 Finishing,O4 Finishing,Cutback,Chance,Successful,16 - 30 min,Randers,,,Transition
+101,102,1,1202.5977587400005,1222.5977587400005,Ndividual,,,,,,Randers,,,
+102,103,1,1210.1929240139991,1229.0852686330009,D1 Counterpress,,After O3/O4,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Randers,,,
+103,104,1,1227.081691749998,1247.0944223039994,O2 Build Up,O2 Build Up,O2 After Regain,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Randers,,,
+104,105,1,1246.786998289998,1258.994696375997,D3 Middle / Lower Pressing,,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Randers,,,
+105,106,1,1257.5914297989987,1320.4802582109971,O2 Build Up,O2 Build Up,O2 Throw-In,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Randers,,,
+106,107,1,1311.5804608049978,1327.8817231690014,D1 Counterpress,,After O2 build-up,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Randers,,,
+107,108,1,1314.298341489999,1334.298341489999,Ndividual,,,,,,Randers,,,
+108,109,1,1324.482387293997,1342.9789756179996,D1 Counterpress,,After O2 build-up,Establishing Pressing,Neutral,16 - 30 min,Randers,,,
+109,110,1,1325.8811023329959,1335.4791746059966,O2 Build Up,O2 Build Up,O2 After Regain,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Randers,,,
+110,111,1,1361.3978898769983,1380.390427283998,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Randers,,,
+111,112,1,1390.692185791998,1416.5886806669985,O3 Break Through,O3 Break Through,Early Through Pass or Cross,Lead to O4 chance,Successful,16 - 30 min,Randers,,,Established Play
+112,113,1,1392.390768411997,1409.8859929109976,O2 Build Up,O2 Build Up,O2 Free Kick,Progress to Next Phase,Successful,16 - 30 min,Randers,,,
+113,114,1,1396.1814335759993,1417.889762666999,O4 Finishing,O4 Finishing,1v1,Chance,Successful,16 - 30 min,Randers,,,Established Play
+114,115,1,1432.6895666666667,1461.780680667999,O4 Finishing,O4 Finishing,Front Area,"Cross, Shot, Set-Piece or Box Entry",Neutral,16 - 30 min,Randers,,,Corner Kick
+115,116,1,1454.7994519701917,1465.7994519701917,off corner,,,,,,Randers,,,
+116,117,1,1462.1845324080007,1480.7915538910013,D3 High Pressing,,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Randers,,,
+117,118,1,1479.992453265999,1491.685668585998,O2 Build Up,O2 Build Up,O2 Throw-In,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Randers,,,
+118,119,1,1481.5918588659965,1502.8918414240015,D1 Counterpress,,After O2 build-up,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,16 - 30 min,Randers,,,
+119,120,1,1515.4904003799968,1537.3946139579991,D4 Defending the Box,,Front Area,Intercepted by Defence,Successful,16 - 30 min,Randers,,,Corner Kick
+120,121,1,1530.0823933128572,1541.0823933128572,def corner,,,,,,Randers,,,
+121,122,1,1534.6808834979968,1567.8823636669995,O3 Break Through,O3 Break Through,Early Through Pass or Cross,"Cross, Shot, Set-Piece or Box Entry",Successful,16 - 30 min,Randers,,,Established Play
+122,123,1,1536.8873028139974,1568.888224347998,O4 Finishing,O4 Finishing,Square Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,16 - 30 min,Randers,,,Established Play
+123,124,1,1537.4558327494576,1566.9480340445107,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to Next Phase,Successful,16 - 30 min,Randers,True,,
+124,125,1,1546.0806105699987,1553.8897285540006,O2 Build Up,O2 Build Up,O1 to O2,Progress to Next Phase,Successful,16 - 30 min,Randers,,,
+125,126,1,1617.193514929998,1646.592769273,O4 Finishing,O4 Finishing,Central Area,"Cross, Shot, Set-Piece or Box Entry",Neutral,16 - 30 min,Randers,,,Corner Kick
+126,127,1,1637.1662499211905,1648.1662499211905,off corner,,,,,,Randers,True,,
+127,128,1,1644.7890954350005,1656.5806230780004,O2 Build Up,O2 Build Up,O2 After Regain,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Randers,,,
+128,129,1,1647.1980119829984,1670.879846194001,D2 Finding Balance,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,16 - 30 min,Randers,,,
+129,130,1,1649.489937820999,1669.2925131550007,D4 Defending the Box,,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,16 - 30 min,Randers,,,Transition
+130,131,1,1668.8530686766906,1687.6243152846453,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to Next Phase,Successful,16 - 30 min,Randers,True,,
+131,132,1,1672.4869508659988,1706.3825801219994,O3 Break Through,O3 Break Through,Short Throw-In,,,16 - 30 min,Randers,,,Throw In
+132,133,1,1677.9912678439987,1686.680272353998,O2 Build Up,O2 Build Up,O1 to O2,Stay In Phase,Neutral,16 - 30 min,Randers,,,
+133,134,1,1686.6974596279981,1706.6974596279981,Ndividual,,,"Cross, Shot, Set-Piece or Box Entry",Successful,,Randers,,,
+134,135,1,1698.1825555869987,1713.780497392001,D1 Counterpress,,After O3/O4,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Randers,,,
+135,136,1,1711.4920150989997,1741.692069187998,O2 Build Up,O2 Build Up,O2 After Regain,Stay In Phase,Neutral,16 - 30 min,Randers,,,
+136,137,1,1739.487972423999,1751.6781036920013,O1 Play from the Back,O1 Play from the Back,O2 to O1,Stay In Phase,Neutral,16 - 30 min,Randers,,,
+137,138,1,1750.8803903029986,1773.9930844090006,O1 Play from the Back,O1 Play from the Back,O1 Throw-In,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Randers,,,
+138,139,1,1774.631206101858,1780.083548669858,off throw,O1 Play from the Back,,,,,Randers,,,
+139,140,1,1777.8831822200007,1790.7687707149973,D3 High Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,16 - 30 min,Randers,,,
+140,141,1,1806.4100338309092,1819.2058111111112,Ndividual,,,,,,Randers,True,,
+141,142,1,1815.5987523961908,1844.2166401185245,Bench,,,,,,Randers,,,
+142,143,1,1851.4801373829976,1873.887282727001,D4 Defending the Box,,"Middle 20,5 - 23 m",Chance,Unsuccessful,31 - 45 min,Randers,,,Direct Free Kick
+143,144,1,1872.9544154823493,1909.066884649983,def free kick,,,,,,Randers,True,,
+144,145,1,1910.1836346640005,1933.390723117,D4 Defending the Box,,Front Area,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,Randers,,,Corner Kick
+145,146,1,1925.1149953441904,1936.1149953441904,def corner,,,,,,Randers,,,
+146,147,1,1952.776366979997,1974.8917718949986,O2 Build Up,O2 Build Up,O2 After Regain,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Randers,,,
+147,148,1,1974.4797624349978,2013.4924646020002,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,31 - 45 min,Randers,,,
+148,149,1,1998.384100032996,2014.6805246669992,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,Randers,,,Established Play
+149,150,1,2055.288328628996,2075.888600043001,O2 Build Up,O2 Build Up,O2 After Regain,Stay In Phase,Neutral,31 - 45 min,Randers,,,
+150,151,1,2074.5821085729976,2086.4794959859973,O2 Build Up,O2 Build Up,O2 Throw-In,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Randers,,,
+151,152,1,2077.986069407002,2109.979692967999,D1 Counterpress,,After O2 build-up,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,31 - 45 min,Randers,,,
+152,153,1,2083.027416010869,2116.419166666666,Bench,,,,,,Randers,True,,
+153,154,1,2088.9807308930003,2106.8870446710002,D4 Defending the Box,,1v1,Intercepted by Defence,Successful,31 - 45 min,Randers,,,Established Play
+154,155,1,2128.7989010269966,2137.891727511001,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Randers,,,
+155,156,1,2129.2888796680004,2145.2864590920008,D1 Counterpress,,After O1 build-up,Establishing Pressing,Neutral,31 - 45 min,Randers,,,
+156,157,1,2143.2921199160014,2190.878193173996,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,31 - 45 min,Randers,True,,
+157,158,1,2171.5842995089993,2197.0873448309985,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,Randers,,,Established Play
+158,159,1,2178.990564735998,2203.578613339001,D4 Defending the Box,,Pass Infront of Backline,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,Randers,,,Established Play
+159,160,1,2215.798774961,2236.281766174999,O2 Build Up,O2 Build Up,O2 After Regain,Stay In Phase,Neutral,31 - 45 min,Randers,,,
+160,161,1,2234.579205270999,2247.082998495,O1 Play from the Back,O1 Play from the Back,O2 to O1,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Randers,,,
+161,162,1,2245.3860328168475,2302.065905928191,Bench,,,,,,Randers,True,,
+162,163,1,2249.586931728998,2282.8826789619966,D3 Middle / Lower Pressing,,After Ball Loss,Direct to O3/O4 OFF Transit,Successful,31 - 45 min,Randers,True,,
+163,164,1,2263.7909905769984,2290.079818402999,O3 Break Through,O3 Break Through,D3 Win Ball Low/Middle,Keep The Ball,Neutral,31 - 45 min,Randers,,,Transition
+164,165,1,2282.1976055235245,2302.0659059281907,Ndividual,,,,,,Randers,,,
+165,166,1,2288.3799062629982,2324.7799287609982,O2 Build Up,O2 Build Up,O2 Free Kick,Stay In Phase,Neutral,31 - 45 min,Randers,,,
+166,167,1,2315.2475359868567,2345.2475359868567,Bench,,,,,,Randers,True,,
+167,168,1,2322.6926100169985,2336.784436493998,O1 Play from the Back,O1 Play from the Back,O2 to O1,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Randers,,,
+168,169,1,2323.5798116549986,2347.184774334,D4 Defending the Box,,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,Randers,,,Transition
+169,170,1,2328.077547354999,2347.0847317579974,D1 Counterpress,,After O2 build-up,D4 Chance,Unsuccessful,31 - 45 min,Randers,,,
+170,171,1,2350.4515397192317,2392.8021830111907,Bench,,,,,,Randers,True,,
+171,172,1,2350.6797115679974,2361.9807039700004,O1 Play from the Back,O1 Play from the Back,O1 After Regain,Progress to Next Phase,Successful,31 - 45 min,Randers,,,
+172,173,1,2359.7870696919986,2380.794017307997,O2 Build Up,O2 Build Up,O1 to O2,Progress to Next Phase,Successful,31 - 45 min,Randers,,,
+173,174,1,2361.686269793001,2386.5922473159994,O3 Break Through,O3 Break Through,Early Through Pass or Cross,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Randers,,,Established Play
+174,175,1,2384.8780729679993,2401.678106758001,D3 High Pressing,,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,Randers,,,
+175,176,1,2402.085459911999,2427.482119332998,O3 Break Through,O3 Break Through,Central Play Infront of Backline,Keep The Ball,Neutral,31 - 45 min,Randers,,,Established Play
+176,177,1,2402.802293281058,2442.0596009775245,Bench,,,,,,Randers,True,,
+177,178,1,2409.5793636719986,2421.384617794999,O1 Play from the Back,O1 Play from the Back,O1 After Regain,Progress to O3-O4,Successful,31 - 45 min,Randers,,,
+178,179,1,2425.6910485769977,2441.5875929890003,O2 Build Up,O2 Build Up,O3 to O2,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Randers,,,
+179,180,1,2431.382329989,2446.7834774309995,D1 Counterpress,,After O3/O4,Establishing Pressing,Neutral,31 - 45 min,Randers,,,
+180,181,1,2465.8900346729974,2485.2783715019978,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,Randers,,,
+181,182,1,2475.2925481429975,2499.5858914599985,O3 Break Through,O3 Break Through,1v1 Wide / Halfspace,"Cross, Shot, Set-Piece or Box Entry",Successful,31 - 45 min,Randers,,,Established Play
+182,183,1,2477.193459018998,2502.487189965998,O4 Finishing,O4 Finishing,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,Randers,,,Established Play
+183,184,1,2483.191205092998,2493.981914071001,O1 Play from the Back,O1 Play from the Back,O1 After Regain,Progress to O3-O4,Successful,31 - 45 min,Randers,,,
+184,185,1,2503.385038056999,2570.2918651809996,D3 Middle / Lower Pressing,,After Ball Loss,Direct to O3/O4 OFF Transit,Successful,31 - 45 min,Randers,,,
+185,186,1,2551.2897558839973,2581.8914812769985,O3 Break Through,O3 Break Through,D3 Win Ball Low/Middle,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Randers,,,Transition
+186,187,1,2576.7815398829975,2597.088828594996,D2 Finding Balance,,Transition on Transition,Establishing Pressing,Neutral,31 - 45 min,Randers,,,
+187,188,1,2594.993051477999,2619.083632311996,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,31 - 45 min,Randers,,,
+188,189,1,2615.0712595559994,2657.290450953997,D4 Defending the Box,,Combination,Intercepted by Defence,Successful,31 - 45 min,Randers,,,Throw In
+189,190,1,2631.098363832997,2642.098363832997,def throw,,Combination,,,,Randers,,,
+190,191,1,2675.5874541440016,2691.485373802002,O2 Build Up,O2 Build Up,O2 Free Kick,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Randers,,,
+191,192,1,2689.382545258998,2710.984254757997,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,31 - 45 min,Randers,,,
+192,193,1,2695.8783697279996,2711.0942280999975,D4 Defending the Box,,Chipball,Intercepted by Defence,Successful,31 - 45 min,Randers,,,Established Play
+193,194,1,2713.5993791873416,2728.5993791873416,O1 Play from the Back,O1 Play from the Back,O1 After Regain,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,Randers,,,
+194,195,1,2724.393994644998,2766.880265684001,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,31 - 45 min,Randers,,,
+195,196,1,2761.280489673,2800.1904538939993,D4 Defending the Box,,Front Area,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,Randers,,,Corner Kick
+196,197,1,2785.388877116002,2815.877333899,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,Randers,,,Established Play
+197,198,1,2791.7980706979974,2802.7980706979974,def corner,,,,,,Randers,,,
+198,199,1,2801.081280501999,2830.878513537,D4 Defending the Box,,Combination,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,Randers,,,Throw In
+199,200,1,2816.2978271569996,2827.2978271569996,def throw,,Combination,,,,Randers,,,
+200,201,1,2829.400488888889,2853.0914663369986,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,Direct to O3/O4 OFF Transit,Successful,46 - 60 min,Randers,,,
+201,202,1,2830.8766666666666,5844.839753789475,KO,,,,,,Randers,,,
+202,203,1,2832.2843616269975,2860.4912665140005,O3 Break Through,O3 Break Through,D3 Win Ball Low/Middle,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Randers,,,Transition
+203,204,1,2861.2881787029964,2871.989883803999,D3 High Pressing,,D3 Press on Throw-In,Stay In Phase,Neutral,46 - 60 min,Randers,,,
+204,205,1,2870.492243459998,2889.984191206997,D3 High Pressing,,D3 Press on Throw-In,Stay In Phase,Neutral,46 - 60 min,Randers,,,
+205,206,1,2887.7823000539984,2916.2919674799987,D3 Middle / Lower Pressing,,D3 From High to Med/Low,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,46 - 60 min,Randers,,,
+206,207,1,2953.517388888889,2976.8107485490023,D4 Defending the Box,,"Middle 20,5 - 23 m",,,46 - 60 min,Randers,,,Direct Free Kick
+207,208,1,2964.6786760759996,2988.989072548999,O3 Break Through,O3 Break Through,Early Through Pass or Cross,"Cross, Shot, Set-Piece or Box Entry",Successful,46 - 60 min,Randers,,,Established Play
+208,209,1,2965.7813203299966,2990.592592888999,O4 Finishing,O4 Finishing,Through Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,Randers,,,Established Play
+209,210,1,2968.3980843969985,2979.3980843969985,def free kick,,,"Cross, Shot, Set-Piece or Box Entry",Neutral,,Randers,,,
+210,211,1,2975.9946922670006,2983.791843385002,O1 Play from the Back,O1 Play from the Back,O1 After Regain,Progress to O3-O4,Successful,46 - 60 min,Randers,,,
+211,212,1,2977.568802788808,2998.568802788808,def free kick,,,,,,Randers,,,
+212,213,1,3004.690395056001,3034.0816582229986,O4 Finishing,O4 Finishing,Central Area,DEF Transition,Unsuccessful,46 - 60 min,Randers,,,Corner Kick
+213,214,1,3023.52487887707,3056.437998289476,off corner,,,,,,Randers,,,
+214,215,1,3024.9840938439997,3038.5852178889972,D2 Finding Balance,,After Offensive Set-Piece,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,Randers,,,
+215,216,1,3045.7871648839973,3066.894382465,O2 Build Up,O2 Build Up,O2 Throw-In,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Randers,,,
+216,217,1,3068.1796591459974,3081.1866382240014,D3 Middle / Lower Pressing,,After Ball Loss,Stay In Phase,Neutral,46 - 60 min,Randers,,,
+217,218,1,3080.1822145729984,3095.5915452339996,D3 Middle / Lower Pressing,,D3 Press on Throw-In,Stay In Phase,Neutral,46 - 60 min,Randers,,,
+218,219,1,3091.593059083998,3127.2916368740007,O3 Break Through,O3 Break Through,Quick Restart,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Randers,,,Transition
+219,220,1,3093.479298415998,3111.283702203996,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,Randers,True,,
+220,221,1,3117.9887369299986,3134.785552076996,D2 Finding Balance,,Transition on Transition,Establishing Pressing,Neutral,46 - 60 min,Randers,,,
+221,222,1,3133.592334658998,3174.6817487539993,D3 Middle / Lower Pressing,,D3 Press on Throw-In,D4 Chance,Unsuccessful,46 - 60 min,Randers,,,
+222,223,1,3152.4872536369967,3182.690262171998,D4 Defending the Box,,Chipball,Chance,Unsuccessful,46 - 60 min,Randers,,,Established Play
+223,224,1,3199.077862141002,3210.9803487850018,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Randers,True,,
+224,225,1,3209.083089799999,3225.6865503489994,D3 Middle / Lower Pressing,,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,Randers,,,
+225,226,1,3220.4887044789994,3238.279885206998,D1 Counterpress,,After O2 build-up,Establishing Pressing,Neutral,46 - 60 min,Randers,,,
+226,227,1,3223.794134593,3231.2925763399994,O2 Build Up,O2 Build Up,O2 After Regain,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Randers,,,
+227,228,1,3231.384926249996,3250.3918440339985,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,Randers,,,Established Play
+228,229,1,3236.182672560999,3250.886677852997,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,46 - 60 min,Randers,,,
+229,230,1,3249.090737311999,3264.487821005,D3 Middle / Lower Pressing,,After Ball Loss,D4 Chance,Unsuccessful,46 - 60 min,Randers,,,
+230,231,1,3249.491827521,3267.982539376999,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,Randers,,,Established Play
+231,232,1,3278.0831877919995,3296.290292895,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Randers,True,,
+232,233,1,3294.5834886549987,3309.684577877,D3 Middle / Lower Pressing,,After Ball Loss,Stay In Phase,Neutral,46 - 60 min,Randers,,,
+233,234,1,3307.7780385119986,3343.2891148819986,D3 Middle / Lower Pressing,,After Ball Loss,Stay In Phase,Neutral,46 - 60 min,Randers,,,
+234,235,1,3343.180932909,3374.587373489997,D3 Middle / Lower Pressing,,After Ball Loss,D4 Chance,Unsuccessful,46 - 60 min,Randers,True,,
+235,236,1,3359.3850698089973,3379.0883531349987,D4 Defending the Box,,Through Pass,Chance,Unsuccessful,46 - 60 min,Randers,,,Established Play
+236,237,1,3397.384081975998,3416.8928236989996,O2 Build Up,O2 Build Up,O2 Free Kick,Stay In Phase,Neutral,46 - 60 min,Randers,,,
+237,238,1,3431.5907936869985,3442.2796826499975,O2 Build Up,O2 Build Up,O2 Throw-In,Stay In Phase,Neutral,46 - 60 min,Randers,,,
+238,239,1,3440.2914305539975,3457.180625856001,O2 Build Up,O2 Build Up,O2 Throw-In,Stay In Phase,Neutral,46 - 60 min,Randers,,,
+239,240,1,3443.6791348079996,3469.491108212,O3 Break Through,O3 Break Through,Combination,Keep The Ball,Neutral,46 - 60 min,Randers,,,Throw In
+240,241,1,3458.4853303809978,3485.381013346997,O3 Break Through,O3 Break Through,Combination,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Randers,,,Throw In
+241,242,1,3474.880802252999,3495.7936443969966,D2 Finding Balance,,After Offensive Set-Piece,Direct to O3/O4 OFF Transit,Successful,46 - 60 min,Randers,,,
+242,243,1,3476.8792244869965,3502.081561256001,O3 Break Through,O3 Break Through,Transition After CP,"Cross, Shot, Set-Piece or Box Entry",Successful,46 - 60 min,Randers,,,Transition
+243,244,1,3480.588176927001,3505.6900281649982,O4 Finishing,O4 Finishing,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,Randers,,,Transition
+244,245,1,3484.655500664475,3495.655500664475,off throw,O3 Break Through,,,,,Randers,,,
+245,246,1,3510.2822563779964,3545.293822824,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,46 - 60 min,Randers,,,
+246,247,1,3530.2856916399996,3549.4799714199976,D4 Defending the Box,,Chipball,Intercepted by Defence,Successful,46 - 60 min,Randers,,,Established Play
+247,248,1,3545.7932397079962,3568.48431222,O3 Break Through,O3 Break Through,Early Through Pass or Cross,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Randers,,,Established Play
+248,249,1,3549.682556552001,3564.588710761999,O1 Play from the Back,O1 Play from the Back,O1 After Regain,Progress to O3-O4,Successful,46 - 60 min,Randers,,,
+249,250,1,3569.1839507599966,3581.7880807289976,D3 High Pressing,,After Ball Loss,Stay In Phase,Neutral,46 - 60 min,Randers,,,
+250,251,1,3579.779587068999,3637.177977332998,D3 Middle / Lower Pressing,,D3 From High to Med/Low,D4 Chance,Unsuccessful,46 - 60 min,Randers,True,,
+251,252,1,3616.88299249,3637.4889901899983,D4 Defending the Box,,Through Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,Randers,,,Established Play
+252,253,1,3642.385634061998,3668.6862152689982,O3 Break Through,O3 Break Through,Central Play Infront of Backline,"Cross, Shot, Set-Piece or Box Entry",Successful,46 - 60 min,Randers,,,Established Play
+253,254,1,3646.683626752999,3660.2855262250005,O1 Play from the Back,O1 Play from the Back,O1 After Regain,Progress to O3-O4,Successful,46 - 60 min,Randers,,,
+254,255,1,3649.491424122998,3672.183746411998,O4 Finishing,O4 Finishing,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,Randers,,,Established Play
+255,256,1,3671.379088174997,3696.8917675659986,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,46 - 60 min,Randers,,,
+256,257,1,3675.6890931859975,3695.987624205998,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,Randers,,,Established Play
+257,258,1,3694.2802609129963,3725.3803453540004,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,46 - 60 min,Randers,,,
+258,259,1,3710.578952627,3730.884454761999,D4 Defending the Box,,Chipball,Intercepted by Defence,Successful,46 - 60 min,Randers,,,Established Play
+259,260,1,3774.178992926,3787.890668086998,O2 Build Up,O2 Build Up,O2 Free Kick,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,Randers,,,
+260,261,1,3778.5787590599984,3796.2887530179987,D1 Counterpress,,After O2 build-up,Establishing Pressing,Neutral,61 - 75 min,Randers,,,
+261,262,1,3794.5887097229984,3869.1784039759987,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,Randers,,,
+262,263,1,3854.4879034039996,3873.2924134619993,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Randers,,,Established Play
+263,264,1,3868.085756523998,3887.0800973059986,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Randers,,,Established Play
+264,265,1,3872.989877610998,3882.186625504998,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,Randers,,,
+265,266,1,3875.588636181998,3895.6865317169995,D4 Defending the Box,,Through Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Randers,,,Established Play
+266,267,1,3883.884637039998,3889.885000625996,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,Randers,,,
+267,268,1,3945.089756142998,3971.686848008001,D4 Defending the Box,,Front Area,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Randers,,,Corner Kick
+268,269,1,3959.0978859129987,3970.0978859129987,def corner,,Front Area,,,,Randers,,,Corner Kick
+269,270,1,3990.078371458,4011.090525671999,O2 Build Up,O2 Build Up,O2 Free Kick,Stay In Phase,Neutral,61 - 75 min,Randers,,,
+270,271,1,4012.884229614999,4025.583359941001,O2 Build Up,O2 Build Up,O2 Throw-In,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,Randers,,,
+271,272,1,4027.5778440820022,4036.386903047001,D3 High Pressing,,After Ball Loss,Stay In Phase,Neutral,61 - 75 min,Randers,,,
+272,273,1,4034.2878251319967,4057.5834294779997,D3 Middle / Lower Pressing,,D3 From High to Med/Low,"Intercept. -> Estab. (O1, O2, O3)",Successful,61 - 75 min,Randers,,,
+273,274,1,4079.9868761610005,4094.4912916069984,O2 Build Up,O2 Build Up,O2 Free Kick,Progress to Next Phase,Successful,61 - 75 min,Randers,,,
+274,275,1,4107.187180182,4139.288872340002,O3 Break Through,O3 Break Through,Combination,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,Randers,,,Throw In
+275,276,1,4148.689407582997,4160.983484137001,D3 High Pressing,,D3 Press on Throw-In,Stay In Phase,Neutral,61 - 75 min,Randers,,,
+276,277,1,4166.092727371999,4176.8863964859975,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,Stay In Phase,Neutral,61 - 75 min,Randers,,,
+277,278,1,4170.268856900998,4190.188743719001,D3 High Pressing,,D3 From Low/Med to High,Stay In Phase,Neutral,61 - 75 min,Randers,,,
+278,279,1,4188.386125491001,4210.781290766998,D3 Middle / Lower Pressing,,D3 From High to Med/Low,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,Randers,,,
+279,280,1,4196.379434312999,4216.785250037,D4 Defending the Box,,Chipball,Intercepted by Defence,Successful,61 - 75 min,Randers,,,Established Play
+280,281,1,4216.390109265998,4228.688500582998,O2 Build Up,O2 Build Up,O2 After Regain,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,Randers,,,
+281,282,1,4228.886694026996,4263.683429139998,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,Randers,,,
+282,283,1,4248.7835897279965,4270.293865458999,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Randers,,,Established Play
+283,284,1,4254.091564656998,4279.382115861001,D4 Defending the Box,,Square Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Randers,,,Transition
+284,285,1,4286.477488431999,4322.980850985,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,Randers,,,
+285,286,1,4308.5836053250005,4329.477400190999,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Randers,,,Established Play
+286,287,1,4336.382589983997,4361.286660375999,D4 Defending the Box,,Central Area,OFF Transition,Successful,61 - 75 min,Randers,,,Corner Kick
+287,288,1,4347.162553789475,4368.162553789475,def corner,,,,,,Randers,,,
+288,289,1,4352.889918491,4381.3868608409975,D1 Counterpress,,Transition on Transition,Establishing Pressing,Neutral,61 - 75 min,Randers,,,
+289,290,1,4379.580436461998,4405.179544572002,D3 Middle / Lower Pressing,,After Ball Loss,Direct to O3/O4 OFF Transit,Successful,61 - 75 min,Randers,,,
+290,291,1,4386.278785910999,4417.18528435,O3 Break Through,O3 Break Through,D3 Win Ball Low/Middle,Lead to O4 chance,Successful,61 - 75 min,Randers,,,Transition
+291,292,1,4398.189584655997,4430.944126235997,O4 Finishing,O4 Finishing,Through Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Randers,,,Transition
+292,293,1,4441.281076584999,4468.292306965001,O4 Finishing,O4 Finishing,Front Area,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Randers,,,Corner Kick
+293,294,1,4463.1621284971425,4484.1621284971425,off corner,O4 Finishing,,,,,Randers,,,
+294,295,1,4470.887876356997,4525.781534583997,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,61 - 75 min,Randers,,,
+295,296,1,4584.368866666667,4597.0843754359985,O2 Build Up,O2 Build Up,O2 Free Kick,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,Randers,,,
+296,297,1,4596.192002702999,4631.180615027999,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,Randers,,,
+297,298,1,4613.380619422999,4632.485376315,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Randers,,,Established Play
+298,299,1,4682.791289292998,4704.692051558999,O2 Build Up,O2 Build Up,O2 Free Kick,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Randers,,,
+299,300,1,4703.878092867001,4739.791013469999,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,76 - 90 min,Randers,,,
+300,301,1,4776.878675145002,4788.386766841998,O2 Build Up,O2 Build Up,O2 Free Kick,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Randers,,,
+301,302,1,4786.392585113997,4816.491635860997,D3 Middle / Lower Pressing,,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,76 - 90 min,Randers,,,
+302,303,1,4830.091621128999,4853.679080102,O3 Break Through,O3 Break Through,1v1 Wide / Halfspace,"Cross, Shot, Set-Piece or Box Entry",Successful,76 - 90 min,Randers,,,Established Play
+303,304,1,4833.893493294999,4848.889051682,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to O3-O4,Successful,76 - 90 min,Randers,,,
+304,305,1,4834.480962001998,4857.094175764999,O4 Finishing,O4 Finishing,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,Randers,,,Established Play
+305,306,1,4860.381835197,4912.583100113997,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,76 - 90 min,Randers,,,
+306,307,1,4897.586276560001,4916.278427370997,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,Randers,,,Established Play
+307,308,1,4903.480502554002,4923.185733146001,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,Randers,,,Established Play
+308,309,1,4948.585913160001,4960.9926507559985,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Randers,,,
+309,310,1,4966.970758510995,4993.2893549679975,D4 Defending the Box,,,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,Randers,,,Lateral Free Kick
+310,311,1,4970.589649080475,4991.589649080475,def free kick,,,,,,Randers,,,
+311,312,1,4982.097414590002,4993.097414590002,def free kick,,,,,,Randers,,,
+312,313,1,5013.986564130995,5025.980425375999,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to O3-O4,Successful,76 - 90 min,Randers,,,
+313,314,1,5022.283008424999,5054.286392178997,O3 Break Through,O3 Break Through,,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Randers,,,Established Play
+314,315,1,5047.984104441999,5066.680736063997,D2 Finding Balance,,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,76 - 90 min,Randers,,,
+315,316,1,5065.892326235999,5084.981848197,O2 Build Up,O2 Build Up,O2 Throw-In,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Randers,,,
+316,317,1,5076.6824166629995,5098.587900702996,D1 Counterpress,,After O2 build-up,D4 Chance,Unsuccessful,76 - 90 min,Randers,,,
+317,318,1,5078.571402947001,5097.880867181,D4 Defending the Box,,Cutback,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,Randers,,,Established Play
+318,319,1,5122.681257254,5139.0787898579965,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to Next Phase,Successful,76 - 90 min,Randers,,,
+319,320,1,5123.087725606997,5155.993102226998,O3 Break Through,O3 Break Through,Wide Link Up Play,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Randers,,,Established Play
+320,321,1,5137.283618494998,5142.280182031998,O2 Build Up,O2 Build Up,O1 to O2,Progress to Next Phase,Successful,76 - 90 min,Randers,,,
+321,322,1,5144.093345104999,5162.285755906001,D1 Counterpress,,After O3/O4,Establishing Pressing,Neutral,76 - 90 min,Randers,,,
+322,323,1,5163.078264780997,5200.192722835997,D3 Middle / Lower Pressing,,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,76 - 90 min,Randers,,,
+323,324,1,5210.486396677001,5221.092411981998,O1 Play from the Back,O1 Play from the Back,O1 After Regain,Progress to Next Phase,Successful,76 - 90 min,Randers,,,
+324,325,1,5218.793917762998,5232.888557122997,O2 Build Up,O2 Build Up,O1 to O2,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Randers,,,
+325,326,1,5236.491598880997,5269.387108347996,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,76 - 90 min,Randers,,,
+326,327,1,5254.279451972997,5284.645583800815,D4 Defending the Box,,Pass Infront of Backline,Intercepted by Defence,Successful,76 - 90 min,Randers,True,,Established Play
+327,328,1,5297.592292533996,5312.088108677999,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Randers,,,
+328,329,1,5309.792442614997,5352.889434414997,O3 Break Through,O3 Break Through,D3 Win Ball Low/Middle,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Randers,,,Transition
+329,330,1,5318.590204431997,5328.785456956999,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,Direct to O3/O4 OFF Transit,Successful,76 - 90 min,Randers,,,
+330,331,1,5355.986870037998,5382.588270553999,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,Stay In Phase,Neutral,76 - 90 min,Randers,,,
+331,332,1,5382.693302014997,5424.891150261,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,76 - 90 min,Randers,,,
+332,333,1,5410.391212756996,5428.978575256999,D4 Defending the Box,,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,Randers,,,Established Play
+333,334,1,5429.982968439999,5445.98343605,D3 Middle / Lower Pressing,,D3 Press on Throw-In,"Intercept. -> Estab. (O1, O2, O3)",Successful,76 - 90 min,Randers,,,
+334,335,1,5439.089595597,5458.084219707,D4 Defending the Box,,Square Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,Randers,,,Transition
+335,336,1,5440.191395513998,5453.490565382,O1 Play from the Back,O1 Play from the Back,O1 After Regain,Ball Loss --> D4 Defend The Box,Unsuccessful,76 - 90 min,Randers,,,
+336,337,1,5457.294189363999,5478.4861263110015,D3 Middle / Lower Pressing,,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,76 - 90 min,Randers,,,
+337,338,1,5464.577940754998,5485.788249514997,D4 Defending the Box,,Pass Infront of Backline,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,Randers,,,Established Play
+338,339,1,5472.788661955142,5495.788661955142,Goal FCN,,Transition,,,,Randers,,,
+339,340,1,5477.786177570999,5504.784436971996,O3 Break Through,O3 Break Through,D3 Win Ball Low/Middle,Lead to O4 chance,Successful,76 - 90 min,Randers,,,Transition
+340,341,1,5483.977668910999,5496.787984092995,D3 Middle / Lower Pressing,,D3 Press on Throw-In,Direct to O3/O4 OFF Transit,Successful,76 - 90 min,Randers,,,
+341,342,1,5486.692983460999,5515.885996708999,O4 Finishing,O4 Finishing,1v1,Chance,Successful,76 - 90 min,Randers,,,Transition
+342,343,1,5547.086199428999,5566.292806922999,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,90+ min,Randers,,,
+343,344,1,5547.687809723,5589.685837637998,O3 Break Through,O3 Break Through,After D4 Def. Box,"Cross, Shot, Set-Piece or Box Entry",Successful,90+ min,Randers,,,Transition
+344,345,1,5551.888967771998,5565.393251068,D4 Defending the Box,,Chipball,OFF Transition,Successful,90+ min,Randers,,,Established Play
+345,346,1,5570.482953227998,5593.694558590996,O4 Finishing,O4 Finishing,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,90+ min,Randers,,,Transition
+346,347,1,5580.1844967239995,5597.628311426999,D2 Finding Balance,,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,90+ min,Randers,,,
+347,348,1,5595.789684377995,5626.789596411997,O2 Build Up,O2 Build Up,O2 Throw-In,Ball Loss --> D3 Press,Unsuccessful,90+ min,Randers,,,
+348,349,1,5626.078192335996,5645.992211015999,D3 Middle / Lower Pressing,,D3 Press on Throw-In,Direct to O3/O4 OFF Transit,Successful,90+ min,Randers,,,
+349,350,1,5627.181704326999,5665.889492682001,O3 Break Through,O3 Break Through,D3 Win Ball Low/Middle,Ball Loss --> D3 Press,Unsuccessful,90+ min,Randers,,,Transition
+350,351,1,5663.890016504,5682.887083302995,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,90+ min,Randers,,,
+351,352,1,5684.7830802319995,5699.887698306998,O1 Play from the Back,O1 Play from the Back,O1 After Regain,Progress to Next Phase,Successful,90+ min,Randers,,,
+352,353,1,5697.893869098,5719.492267637999,O2 Build Up,O2 Build Up,O1 to O2,Stay In Phase,Neutral,90+ min,Randers,,,
+353,354,1,5716.786769555999,5743.591225164001,O3 Break Through,O3 Break Through,Short Throw-In,Ball Loss --> D3 Press,Unsuccessful,90+ min,Randers,,,Throw In
+354,355,1,5729.378673203999,5757.284624506995,O3 Break Through,O3 Break Through,Transition After CP,Ball Loss --> D3 Press,Unsuccessful,90+ min,Randers,,,Transition
+355,356,1,5734.584873714998,5750.532227061998,D1 Counterpress,,After O3/O4,"Intercept. -> Estab. (O1, O2, O3)",Successful,90+ min,Randers,,,
+356,357,1,5758.785944584997,5776.388407461001,D3 High Pressing,,D3 Press on Throw-In,Stay In Phase,Neutral,90+ min,Randers,,,
+357,358,1,5774.080588226997,5790.1917628169995,D3 Middle / Lower Pressing,,D3 From High to Med/Low,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,90+ min,Randers,,,
+358,359,1,5774.989445009,5795.991557954997,D4 Defending the Box,,Chipball,Intercepted by Defence,Successful,90+ min,Randers,,,Established Play
+359,360,1,5817.093375061998,5830.9790444679975,O2 Build Up,O2 Build Up,O2 Free Kick,Progress to O4,Successful,90+ min,Randers,,,

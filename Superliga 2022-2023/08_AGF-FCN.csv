@@ -1,0 +1,329 @@
+,code_id,period_id,timestamp,end_timestamp,code,00. Start Phase,02. Situation Type,Half,03. Outcomes,04. Rating,Time Period,Opponent,<flag>New Flag,01. Phase
+0,1,1,0.0,11.521401219666814,O2 Build Up,O2 Build Up,O2 Free Kick,1st Half,Stay In Phase,Neutral,0 - 15 min,AGF,,
+1,2,1,0.7020744633334175,1.2020744633334175,KO,,,1st Half,,,,AGF,,
+2,3,1,7.414690409333389,36.30686297,O2 Build Up,O2 Build Up,O2 Free Kick,1st Half,Stay In Phase,Neutral,0 - 15 min,AGF,,
+3,4,1,21.80596666666667,51.80596666666667,Bench,,,,,,,AGF,True,
+4,5,1,27.269528355333534,54.829746611000076,O3 Break Through,O3 Break Through,1v1 Wide / Halfspace,1st Half,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,AGF,,Established Play
+5,6,1,34.27327490066676,41.80856512233345,O1 Play from the Back,O1 Play from the Back,O2 to O1,1st Half,Progress to Next Phase,Successful,0 - 15 min,AGF,,
+6,7,1,37.90219878333335,46.63136585500007,O2 Build Up,O2 Build Up,O1 to O2,1st Half,Progress to Next Phase,Successful,0 - 15 min,AGF,,
+7,8,1,46.49242775800019,60.92545516166672,D1 Counterpress,,After O3/O4,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,AGF,,
+8,9,1,57.962013322333405,84.562638236,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,AGF,,
+9,10,1,75.85178619800013,88.51832669533337,D1 Counterpress,,After O2 build-up,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,AGF,,
+10,11,1,84.34987437600012,126.67625983633332,O2 Build Up,O2 Build Up,O2 Throw-In,1st Half,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,AGF,,
+11,12,1,126.87003473000004,143.83662792300004,D3 High Pressing,,After Ball Loss,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,AGF,,
+12,13,1,158.05493803900015,175.14486614966677,O2 Build Up,O2 Build Up,O2 Free Kick,1st Half,Stay In Phase,Neutral,0 - 15 min,AGF,,
+13,14,1,172.97804412233347,179.0743743523334,O1 Play from the Back,O1 Play from the Back,O2 to O1,1st Half,Progress to Next Phase,Successful,0 - 15 min,AGF,,
+14,15,1,174.70736949600007,209.70030555433345,O2 Build Up,O2 Build Up,O1 to O2,1st Half,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,AGF,,
+15,16,1,210.39758922800013,231.43383080899991,D3 High Pressing,,After Ball Loss,1st Half,Direct to O3/O4 OFF Transit,Successful,0 - 15 min,AGF,,
+16,17,1,212.68612510233356,245.581686656,O3 Break Through,O3 Break Through,D3 High Press on Opp. Half,1st Half,Lead to O4 chance,Successful,0 - 15 min,AGF,,Transition
+17,18,1,213.10433333333333,243.10433333333333,Bench,,,,,,,AGF,True,
+18,19,1,226.41381963000003,297.6604801726668,O4 Finishing,O4 Finishing,Chipball,1st Half,Open Chance,Successful,0 - 15 min,AGF,,Transition
+19,20,1,324.18662437333353,351.6824076306666,O4 Finishing,O4 Finishing,Front Area,1st Half,,,0 - 15 min,AGF,,Corner Kick
+20,21,1,342.624933812,353.624933812,off corner,,Front Area,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,,AGF,,
+21,22,1,350.271031731,374.9696337966668,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Stay In Phase,Neutral,0 - 15 min,AGF,,
+22,23,1,372.72969724300015,407.1165398466667,O1 Play from the Back,O1 Play from the Back,O2 to O1,1st Half,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,AGF,True,
+23,24,1,398.9213280546668,419.01064571433346,D1 Counterpress,,After O1 build-up,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,AGF,,
+24,25,1,416.0064718583334,447.53095346733335,O2 Build Up,O2 Build Up,O2 Free Kick,1st Half,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,AGF,,
+25,26,1,439.4723845563334,456.11129839566684,D1 Counterpress,,After O2 build-up,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,AGF,,
+26,27,1,453.76158629100007,512.0716815643334,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Progress to O4,Successful,0 - 15 min,AGF,,
+27,28,1,492.9095523983335,515.4812520449999,O4 Finishing,O4 Finishing,Chipball,1st Half,Open Chance,Successful,0 - 15 min,AGF,,Established Play
+28,29,1,498.0194946313336,521.0194946313336,Goal FCN,,Established Play,1st Half,,,,AGF,,
+29,30,1,574.513734513,585.8806287393336,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,1st Half,Stay In Phase,Neutral,0 - 15 min,AGF,,
+30,31,1,585.5169128886666,606.4666294763333,D3 Middle / Lower Pressing,,D3 Press on Throw-In,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,AGF,,
+31,32,1,611.1257612680001,636.5526208843335,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,1st Half,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,AGF,,
+32,33,1,638.7585362330001,658.4733832290001,D3 Middle / Lower Pressing,,D3 Press on Throw-In,1st Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,0 - 15 min,AGF,,
+33,34,1,643.5194634659999,668.4707113396669,D4 Defending the Box,,Long Throw,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,AGF,,Throw In
+34,35,1,667.2690117476666,689.8281426149999,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,1st Half,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,AGF,,
+35,36,1,688.9987606410002,703.0308753376669,D3 Middle / Lower Pressing,,After Ball Loss,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,AGF,,
+36,37,1,701.4209362513336,732.5435532676665,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,1st Half,Progress to Next Phase,Successful,0 - 15 min,AGF,,
+37,38,1,728.6522358893335,742.5525877053335,O2 Build Up,O2 Build Up,O1 to O2,1st Half,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,AGF,,
+38,39,1,733.5168230300001,747.2392542380001,D1 Counterpress,,After O2 build-up,1st Half,Establishing Pressing,Neutral,0 - 15 min,AGF,,
+39,40,1,745.2419007683336,755.1008484640001,D3 High Pressing,,After Ball Loss,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,AGF,,
+40,41,1,752.3409677753334,789.3245010936666,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Stay In Phase,Neutral,0 - 15 min,AGF,,
+41,42,1,803.5578865583334,847.1378840276666,O2 Build Up,O2 Build Up,O2 Free Kick,1st Half,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,AGF,,
+42,43,1,839.3640002596667,856.4654140886666,D1 Counterpress,,After O2 build-up,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,AGF,,
+43,44,1,848.7303291266667,876.0259410243334,O3 Break Through,O3 Break Through,Wide Link Up Play,1st Half,"Cross, Shot, Set-Piece or Box Entry",Successful,0 - 15 min,AGF,True,Established Play
+44,45,1,856.85063139,880.518757117,O4 Finishing,O4 Finishing,Chipball,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,AGF,,Established Play
+45,46,1,860.258056115,867.8280101720002,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Progress to Next Phase,Successful,0 - 15 min,AGF,,
+46,47,1,876.5171349723335,916.7788045886668,O4 Finishing,O4 Finishing,Back Area,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,AGF,,Corner Kick
+47,48,1,898.3030097546668,927.9357887620001,O4 Finishing,O4 Finishing,Through Pass,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,16 - 30 min,AGF,,Established Play
+48,49,1,905.5869547486668,916.5869547486668,off corner,,Back Area,1st Half,,,,AGF,,
+49,50,1,923.9285996143335,942.793863078,O2 Build Up,O2 Build Up,O3 to O2,1st Half,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,AGF,,
+50,51,1,943.2545001446667,962.3835523970001,D3 High Pressing,,After Ball Loss,1st Half,Stay In Phase,Neutral,16 - 30 min,AGF,,
+51,52,1,953.2902307743336,967.9931915416666,D2 Finding Balance,,D3 High Press on Opp. Half,1st Half,Establishing Pressing,Neutral,16 - 30 min,AGF,,
+52,53,1,962.0827865220001,983.9065282466668,D4 Defending the Box,,Chipball,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,16 - 30 min,AGF,,Established Play
+53,54,1,966.0570806836665,976.5522227176668,D3 Middle / Lower Pressing,,D3 From High to Med/Low,1st Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,16 - 30 min,AGF,,
+54,55,1,981.9485919143333,995.8432764943332,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,1st Half,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,AGF,True,
+55,56,1,987.5785499166666,1007.3755305656668,D1 Counterpress,,After O1 build-up,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,AGF,,
+56,57,1,997.0053148996669,1024.7320134926667,O3 Break Through,O3 Break Through,1v1 Wide / Halfspace,1st Half,"Cross, Shot, Set-Piece or Box Entry",Successful,16 - 30 min,AGF,,Established Play
+57,58,1,1005.3872621703333,1039.4809653576665,O4 Finishing,O4 Finishing,1v1,1st Half,Intercepted by Defence,Unsuccessful,16 - 30 min,AGF,,Established Play
+58,59,1,1005.5353154333334,1013.2052668720003,O1 Play from the Back,O1 Play from the Back,O1 After Regain,1st Half,Progress to Next Phase,Successful,16 - 30 min,AGF,,
+59,60,1,1009.0976597800002,1016.2299671623334,O2 Build Up,O2 Build Up,O1 to O2,1st Half,Progress to Next Phase,Successful,16 - 30 min,AGF,,
+60,61,1,1037.555492851,1052.4210790663333,D3 High Pressing,,After Ball Loss,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,AGF,,
+61,62,1,1048.2433521550001,1083.9369869646666,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,AGF,,
+62,63,1,1055.9896111111111,1075.9896111111111,Ndividual,,,,,,,AGF,True,
+63,64,1,1100.7647473806667,1118.6830189086668,D3 High Pressing,,D3 Press on Throw-In,1st Half,Stay In Phase,Neutral,16 - 30 min,AGF,,
+64,65,1,1119.7954348366345,1193.8229333333336,Bench,,,,,,,AGF,True,
+65,66,1,1121.2456513943334,1161.8765117303333,D3 Middle / Lower Pressing,,D3 Press on Throw-In,1st Half,Stay In Phase,Neutral,16 - 30 min,AGF,,
+66,67,1,1159.9025105916667,1176.7383417846668,D3 High Pressing,,D3 From Low/Med to High,1st Half,Stay In Phase,Neutral,16 - 30 min,AGF,,
+67,68,1,1175.2646428786666,1186.3329793986666,D3 Middle / Lower Pressing,,D3 From High to Med/Low,1st Half,Stay In Phase,Neutral,16 - 30 min,AGF,,
+68,69,1,1180.9203149293332,1200.952924145,D4 Defending the Box,,Through Pass,1st Half,Intercepted by Defence,Successful,16 - 30 min,AGF,,Established Play
+69,70,1,1184.2977808413334,1195.3855274020002,D3 High Pressing,,D3 From Low/Med to High,1st Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,16 - 30 min,AGF,,
+70,71,1,1197.1445100499998,1250.1435125273333,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Stay In Phase,Neutral,16 - 30 min,AGF,,
+71,72,1,1241.5043242036668,1256.5599562303332,D1 Counterpress,,After O2 build-up,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,AGF,,
+72,73,1,1252.9681658736665,1262.1950660843333,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,AGF,,
+73,74,1,1261.1860107743335,1278.61995032,D3 Middle / Lower Pressing,,After Ball Loss,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,AGF,,
+74,75,1,1275.3535020383333,1319.8762433993334,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Stay In Phase,Neutral,16 - 30 min,AGF,,
+75,76,1,1305.350044319,1325.350044319,Ndividual,,,,,,,AGF,True,
+76,77,1,1317.708473883,1349.9205396733335,O1 Play from the Back,O1 Play from the Back,O2 to O1,1st Half,Progress to Next Phase,Successful,16 - 30 min,AGF,,
+77,78,1,1345.6886784360001,1365.119962981,O2 Build Up,O2 Build Up,O2 Free Kick,1st Half,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,AGF,,
+78,79,1,1357.0846977826668,1374.574664771,D1 Counterpress,,After O2 build-up,1st Half,Establishing Pressing,Neutral,16 - 30 min,AGF,,
+79,80,1,1388.476568947,1414.9016190263333,D4 Defending the Box,,Short Throw-In,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,16 - 30 min,AGF,,Throw In
+80,81,1,1399.812594018,1410.812594018,def throw,,Short Throw-In,1st Half,,,,AGF,,Throw In
+81,82,1,1414.658565316667,1439.1868929920001,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,1st Half,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,AGF,,
+82,83,1,1439.8525284916664,1448.9909420466668,O1 Play from the Back,O1 Play from the Back,O1 After Regain,1st Half,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,AGF,,
+83,84,1,1448.0439945276667,1502.0299582933333,D3 Middle / Lower Pressing,,After Ball Loss,1st Half,Direct to O3/O4 OFF Transit,Successful,16 - 30 min,AGF,True,
+84,85,1,1475.393520256266,1510.8414444444445,Bench,,,,,,,AGF,True,
+85,86,1,1483.0671277893337,1510.9638056473334,O3 Break Through,O3 Break Through,After D4 Def. Box,1st Half,Keep The Ball,Neutral,16 - 30 min,AGF,,Transition
+86,87,1,1488.2382348814901,1500.595911111111,Ndividual,,,,,,,AGF,,
+87,88,1,1519.0855562673332,1555.3371266016663,O2 Build Up,O2 Build Up,O2 Free Kick,1st Half,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,AGF,,
+88,89,1,1547.4060779180002,1570.2398897290002,D2 Finding Balance,,After Ball Loss,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,AGF,,
+89,90,1,1566.1681047656668,1598.0835280276665,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Progress to Next Phase,Successful,16 - 30 min,AGF,,
+90,91,1,1579.0503765043334,1605.1494842346665,O3 Break Through,O3 Break Through,1v1 Wide / Halfspace,1st Half,"Cross, Shot, Set-Piece or Box Entry",Successful,16 - 30 min,AGF,,Established Play
+91,92,1,1579.9975873492951,1617.947722222222,Bench,,,,,,,AGF,True,
+92,93,1,1593.3506768343332,1618.4744889043332,O4 Finishing,O4 Finishing,Square Pass,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,16 - 30 min,AGF,,Established Play
+93,94,1,1614.6707653510002,1650.7023622740003,O2 Build Up,O2 Build Up,O2 Throw-In,1st Half,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,AGF,,
+94,95,1,1641.5531481810108,1679.9880842213333,D4 Defending the Box,,Square Pass,1st Half,Open Chance,Unsuccessful,16 - 30 min,AGF,True,Established Play
+95,96,1,1643.528094152667,1659.0098069493333,D2 Finding Balance,,After Ball Loss,1st Half,Establishing Pressing,Neutral,16 - 30 min,AGF,,
+96,97,1,1657.0007766070003,1671.8585635973336,D3 Middle / Lower Pressing,,After Ball Loss,1st Half,D4 Chance,Unsuccessful,16 - 30 min,AGF,,
+97,98,1,1662.2530726413333,1685.2530726413333,Goal OPP,,Established Play,1st Half,,,,AGF,,
+98,99,1,1723.9259821643327,1733.7303458313331,O2 Build Up,O2 Build Up,O2 Free Kick,1st Half,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,AGF,,
+99,100,1,1732.3290091866666,1774.5410631259997,D3 Middle / Lower Pressing,,After Ball Loss,1st Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,16 - 30 min,AGF,,
+100,101,1,1780.3377040290002,1824.7913860696663,D4 Defending the Box,,Front Area,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,AGF,,Lateral Free Kick
+101,102,1,1812.574173428,1823.574173428,def free kick,,Front Area,1st Half,,,,AGF,,
+102,103,1,1820.0465158733332,1838.8887338206664,D4 Defending the Box,,Chipball,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,AGF,,Established Play
+103,104,1,1823.3970497513337,1834.9203197646666,D3 Middle / Lower Pressing,,After Ball Loss,1st Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,31 - 45 min,AGF,,
+104,105,1,1831.0811654199997,1869.9706882113333,D4 Defending the Box,,Back Area,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,AGF,,Corner Kick
+105,106,1,1856.5901022430003,1867.5901022430003,def corner,,Back Area,1st Half,,,,AGF,,
+106,107,1,1872.0984271009997,1877.9003497076665,D3 Middle / Lower Pressing,,After Ball Loss,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,AGF,,
+107,108,1,1876.976762682667,1900.5941952713333,O1 Play from the Back,O1 Play from the Back,O1 Throw-In,1st Half,Stay In Phase,Neutral,31 - 45 min,AGF,,
+108,109,1,1898.353646018667,1915.5852781036665,O1 Play from the Back,O1 Play from the Back,O1 After Regain,1st Half,Progress to Next Phase,Successful,31 - 45 min,AGF,,
+109,110,1,1911.3622364353332,1972.0255574293337,O2 Build Up,O2 Build Up,O1 to O2,1st Half,Stay In Phase,Neutral,31 - 45 min,AGF,,
+110,111,1,1975.7598601773334,2015.2716397210002,O2 Build Up,O2 Build Up,O2 Throw-In,1st Half,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,AGF,,
+111,112,1,2015.3072586556668,2034.0687488899998,D3 High Pressing,,After Ball Loss,1st Half,Stay In Phase,Neutral,31 - 45 min,AGF,,
+112,113,1,2031.9074696966668,2047.8958560943333,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,1st Half,Stay In Phase,Neutral,31 - 45 min,AGF,,
+113,114,1,2045.999431329,2057.6272386353335,D3 High Pressing,,D3 From Low/Med to High,1st Half,Stay In Phase,Neutral,31 - 45 min,AGF,,
+114,115,1,2052.3939087703334,2080.3794833426673,D2 Finding Balance,,D3 High Press on Opp. Half,1st Half,Establishing Pressing,Neutral,31 - 45 min,AGF,,
+115,116,1,2076.8738072133333,2096.851051781334,D4 Defending the Box,,Through Pass,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,AGF,True,Established Play
+116,117,1,2078.7849638413336,2091.4069646089997,D3 Middle / Lower Pressing,,After Ball Loss,1st Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,31 - 45 min,AGF,,
+117,118,1,2095.197107946,2120.561677049333,D4 Defending the Box,,Short Throw-In,1st Half,,,31 - 45 min,AGF,,Throw In
+118,119,1,2109.435721542,2144.1502595599995,D4 Defending the Box,,Pass Infront of Backline,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,AGF,,Established Play
+119,120,1,2109.883492309,2120.883492309,def throw,,Short Throw-In,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,,AGF,,Throw In
+120,121,1,2123.344577346,2134.344577346,def throw,,,1st Half,,,,AGF,,
+121,122,1,2142.283413545333,2150.6920180003335,D3 Middle / Lower Pressing,,After Ball Loss,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,AGF,,
+122,123,1,2148.614143936333,2183.740277295,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,AGF,,
+123,124,1,2187.0745268486667,2220.7234077476664,D3 Middle / Lower Pressing,,D3 Press on Throw-In,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,AGF,,
+124,125,1,2196.622560811041,2223.6499222222224,Ndividual,,,,,,,AGF,True,
+125,126,1,2217.5649375020002,2250.942725492,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Progress to Next Phase,Successful,31 - 45 min,AGF,,
+126,127,1,2231.782790323666,2257.111028873667,O3 Break Through,O3 Break Through,,1st Half,Lead to O4 chance,Successful,31 - 45 min,AGF,,Established Play
+127,128,1,2238.276398451333,2261.9152119729997,O4 Finishing,O4 Finishing,Square Pass,1st Half,Chance,Successful,31 - 45 min,AGF,,Established Play
+128,129,1,2238.80544,2258.80544,Ndividual,,,,,,,AGF,True,
+129,130,1,2249.8054666666667,2269.8054666666667,Ndividual,,,,,,,AGF,True,
+130,131,1,2270.6425593780004,2363.5377571009994,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,AGF,,
+131,132,1,2366.5506085959996,2406.2138719066666,O3 Break Through,O3 Break Through,Quick Restart,1st Half,"Cross, Shot, Set-Piece or Box Entry",Successful,31 - 45 min,AGF,,Throw In
+132,133,1,2371.357695299333,2382.694177086333,D3 High Pressing,,D3 Goal Kick or Free Kick,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,AGF,,
+133,134,1,2387.1734303343333,2410.305549546333,O4 Finishing,O4 Finishing,1v1,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,AGF,,Established Play
+134,135,1,2391.081481249333,2428.9003190496665,O4 Finishing,O4 Finishing,1v1,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,AGF,,Established Play
+135,136,1,2441.1405535363338,2449.033935662667,D3 High Pressing,,D3 Press on Throw-In,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,AGF,,
+136,137,1,2446.0555304873333,2486.1198500083333,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,AGF,,
+137,138,1,2477.7844805753334,2494.851323979666,D1 Counterpress,,After O2 build-up,1st Half,"Cross, Shot, Set-Piece or Box Entry",Successful,31 - 45 min,AGF,,
+138,139,1,2548.865754107667,2559.865754107667,def free kick,,D3 Goal Kick or Free Kick,1st Half,,,,AGF,,
+139,140,1,2553.077635676333,2562.815880620667,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,1st Half,Stay In Phase,Neutral,31 - 45 min,AGF,,
+140,141,1,2567.9087403676663,2593.7706527103333,D4 Defending the Box,,Chipball,1st Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,AGF,,Established Play
+141,142,1,2572.739972037,2582.9340310526663,D3 Middle / Lower Pressing,,D3 Press on Throw-In,1st Half,D4 Chance,Unsuccessful,31 - 45 min,AGF,,
+142,143,1,2589.962676108333,2605.0943672366666,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Stay In Phase,Neutral,31 - 45 min,AGF,,
+143,144,1,2602.3951270336665,2624.6534264993334,O2 Build Up,O2 Build Up,O2 Throw-In,1st Half,Stay In Phase,Neutral,31 - 45 min,AGF,,
+144,145,1,2622.6285076530003,2634.379310775667,O1 Play from the Back,O1 Play from the Back,O2 to O1,1st Half,Progress to Next Phase,Successful,31 - 45 min,AGF,,
+145,146,1,2629.608336132667,2652.9811695066664,O3 Break Through,O3 Break Through,Early Through Pass or Cross,1st Half,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,AGF,,Established Play
+146,147,1,2631.8914233616665,2644.1087568479998,O2 Build Up,O2 Build Up,O2 Free Kick,1st Half,Progress to Next Phase,Successful,31 - 45 min,AGF,,
+147,148,1,2655.480554263667,2672.2085809353334,D3 High Pressing,,D3 Press on Throw-In,1st Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,AGF,,
+148,149,1,2663.2211248435005,2780.3187264248413,O2 Build Up,O2 Build Up,O2 After Regain,1st Half,Progress to O4,Successful,31 - 45 min,AGF,True,
+149,150,1,2758.295885896859,2931.0391453549296,Bench,,,,,,,AGF,True,
+150,151,1,2763.158318483,2788.422363285333,O4 Finishing,O4 Finishing,Through Pass,1st Half,Open Chance,Successful,45+ min,AGF,,Established Play
+151,152,1,2931.7311775346666,2954.7311775346666,Goal FCN,,Penalty (->Established),1st Half,,,,AGF,,
+152,153,1,2989.0427881393334,3010.6915634433335,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,1st Half,Stay In Phase,Neutral,45+ min,AGF,,
+153,154,1,2997.844263038549,2998.344263038549,KO,,,2nd Half,,,,AGF,,
+154,155,1,2998.084094233549,3025.062766192548,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,2nd Half,Stay In Phase,Neutral,46 - 60 min,AGF,,
+155,156,1,3023.523111072883,3037.8208307182153,D3 High Pressing,,D3 From Low/Med to High,2nd Half,Stay In Phase,Neutral,46 - 60 min,AGF,,
+156,157,1,3035.7146265302154,3067.5335794928824,D3 Middle / Lower Pressing,,D3 From High to Med/Low,2nd Half,Stay In Phase,Neutral,46 - 60 min,AGF,,
+157,158,1,3058.6996096355488,3073.0360054425482,D2 Finding Balance,,D3 High Press on Opp. Half,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,AGF,,
+158,159,1,3075.3632388608826,3095.8555591915488,O1 Play from the Back,O1 Play from the Back,O1 Throw-In,2nd Half,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,AGF,,
+159,160,1,3088.1981859279995,3108.3880195809984,D4 Defending the Box,,Chipball,,Intercepted by Defence,Successful,46 - 60 min,AGF,,Established Play
+160,161,1,3088.6844327075482,3104.6962014882156,D1 Counterpress,,After O2 build-up,2nd Half,Establishing Pressing,Neutral,46 - 60 min,AGF,,
+161,162,1,3102.653426396549,3110.985150381215,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,AGF,,
+162,163,1,3113.122165701549,3135.6496924395487,O1 Play from the Back,O1 Play from the Back,O1 After Regain,2nd Half,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,AGF,,
+163,164,1,3126.542423088882,3145.276920079882,D1 Counterpress,,After O1 build-up,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,46 - 60 min,AGF,,
+164,165,1,3130.466396267882,3151.2320176558824,D4 Defending the Box,,Chipball,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,AGF,,Established Play
+165,166,1,3153.8677376222154,3176.7908405102153,D4 Defending the Box,,Short Variation,2nd Half,,,46 - 60 min,AGF,,Corner Kick
+166,167,1,3166.3074039682156,3177.3074039682156,def corner,,Short Variation,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,,AGF,,Corner Kick
+167,168,1,3175.721640314549,3194.7137411235485,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,2nd Half,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,AGF,,
+168,169,1,3186.7239933005485,3201.6525183358813,D2 Finding Balance,,After Ball Loss,2nd Half,Establishing Pressing,Neutral,46 - 60 min,AGF,,
+169,170,1,3199.6194200328828,3214.4808022548823,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,AGF,,
+170,171,1,3213.437959445215,3227.372623250216,O1 Play from the Back,O1 Play from the Back,O1 After Regain,2nd Half,Progress to Next Phase,Successful,46 - 60 min,AGF,,
+171,172,1,3223.7012114572162,3243.2254296528813,O2 Build Up,O2 Build Up,O1 to O2,2nd Half,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,AGF,,
+172,173,1,3256.8178579195487,3278.8427486732153,D3 Middle / Lower Pressing,,D3 Press on Throw-In,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,AGF,,
+173,174,1,3278.288518449882,3302.2343715882153,O1 Play from the Back,O1 Play from the Back,O1 After Regain,2nd Half,Progress to Next Phase,Successful,46 - 60 min,AGF,,
+174,175,1,3287.8814888888887,3307.8814888888887,BIDS,,,,,,,AGF,,
+175,176,1,3288.1382739608816,3319.172361185549,O3 Break Through,O3 Break Through,Early Through Pass or Cross,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Successful,46 - 60 min,AGF,True,Established Play
+176,177,1,3297.999666287882,3307.3034095182147,O2 Build Up,O2 Build Up,O1 to O2,2nd Half,Progress to Next Phase,Successful,46 - 60 min,AGF,,
+177,178,1,3300.173324032549,3323.904269530549,O4 Finishing,O4 Finishing,Chipball,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,AGF,,Established Play
+178,179,1,3335.529516619215,3358.8170527252146,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,46 - 60 min,AGF,,
+179,180,1,3343.708976182882,3365.5483422345483,D4 Defending the Box,,Square Pass,2nd Half,Intercepted by Defence,Successful,46 - 60 min,AGF,,Established Play
+180,181,1,3366.141981030549,3380.737959682548,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,2nd Half,Progress to Next Phase,Successful,46 - 60 min,AGF,,
+181,182,1,3368.3696721285482,3405.8596671142154,O3 Break Through,O3 Break Through,Wide Link Up Play,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Successful,46 - 60 min,AGF,,Established Play
+182,183,1,3376.447645884215,3387.731357793216,O2 Build Up,O2 Build Up,O1 to O2,2nd Half,Progress to Next Phase,Successful,46 - 60 min,AGF,,
+183,184,1,3387.026529862216,3409.527498684549,O4 Finishing,O4 Finishing,Chipball,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,AGF,,Established Play
+184,185,1,3416.618576836215,3462.512804662549,O4 Finishing,O4 Finishing,Back Area,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,AGF,,Lateral Free Kick
+185,186,1,3448.1216759542153,3459.1216759542153,off free kick,,,2nd Half,,,,AGF,,
+186,187,1,3468.1994677178827,3503.826898246216,O4 Finishing,O4 Finishing,Front Area,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,AGF,,Corner Kick
+187,188,1,3487.125573200882,3498.125573200882,off corner,,Front Area,2nd Half,,,,AGF,,
+188,189,1,3495.4227437808822,3507.2812399455484,D1 Counterpress,,After O3/O4,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,AGF,,
+189,190,1,3503.2511410345487,3516.7903552618814,O2 Build Up,O2 Build Up,O2 After Regain,2nd Half,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,AGF,,
+190,191,1,3520.175694702881,3550.5298584352154,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,2nd Half,Stay In Phase,Neutral,46 - 60 min,AGF,,
+191,192,1,3543.3274332798824,3571.6888557002158,D4 Defending the Box,,Short Throw-In,2nd Half,,,46 - 60 min,AGF,,Throw In
+192,193,1,3561.2093142362155,3572.2093142362155,def throw,,Short Throw-In,2nd Half,Intercepted by Defence,Successful,,AGF,,
+193,194,1,3570.787506806548,3619.1747317935483,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,46 - 60 min,AGF,,
+194,195,1,3604.501469836215,3623.9793266555494,D4 Defending the Box,,Chipball,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,AGF,,Established Play
+195,196,1,3622.0095653242156,3643.6365481605485,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,2nd Half,Progress to Next Phase,Successful,46 - 60 min,AGF,,
+196,197,1,3639.361381627548,3663.1921144385483,O2 Build Up,O2 Build Up,O1 to O2,2nd Half,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,AGF,,
+197,198,1,3654.2084024125484,3675.9558838522157,D1 Counterpress,,After O2 build-up,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,AGF,,
+198,199,1,3672.276595639882,3745.5862912842163,O2 Build Up,O2 Build Up,O2 After Regain,2nd Half,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,AGF,,
+199,200,1,3679.5310228053154,3755.350930504,BIDS,,,,,,,AGF,,
+200,201,1,3736.750719027216,3751.979300578883,D1 Counterpress,,After O2 build-up,2nd Half,Establishing Pressing,Neutral,46 - 60 min,AGF,,
+201,202,1,3750.0806483262154,3816.329063307549,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,Stay In Phase,Neutral,46 - 60 min,AGF,,
+202,203,1,3806.983065814215,3832.609184093881,D4 Defending the Box,,Short Throw-In,2nd Half,,,46 - 60 min,AGF,,Throw In
+203,204,1,3817.6065747002162,3837.7782877835493,D4 Defending the Box,,Chipball,2nd Half,Intercepted by Defence,Successful,46 - 60 min,AGF,,Established Play
+204,205,1,3823.5329179818823,3834.5329179818823,def throw,,Short Throw-In,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,,AGF,,
+205,206,1,3838.884694409549,3864.7675571325485,O2 Build Up,O2 Build Up,O2 After Regain,2nd Half,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,AGF,,
+206,207,1,3856.7105243338824,3868.9422450442157,D1 Counterpress,,After O2 build-up,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,AGF,,
+207,208,1,3864.834325829215,3880.2698549732154,O2 Build Up,O2 Build Up,O2 After Regain,2nd Half,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,AGF,,
+208,209,1,3882.6607465792154,3903.6522811648815,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,AGF,,
+209,210,1,3910.3773481478815,3924.342971981882,O2 Build Up,O2 Build Up,O2 Throw-In,2nd Half,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,AGF,,
+210,211,1,3923.2762243715483,3951.472602496549,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,AGF,,
+211,212,1,3923.438777777778,3953.438777777778,Bench,,,,,,,AGF,True,
+212,213,1,3939.5685153475483,3961.391294402549,D4 Defending the Box,,Through Pass,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,AGF,,Established Play
+213,214,1,3947.8353563468822,3982.604480269882,D4 Defending the Box,,Central Area,2nd Half,,,61 - 75 min,AGF,,Corner Kick
+214,215,1,3972.7039051958823,3983.7039051958823,def corner,,Central Area,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,,AGF,,
+215,216,1,3977.7516555555558,3997.7516555555558,Ndividual,,,,,,,AGF,True,
+216,217,1,3985.4862587012153,4000.1448180908824,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,Direct to O3/O4 OFF Transit,Neutral,61 - 75 min,AGF,,
+217,218,1,3988.4741373376096,3996.1847666666663,O3 Break Through,O3 Break Through,D3 Win Ball Low/Middle,,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,AGF,,Transition
+218,219,1,4003.7092819228824,4057.5847262638813,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,AGF,,
+219,220,1,4023.8653472586548,4063.520731055549,D4 Defending the Box,,Through Pass,2nd Half,Intercepted by Defence,Successful,61 - 75 min,AGF,True,Established Play
+220,221,1,4052.397811486999,4063.0931123099986,O1 Play from the Back,O1 Play from the Back,O1 After Regain,,Progress to Next Phase,Successful,61 - 75 min,AGF,,
+221,222,1,4059.293620954998,4116.8607,O2 Build Up,O2 Build Up,O1 to O2,,Progress to Next Phase,Successful,61 - 75 min,AGF,,
+222,223,1,4087.1710555555555,4107.1710555555555,BIDS,,,,,,,AGF,,
+223,224,1,4093.3824302489993,4118.286556957999,O4 Finishing,O4 Finishing,Chipball,,Intercepted by Defence,Unsuccessful,61 - 75 min,AGF,,Established Play
+224,225,1,4094.9828020350005,4116.788939730001,O3 Break Through,O3 Break Through,Early Through Pass or Cross,,"Cross, Shot, Set-Piece or Box Entry",Successful,61 - 75 min,AGF,,Established Play
+225,226,1,4120.187375136,4144.186808702996,D3 High Pressing,,After Ball Loss,,"Intercept. -> Estab. (O1, O2, O3)",Successful,61 - 75 min,AGF,,
+226,227,1,4145.418691202216,4178.107755903882,O1 Play from the Back,O1 Play from the Back,O1 After Regain,2nd Half,Progress to Next Phase,Successful,61 - 75 min,AGF,,
+227,228,1,4173.876295803215,4202.395296975215,O2 Build Up,O2 Build Up,O1 to O2,2nd Half,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,AGF,,
+228,229,1,4194.498431778,4221.188005649,D4 Defending the Box,,Pass Infront of Backline,,Intercepted by Defence,Successful,61 - 75 min,AGF,,Established Play
+229,230,1,4201.92048,4231.92048,Bench,,,,,,,AGF,True,
+230,231,1,4202.455299925881,4207.514650941974,D3 High Pressing,,D3 Press on Throw-In,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Successful,61 - 75 min,AGF,,
+231,232,1,4217.390712879999,4257.6667022398815,O2 Build Up,O2 Build Up,O2 After Regain,2nd Half,Progress to Next Phase,Successful,61 - 75 min,AGF,,
+232,233,1,4239.103326303548,4278.069448175214,O3 Break Through,O3 Break Through,Wide Link Up Play,2nd Half,Keep The Ball,Neutral,61 - 75 min,AGF,,Established Play
+233,234,1,4291.784246974948,4314.964663180205,O2 Build Up,O2 Build Up,O2 Free Kick,2nd Half,Keep The Ball,Neutral,61 - 75 min,AGF,,
+234,235,1,4309.197430374998,4340.485580354001,O3 Break Through,O3 Break Through,Early Through Pass or Cross,,"Cross, Shot, Set-Piece or Box Entry",Successful,61 - 75 min,AGF,,Established Play
+235,236,1,4313.893520290997,4340.777622904001,O4 Finishing,O4 Finishing,Chipball,,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,AGF,,Established Play
+236,237,1,4313.897919854998,4328.486127335997,O1 Play from the Back,O1 Play from the Back,O2 to O1,,Progress to O3-O4,Successful,61 - 75 min,AGF,,
+237,238,1,4322.7906555555555,4342.7906555555555,Ndividual,,,,,,,AGF,True,
+238,239,1,4357.194261330998,4377.584724383999,D3 High Pressing,,D3 Press on Throw-In,,"Intercept. -> Estab. (O1, O2, O3)",Successful,61 - 75 min,AGF,,
+239,240,1,4380.583907350883,4419.278623696549,O2 Build Up,O2 Build Up,O2 Throw-In,2nd Half,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,AGF,,
+240,241,1,4461.8470237632155,4489.945317145883,D3 High Pressing,,D3 Goal Kick or Free Kick,2nd Half,Stay In Phase,Neutral,61 - 75 min,AGF,,
+241,242,1,4487.779976983216,4505.829236122883,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,61 - 75 min,AGF,,
+242,243,1,4511.018344444445,4541.018344444445,Bench,,,,,,,AGF,True,
+243,244,1,4512.196928915882,4519.289744881882,O2 Build Up,O2 Build Up,O2 Free Kick,2nd Half,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,AGF,,
+244,245,1,4517.6030247802155,4541.41756301555,D3 High Pressing,,After Ball Loss,2nd Half,D4 Chance,Unsuccessful,61 - 75 min,AGF,,
+245,246,1,4526.819613430882,4554.409709092548,D4 Defending the Box,,Pass Infront of Backline,2nd Half,Chance,Unsuccessful,61 - 75 min,AGF,,Established Play
+246,247,1,4560.640788528883,4586.465919216882,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,2nd Half,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,AGF,,
+247,248,1,4579.261379169215,4592.731588988216,D2 Finding Balance,,After Ball Loss,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,61 - 75 min,AGF,,
+248,249,1,4588.698137669999,4597.394064146001,O1 Play from the Back,O1 Play from the Back,O1 After Regain,,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,AGF,,
+249,250,1,4607.297569912882,4638.215291299215,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,61 - 75 min,AGF,,
+250,251,1,4638.0475759885485,4655.608107792548,D3 Middle / Lower Pressing,,D3 Press on Throw-In,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,AGF,,
+251,252,1,4641.507399858881,4660.902672146549,D4 Defending the Box,,1v1,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,AGF,True,Established Play
+252,253,1,4710.773030456686,4729.215949211551,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,2nd Half,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,AGF,,
+253,254,1,4728.006664506549,4758.828927783548,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,Direct to O3/O4 OFF Transit,Successful,61 - 75 min,AGF,,
+254,255,1,4732.798564746999,4755.698324109,D4 Defending the Box,,Chipball,,OFF Transition,Successful,61 - 75 min,AGF,,Established Play
+255,256,1,4743.42639780555,4769.134628489883,O3 Break Through,O3 Break Through,D3 Win Ball Low/Middle,2nd Half,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,AGF,,Transition
+256,257,1,4769.384673071549,4797.206983787215,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,AGF,,
+257,258,1,4782.1500220955495,4802.718007613548,D4 Defending the Box,,Chipball,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,AGF,,Established Play
+258,259,1,4866.283916205548,4908.428667141548,D4 Defending the Box,,Front Area,2nd Half,Chance,Unsuccessful,76 - 90 min,AGF,,Corner Kick
+259,260,1,4881.789411245549,4892.789411245549,def corner,,Front Area,2nd Half,,,,AGF,,
+260,261,1,4901.498618475,4930.682914490998,O3 Break Through,O3 Break Through,Central Play Infront of Backline,,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,AGF,,Established Play
+261,262,1,4906.667735749215,4924.190256660215,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,2nd Half,Progress to O3-O4,Successful,76 - 90 min,AGF,,
+262,263,1,4948.190836006215,4981.672288717882,D3 Middle / Lower Pressing,,D3 Press on Throw-In,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,76 - 90 min,AGF,,
+263,264,1,4966.505550350883,4987.001533987881,D4 Defending the Box,,Chipball,2nd Half,Intercepted by Defence,Successful,76 - 90 min,AGF,True,Established Play
+264,265,1,4984.039991324882,4998.191807464216,O2 Build Up,O2 Build Up,O2 After Regain,2nd Half,Stay In Phase,Neutral,76 - 90 min,AGF,,
+265,266,1,5062.498296593001,5079.902011111111,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,,Progress to Next Phase,Successful,76 - 90 min,AGF,,
+266,267,1,5069.535994706215,5092.665531345881,O2 Build Up,O2 Build Up,O2 Free Kick,2nd Half,Progress to O4,Successful,76 - 90 min,AGF,,
+267,268,1,5073.549204427549,5097.918568187548,O3 Break Through,O3 Break Through,1v1 Wide / Halfspace,2nd Half,Lead to O4 chance,Successful,76 - 90 min,AGF,,Established Play
+268,269,1,5078.684708106881,5101.351678839883,O4 Finishing,O4 Finishing,Square Pass,2nd Half,Open Chance,Successful,76 - 90 min,AGF,,Established Play
+269,270,1,5083.599112595548,5106.599112595548,Goal FCN,,Established Play,2nd Half,,,,AGF,,
+270,271,1,5114.1005888888885,5134.1005888888885,Ndividual,,,,,,,AGF,True,
+271,272,1,5158.132018637882,5173.797132910215,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,2nd Half,Stay In Phase,Neutral,76 - 90 min,AGF,,
+272,273,1,5172.761704540215,5202.537503705882,D3 Middle / Lower Pressing,,D3 Press on Throw-In,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,76 - 90 min,AGF,,
+273,274,1,5187.707719147882,5207.135844778215,D4 Defending the Box,,Chipball,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,AGF,,Established Play
+274,275,1,5206.766966666667,5226.766966666667,BIDS,,,,,,,AGF,,
+275,276,1,5207.7954666,5217.373696988002,O1 Play from the Back,O1 Play from the Back,,,Progress to Next Phase,Successful,76 - 90 min,AGF,,
+276,277,1,5216.036425392717,5222.535690144196,O2 Build Up,O2 Build Up,O1 to O2,2nd Half,Keep The Ball,Neutral,76 - 90 min,AGF,,
+277,278,1,5222.742533333333,5245.480586127997,O1 Play from the Back,O1 Play from the Back,O2 to O1,,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,AGF,,
+278,279,1,5247.999397723215,5267.179670232215,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,2nd Half,,,76 - 90 min,AGF,,
+279,280,1,5262.179670232215,5272.018412222882,O2 Build Up,O2 Build Up,O2 Throw-In,2nd Half,Stay In Phase,Neutral,76 - 90 min,AGF,,
+280,281,1,5269.720534999882,5278.910971784882,O1 Play from the Back,O1 Play from the Back,O2 to O1,2nd Half,Progress to Next Phase,Successful,76 - 90 min,AGF,,
+281,282,1,5274.810911632216,5295.763350246776,O2 Build Up,O2 Build Up,O1 to O2,2nd Half,Progress to Next Phase,Successful,76 - 90 min,AGF,,
+282,283,1,5276.497172810999,5304.685146492001,O3 Break Through,O3 Break Through,1v1 Wide / Halfspace,,Lead to O4 chance,Successful,76 - 90 min,AGF,,Established Play
+283,284,1,5287.563471398882,5314.659010327216,O4 Finishing,O4 Finishing,Cutback,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,AGF,,Established Play
+284,285,1,5317.633129770216,5344.650335227881,D3 High Pressing,,D3 Goal Kick or Free Kick,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,76 - 90 min,AGF,,
+285,286,1,5329.618531736549,5350.413735397215,D4 Defending the Box,,Through Pass,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,AGF,True,Established Play
+286,287,1,5340.4432652248815,5370.103570463549,D4 Defending the Box,,Central Area,2nd Half,,,76 - 90 min,AGF,,Corner Kick
+287,288,1,5352.666648465882,5382.069988866215,O3 Break Through,O3 Break Through,Quick Restart,2nd Half,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,AGF,,Transition
+288,289,1,5362.384700703882,5373.384700703882,def corner,O3 Break Through,Central Area,2nd Half,Intercepted by Defence,Successful,,AGF,,
+289,290,1,5387.4683399032165,5426.189863493215,D3 Middle / Lower Pressing,,D3 Press on Throw-In,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,76 - 90 min,AGF,,
+290,291,1,5422.379704342215,5436.809570053549,O2 Build Up,O2 Build Up,O2 After Regain,2nd Half,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,AGF,,
+291,292,1,5435.1532076148815,5447.308315132548,D3 Middle / Lower Pressing,,D3 Press on Throw-In,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,76 - 90 min,AGF,,
+292,293,1,5449.0319990818825,5473.325533193549,O2 Build Up,O2 Build Up,O2 Throw-In,2nd Half,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,AGF,,
+293,294,1,5482.625201088549,5503.113992154882,D3 Middle / Lower Pressing,,D3 Press on Throw-In,2nd Half,Stay In Phase,Neutral,76 - 90 min,AGF,,
+294,295,1,5501.917400357548,5528.515513951548,D3 Middle / Lower Pressing,,D3 Press on Throw-In,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,76 - 90 min,AGF,,
+295,296,1,5513.715850048882,5534.136216820216,D4 Defending the Box,,Pass Infront of Backline,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,AGF,True,Established Play
+296,297,1,5542.265636904882,5565.866389108549,O2 Build Up,O2 Build Up,O2 Throw-In,2nd Half,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,AGF,,
+297,298,1,5564.064995964216,5593.008981598881,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,Direct to O3/O4 OFF Transit,Successful,76 - 90 min,AGF,,
+298,299,1,5574.381554679549,5601.029583023881,O3 Break Through,O3 Break Through,D3 Win Ball Low/Middle,2nd Half,Lead to O4 chance,Successful,76 - 90 min,AGF,,Transition
+299,300,1,5581.739205840215,5605.013334743215,O4 Finishing,O4 Finishing,Through Pass,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,AGF,,Transition
+300,301,1,5618.401313995881,5642.227420017549,O4 Finishing,O4 Finishing,Short Variation,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,AGF,,Corner Kick
+301,302,1,5624.287742609549,5669.9781013962165,O4 Finishing,O4 Finishing,Short Variation,2nd Half,DEF Transition,Unsuccessful,76 - 90 min,AGF,,Corner Kick
+302,303,1,5627.198677106998,5638.198677106998,off corner,,,,,,,AGF,,
+303,304,1,5645.296195053002,5669.888526013001,D2 Finding Balance,,After Offensive Set-Piece,,Establishing Pressing,Neutral,76 - 90 min,AGF,,
+304,305,1,5649.098137470997,5660.098137470997,off corner,,,,,,,AGF,,
+305,306,1,5671.011152403549,5713.360050698215,D3 Middle / Lower Pressing,,D3 Press on Throw-In,2nd Half,Stay In Phase,Neutral,76 - 90 min,AGF,,
+306,307,1,5715.235336620215,5726.922774681549,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,90+ min,AGF,,
+307,308,1,5715.294066680883,5745.648286215881,D4 Defending the Box,,Central Area,2nd Half,,,90+ min,AGF,,Corner Kick
+308,309,1,5737.39838077855,5748.39838077855,def corner,,Central Area,2nd Half,Intercepted by Defence,Successful,,AGF,,
+309,310,1,5750.845737802549,5762.736052573882,O2 Build Up,O2 Build Up,O2 After Regain,2nd Half,Ball Loss --> D3 Press,Unsuccessful,90+ min,AGF,,
+310,311,1,5758.998539255998,5781.580549740999,D4 Defending the Box,,Chipball,,Intercepted by Defence,Successful,90+ min,AGF,,Established Play
+311,312,1,5761.611880434217,5785.441161009881,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,90+ min,AGF,,
+312,313,1,5799.28676347655,5820.894209719216,O2 Build Up,O2 Build Up,O2 Throw-In,2nd Half,Ball Loss --> D3 Press,Unsuccessful,90+ min,AGF,,
+313,314,1,5819.622621571547,5847.334746596882,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,Stay In Phase,Neutral,90+ min,AGF,,
+314,315,1,5824.835988888889,5854.835988888889,Bench,,,,,,,AGF,True,
+315,316,1,5836.098774475502,5860.998658535882,D4 Defending the Box,,Chipball,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Neutral,90+ min,AGF,True,Established Play
+316,317,1,5845.182585932882,5854.510765216883,D3 Middle / Lower Pressing,,D3 Press on Throw-In,2nd Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,90+ min,AGF,,
+317,318,1,5878.554364379215,5891.423413468883,O1 Play from the Back,O1 Play from the Back,O1 Goal Kick or Free Kick,2nd Half,Ball Loss --> D3 Press,Unsuccessful,90+ min,AGF,,
+318,319,1,5890.2923611232145,5913.5839087948825,D3 Middle / Lower Pressing,,After Ball Loss,2nd Half,D4 Chance,Unsuccessful,90+ min,AGF,,
+319,320,1,5893.564773753702,5927.0222946028825,Goal OPP,,Established Play,2nd Half,,,,AGF,True,
+320,321,1,5898.480943995215,5919.25020900255,D4 Defending the Box,,Chipball,2nd Half,Open Chance,Unsuccessful,90+ min,AGF,,Established Play
+321,322,1,5937.667129445883,5955.491253329548,O2 Build Up,O2 Build Up,O2 Free Kick,2nd Half,Ball Loss --> D3 Press,Unsuccessful,90+ min,AGF,,
+322,323,1,5952.798405595996,5972.593216106998,D4 Defending the Box,,Square Pass,,"Cross, Shot, Set-Piece or Box Entry",Neutral,90+ min,AGF,True,Established Play
+323,324,1,5954.313477777778,5974.313477777778,Ndividual,,,,,,,AGF,True,
+324,325,1,5954.3685187005485,6001.449205240882,D3 Middle / Lower Pressing,,D3 Goal Kick or Free Kick,2nd Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,90+ min,AGF,,
+325,326,1,5968.095034706997,5990.685869711996,D4 Defending the Box,,Chipball,,"Cross, Shot, Set-Piece or Box Entry",Neutral,90+ min,AGF,,Established Play
+326,327,1,5978.797088475,5999.993860381998,D4 Defending the Box,,Chipball,,Intercepted by Defence,Successful,90+ min,AGF,,Established Play
+327,328,1,6005.033440002548,6039.509040256549,O1 Play from the Back,O1 Play from the Back,O1 After Regain,2nd Half,,,90+ min,AGF,,

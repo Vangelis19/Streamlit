@@ -1,0 +1,320 @@
+,code_id,period_id,timestamp,end_timestamp,code,00. Start Phase,Half,02. Situation Type,04. Rating,03. Outcomes,01. Phase
+0,1,1,0.0,2980.4274326440236,KO,O2 Build Up,1st Half,,,,
+1,2,1,1.0369113354490622,19.724670366459904,O2 Build Up,O2 Build Up,1st Half,O2 Free Kick,Neutral,Stay In Phase,
+2,3,1,15.425702533126824,40.224470449460014,O1 Play from the Back,O1 Play from the Back,1st Half,O2 to O1,Successful,Progress to O3-O4,
+3,4,1,21.826439949793425,45.22537186646021,O3 Break Through,O3 Break Through,1st Half,Central Play Infront of Backline,Neutral,Keep The Ball,Established Play
+4,5,1,41.259736325126696,57.726494908126696,O2 Build Up,O2 Build Up,1st Half,O3 to O2,Neutral,Stay In Phase,
+5,6,1,62.556983991126785,82.49298357445987,O2 Build Up,O2 Build Up,1st Half,O2 Free Kick,Neutral,Stay In Phase,
+6,7,1,78.62581465812666,91.95851040845984,O1 Play from the Back,O1 Play from the Back,1st Half,O2 to O1,Unsuccessful,Ball Loss --> D3 Press,
+7,8,1,92.49336757512641,103.7590414911265,D3 Middle / Lower Pressing,,1st Half,D3 Press on Throw-In,Neutral,Stay In Phase,
+8,9,1,99.5926215331268,112.49194811645977,D3 High Pressing,,1st Half,D3 From Low/Med to High,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+9,10,1,109.2258924914601,121.6919781164601,O1 Play from the Back,O1 Play from the Back,1st Half,O1 After Regain,Successful,Progress to Next Phase,
+10,11,1,117.66106882512666,125.42420928279329,O2 Build Up,O2 Build Up,1st Half,O1 to O2,Neutral,Stay In Phase,
+11,12,1,121.12707624145999,134.39119732445977,O1 Play from the Back,O1 Play from the Back,1st Half,O2 to O1,Unsuccessful,Ball Loss --> D3 Press,
+12,13,1,131.06080895012667,142.66068986612652,D3 Middle / Lower Pressing,,1st Half,After Ball Loss,Neutral,Stay In Phase,
+13,14,1,138.62548178346003,160.89342182512655,D3 High Pressing,,1st Half,D3 From Low/Med to High,Successful,Direct to O3/O4 OFF Transit,
+14,15,1,142.55824236612648,166.19331419979335,O3 Break Through,O3 Break Through,1st Half,D3 High Press on Opp. Half,Unsuccessful,Ball Loss --> D3 Press,Transition
+15,16,1,173.96156632512657,200.49332440846013,O3 Break Through,O3 Break Through,1st Half,D3 High Press on Opp. Half,Unsuccessful,Ball Loss --> D3 Press,Transition
+16,17,1,176.95881224112657,192.85767844946025,D3 High Pressing,,1st Half,D3 Goal Kick or Free Kick,Successful,Direct to O3/O4 OFF Transit,
+17,18,1,191.72657328279354,204.66036728346023,D1 Counterpress,,1st Half,After O3/O4,Neutral,Establishing Pressing,
+18,19,1,202.8615735744599,218.49368294979303,D3 High Pressing,,1st Half,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+19,20,1,214.8616675334601,250.39303974145992,O2 Build Up,O2 Build Up,1st Half,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,
+20,21,1,241.29316603345984,252.6935943664596,D1 Counterpress,,1st Half,After O2 build-up,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+21,22,1,250.0287001581267,274.26041265845987,O3 Break Through,O3 Break Through,1st Half,Short Throw-In,Neutral,Keep The Ball,Throw In
+22,23,1,264.76034032479316,289.82899803279327,O3 Break Through,O3 Break Through,1st Half,Long Throw,Successful,"Cross, Shot, Set-Piece or Box Entry",Throw In
+23,24,1,270.72741615812635,293.660564116793,O4 Finishing,O4 Finishing,1st Half,Long Throw,Neutral,"Cross, Shot, Set-Piece or Box Entry",Throw In
+24,25,1,292.2601221584602,337.76083849179327,D3 High Pressing,,1st Half,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+25,26,1,328.59132140812676,379.9630456997933,O4 Finishing,O4 Finishing,1st Half,Short Variation,Neutral,"Cross, Shot, Set-Piece or Box Entry",Corner Kick
+26,27,1,360.2944856164599,377.2944856164599,off corner,,1st Half,,,,
+27,28,1,382.59451394945995,401.99525999145993,D3 High Pressing,,1st Half,After Ball Loss,Successful,Direct to O3/O4 OFF Transit,
+28,29,1,383.3596113247931,406.1613943247932,O3 Break Through,O3 Break Through,1st Half,D3 High Press on Opp. Half,Unsuccessful,Ball Loss --> D3 Press,Transition
+29,30,1,410.52784969979285,428.6622048664602,D3 High Pressing,,1st Half,D3 Press on Throw-In,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+30,31,1,427.3279764497933,473.5950652414596,O4 Finishing,O4 Finishing,1st Half,Back Area,Neutral,"Cross, Shot, Set-Piece or Box Entry",Lateral Free Kick
+31,32,1,450.59516495012696,467.59516495012696,off free kick,,1st Half,,,,
+32,33,1,486.02962545012696,507.3955016167933,D3 High Pressing,,1st Half,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,
+33,34,1,503.43086086679335,520.4633606161267,D3 Middle / Lower Pressing,,1st Half,D3 From High to Med/Low,Neutral,Stay In Phase,
+34,35,1,518.5956525334599,540.5954897414598,D3 Middle / Lower Pressing,,1st Half,D3 Press on Throw-In,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+35,36,1,551.0312826164601,570.662317283127,O1 Play from the Back,O1 Play from the Back,1st Half,O1 Goal Kick or Free Kick,Unsuccessful,Ball Loss --> D3 Press,
+36,37,1,569.4301252411269,579.6293472827934,D3 Middle / Lower Pressing,,1st Half,After Ball Loss,Neutral,Stay In Phase,
+37,38,1,575.7313644084597,587.3960610751267,D3 High Pressing,,1st Half,D3 From Low/Med to High,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+38,39,1,583.7956086997934,608.3627347831267,O1 Play from the Back,O1 Play from the Back,1st Half,O1 After Regain,Successful,Progress to O3-O4,
+39,40,1,589.3626328247931,619.06488624146,O3 Break Through,O3 Break Through,1st Half,Central Play Infront of Backline,Successful,"Cross, Shot, Set-Piece or Box Entry",Established Play
+40,41,1,619.1319116577936,642.6987688244596,O2 Build Up,O2 Build Up,1st Half,O2 Free Kick,Unsuccessful,Ball Loss --> D3 Press,
+41,42,1,634.6973345331264,657.8299712827932,D1 Counterpress,,1st Half,After O2 build-up,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+42,43,1,655.6643280327932,681.6967876994602,O1 Play from the Back,O1 Play from the Back,1st Half,O1 Goal Kick or Free Kick,Neutral,Stay In Phase,
+43,44,1,685.5962798247931,705.0302339911265,O2 Build Up,O2 Build Up,1st Half,O2 Free Kick,Unsuccessful,Ball Loss --> D3 Press,
+44,45,1,703.4301651994597,722.0633962834598,D3 Middle / Lower Pressing,,1st Half,D3 Press on Throw-In,Neutral,Stay In Phase,
+45,46,1,717.8979646164601,732.3307271581266,D3 High Pressing,,1st Half,D3 From Low/Med to High,Successful,Direct to O3/O4 OFF Transit,
+46,47,1,720.9303172417934,745.26477228346,O3 Break Through,O3 Break Through,1st Half,D3 High Press on Opp. Half,Successful,"Cross, Shot, Set-Piece or Box Entry",Transition
+47,48,1,726.0992955751266,748.9303388667935,O4 Finishing,O4 Finishing,1st Half,Square Pass,Neutral,"Cross, Shot, Set-Piece or Box Entry",Transition
+48,49,1,745.3321571581267,772.5308254911266,D3 High Pressing,,1st Half,After Ball Loss,Neutral,Stay In Phase,
+49,50,1,761.8657857831269,792.6652930751267,O3 Break Through,O3 Break Through,1st Half,Transition After CP,Successful,"Cross, Shot, Set-Piece or Box Entry",Transition
+50,51,1,765.7989540751269,780.3308523244597,D2 Finding Balance,,1st Half,D3 High Press on Opp. Half,Successful,Direct to O3/O4 OFF Transit,
+51,52,1,773.6645505744601,795.8664918664598,O4 Finishing,O4 Finishing,1st Half,Square Pass,Neutral,"Cross, Shot, Set-Piece or Box Entry",Transition
+52,53,1,796.8667349494599,850.1003677001263,O4 Finishing,O4 Finishing,1st Half,Central Area,Successful,Open Chance,Corner Kick
+53,54,1,818.0315645751268,835.0315645751268,off corner,,1st Half,,,,
+54,55,1,848.5979079501267,871.8652000751264,D3 High Pressing,,1st Half,After Ball Loss,Neutral,Stay In Phase,
+55,56,1,866.8339466994597,885.9339684917933,D4 Defending the Box,,1st Half,Pass Infront of Backline,Neutral,"Cross, Shot, Set-Piece or Box Entry",Established Play
+56,57,1,868.2327708251264,881.9322340751263,D3 Middle / Lower Pressing,,1st Half,D3 From High to Med/Low,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+57,58,1,884.36496740846,919.0650287834601,O1 Play from the Back,O1 Play from the Back,1st Half,O1 Goal Kick or Free Kick,Unsuccessful,Ball Loss --> D3 Press,
+58,59,1,917.19942399146,939.56550411646,O2 Build Up,O2 Build Up,1st Half,O2 Throw-In,Unsuccessful,Ball Loss --> D3 Press,
+59,60,1,931.9988350747935,946.1670690751268,D1 Counterpress,,1st Half,After O2 build-up,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+60,61,1,940.7326613661264,952.58355507446,D1 Counterpress,,1st Half,After O2 build-up,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+61,62,1,942.5981067414602,949.6318529917933,O2 Build Up,O2 Build Up,1st Half,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,
+62,63,1,948.5997575334598,966.1678398664601,O2 Build Up,O2 Build Up,1st Half,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,
+63,64,1,957.0655887417936,968.9988606584602,D1 Counterpress,,1st Half,After O2 build-up,Neutral,Establishing Pressing,
+64,65,1,966.9988491577931,1000.2660349911271,D3 High Pressing,,1st Half,After Ball Loss,Neutral,Stay In Phase,
+65,66,1,991.4990323247935,1006.4994493244599,D2 Finding Balance,,1st Half,D3 High Press on Opp. Half,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+66,67,1,1012.6000116581267,1065.7996032001272,D4 Defending the Box,,1st Half,Front Area,Successful,Intercepted by Defence,Corner Kick
+67,68,1,1037.26652811646,1054.26652811646,def corner,,1st Half,,,,
+68,69,1,1095.1024428664598,1111.8683379911265,O1 Play from the Back,O1 Play from the Back,1st Half,O1 Goal Kick or Free Kick,Unsuccessful,Ball Loss --> D3 Press,
+69,70,1,1104.4339847417937,1117.40259969946,D2 Finding Balance,,1st Half,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+70,71,1,1113.7339697001264,1124.43385836646,O1 Play from the Back,O1 Play from the Back,1st Half,O1 After Regain,Unsuccessful,Ball Loss --> D3 Press,
+71,72,1,1120.4678309081266,1175.33454999146,D3 Middle / Lower Pressing,,1st Half,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+72,73,1,1174.833689199793,1190.60044715846,O1 Play from the Back,O1 Play from the Back,1st Half,O1 After Regain,Unsuccessful,Ball Loss --> D3 Press,
+73,74,1,1187.4014659914599,1205.6020382834602,D3 Middle / Lower Pressing,,1st Half,After Ball Loss,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+74,75,1,1191.60176132446,1211.5003990751263,D4 Defending the Box,,1st Half,1v1,Neutral,"Cross, Shot, Set-Piece or Box Entry",Transition
+75,76,1,1203.9700564501268,1272.0019561997935,D4 Defending the Box,,1st Half,Central Area,Neutral,"Cross, Shot, Set-Piece or Box Entry",Corner Kick
+76,77,1,1244.335843991127,1261.335843991127,def corner,,1st Half,,,,
+77,78,1,1275.869269741793,1298.3686508251267,O1 Play from the Back,O1 Play from the Back,1st Half,O1 Goal Kick or Free Kick,Unsuccessful,Ball Loss --> D3 Press,
+78,79,1,1295.2021134494598,1312.0690878251269,D3 Middle / Lower Pressing,,1st Half,After Ball Loss,Neutral,Stay In Phase,
+79,80,1,1307.9020021167935,1319.3686431997937,D3 High Pressing,,1st Half,D3 From Low/Med to High,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+80,81,1,1311.1025082834599,1337.5354031581267,O3 Break Through,O3 Break Through,1st Half,Short Throw-In,Unsuccessful,Ball Loss --> D3 Press,Throw In
+81,82,1,1334.501814532793,1342.1358994497934,D3 Middle / Lower Pressing,,1st Half,After Ball Loss,Neutral,Stay In Phase,
+82,83,1,1341.9353018244599,1370.4020913244601,D3 Middle / Lower Pressing,,1st Half,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+83,84,1,1366.70238815846,1388.6715424917934,O1 Play from the Back,O1 Play from the Back,1st Half,O1 After Regain,Unsuccessful,Ball Loss --> D3 Press,
+84,85,1,1385.8638063664598,1417.1362565747932,D3 Middle / Lower Pressing,,1st Half,After Ball Loss,Successful, ,
+85,86,1,1413.3693439497931,1420.669579616793,O1 Play from the Back,O1 Play from the Back,1st Half,O1 After Regain,Successful,Progress to Next Phase,
+86,87,1,1416.5699832831265,1430.9340987001265,O2 Build Up,O2 Build Up,1st Half,O1 to O2,Neutral,Stay In Phase,
+87,88,1,1426.9362553667936,1447.3368654914598,O1 Play from the Back,O1 Play from the Back,1st Half,O2 to O1,Successful,Progress to Next Phase,
+88,89,1,1444.9719272001266,1452.90327315846,O2 Build Up,O2 Build Up,1st Half,O1 to O2,Unsuccessful,Ball Loss --> D3 Press,
+89,90,1,1458.6698193244604,1473.436347700127,D3 High Pressing,,1st Half,After Ball Loss,Neutral,Stay In Phase,
+90,91,1,1469.6371606997932,1479.0680502414607,D3 Middle / Lower Pressing,,1st Half,D3 From High to Med/Low,Neutral,Stay In Phase,
+91,92,1,1474.8366877414594,1493.104103408127,D3 High Pressing,,1st Half,D3 From Low/Med to High,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+92,93,1,1489.5041113667937,1498.8709405327934,O1 Play from the Back,O1 Play from the Back,1st Half,O1 After Regain,Neutral,Stay In Phase,
+93,94,1,1494.7040220327926,1511.872470991127,O2 Build Up,O2 Build Up,1st Half,O1 to O2,Neutral,Stay In Phase,
+94,95,1,1508.6699424494602,1524.9058543664603,O1 Play from the Back,O1 Play from the Back,1st Half,O2 to O1,Unsuccessful,Ball Loss --> D3 Press,
+95,96,1,1522.205107533127,1541.1705599077932,D3 High Pressing,,1st Half,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,
+96,97,1,1534.204239575127,1557.6041023251266,D4 Defending the Box,,1st Half,Chipball,Neutral,"Cross, Shot, Set-Piece or Box Entry",Established Play
+97,98,1,1538.4365439081264,1548.9370723244601,D3 Middle / Lower Pressing,,1st Half,D3 From High to Med/Low,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+98,99,1,1553.806157408127,1578.8064329497938,D3 Middle / Lower Pressing,,1st Half,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+99,100,1,1574.5037942411263,1586.4364494917934,O1 Play from the Back,O1 Play from the Back,1st Half,O1 Goal Kick or Free Kick,Successful,Progress to Next Phase,
+100,101,1,1590.405322241793,1610.8732299501269,O2 Build Up,O2 Build Up,1st Half,O2 Free Kick,Neutral,Stay In Phase,
+101,102,1,1606.770996866794,1638.1067322831263,O1 Play from the Back,O1 Play from the Back,1st Half,O2 to O1,Neutral,Stay In Phase,
+102,103,1,1634.43822474146,1649.1381460331268,O1 Play from the Back,O1 Play from the Back,1st Half,O1 After Regain,Neutral,Stay In Phase,
+103,104,1,1644.8404347834598,1667.271539533127,O4 Finishing,O4 Finishing,1st Half,Square Pass,Neutral,"Cross, Shot, Set-Piece or Box Entry",Established Play
+104,105,1,1645.10680315846,1663.9403287834602,O2 Build Up,O2 Build Up,1st Half,O1 to O2,Successful,Progress to O4,
+105,106,1,1662.9713497827934,1728.1074064917932,O4 Finishing,O4 Finishing,1st Half,Front Area,Unsuccessful,Intercepted by Defence,Corner Kick
+106,107,1,1704.00599315846,1721.00599315846,off corner,,1st Half,,,,
+107,108,1,1728.1077904917936,1752.4723888244598,D3 High Pressing,,1st Half,D3 Goal Kick or Free Kick,Successful,Direct to O3/O4 OFF Transit,
+108,109,1,1734.140793616126,1759.6395172001262,O3 Break Through,O3 Break Through,1st Half,D3 High Press on Opp. Half,Neutral,Keep The Ball,Transition
+109,110,1,1755.7391442827939,1802.205613574793,O2 Build Up,O2 Build Up,1st Half,O3 to O2,Neutral,Stay In Phase,
+110,111,1,1800.5392250331274,1822.6059731994599,O2 Build Up,O2 Build Up,1st Half,O2 After Regain,Successful,Progress to Next Phase,
+111,112,1,1803.606380782793,1831.9411735751257,O3 Break Through,O3 Break Through,1st Half,Central Play Infront of Backline,Neutral,Keep The Ball,Established Play
+112,113,1,1828.3717865744597,1882.4736771994599,O2 Build Up,O2 Build Up,1st Half,O3 to O2,Unsuccessful,Ball Loss --> D3 Press,
+113,114,1,1888.1069419914602,1907.7064825327934,D3 High Pressing,,1st Half,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+114,115,1,1902.7064825327934,1938.1758548251257,O1 Play from the Back,O1 Play from the Back,1st Half,O1 After Regain,Successful,Progress to Next Phase,
+115,116,1,1934.0745229911265,1943.0403747411258,O2 Build Up,O2 Build Up,1st Half,O1 to O2,Unsuccessful,Ball Loss --> D3 Press,
+116,117,1,1944.0071250331268,1965.608572157793,D3 High Pressing,,1st Half,After Ball Loss,Neutral,Stay In Phase,
+117,118,1,1972.007282450127,2044.64352507446,D3 Middle / Lower Pressing,,1st Half,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,
+118,119,1,2039.9769122001264,2065.17698940846,O3 Break Through,O3 Break Through,1st Half,D3 High Press on Opp. Half,Successful,"Cross, Shot, Set-Piece or Box Entry",Transition
+119,120,1,2040.943558783126,2058.24186236646,D3 High Pressing,,1st Half,D3 From Low/Med to High,Successful,Direct to O3/O4 OFF Transit,
+120,121,1,2046.0103594501263,2068.1099902827928,O4 Finishing,O4 Finishing,1st Half,Pass Infront of Backline,Neutral,"Cross, Shot, Set-Piece or Box Entry",Transition
+121,122,1,2064.274542241793,2089.073374324459,D3 High Pressing,,1st Half,After Ball Loss,Neutral,Stay In Phase,
+122,123,1,2085.043914491126,2100.942015116126,D3 Middle / Lower Pressing,,1st Half,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+123,124,1,2098.17735165846,2112.406452908126,O2 Build Up,O2 Build Up,1st Half,O2 Throw-In,Unsuccessful,Ball Loss --> D3 Press,
+124,125,1,2108.5417643667924,2121.3753046577926,D3 High Pressing,,1st Half,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+125,126,1,2123.242221033459,2146.0110149911256,O3 Break Through,O3 Break Through,1st Half,Short Throw-In,Unsuccessful,Ball Loss --> D3 Press,Throw In
+126,127,1,2150.1078223667923,2177.143043324793,D3 High Pressing,,1st Half,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+127,128,1,2166.3756226161263,2196.575848949793,O3 Break Through,O3 Break Through,1st Half,Wide Link Up Play,Successful,"Cross, Shot, Set-Piece or Box Entry",Established Play
+128,129,1,2173.3762626167936,2185.2760314914594,O2 Build Up,O2 Build Up,1st Half,O3 to O2,Successful,Progress to Next Phase,
+129,130,1,2177.774268033459,2200.2762212831267,O4 Finishing,O4 Finishing,1st Half,Square Pass,Neutral,"Cross, Shot, Set-Piece or Box Entry",Established Play
+130,131,1,2190.5437146994595,2268.0452767834595,O4 Finishing,O4 Finishing,1st Half,Back Area,Neutral,"Cross, Shot, Set-Piece or Box Entry",Corner Kick
+131,132,1,2240.2424277834593,2257.2424277834593,off corner,,1st Half,,,,
+132,133,1,2268.7445029501255,2281.309606866793,D3 High Pressing,,1st Half,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+133,134,1,2277.341982491792,2289.576091116793,O2 Build Up,O2 Build Up,1st Half,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,
+134,135,1,2286.5775168664595,2314.14526861646,D3 High Pressing,,1st Half,After Ball Loss,Unsuccessful,D4 Chance,
+135,136,1,2299.4093933664594,2334.443985032793,D4 Defending the Box,,1st Half,Pass Infront of Backline,Unsuccessful,Chance,Transition
+136,137,1,2453.24563078346,2476.310215783126,O1 Play from the Back,O1 Play from the Back,1st Half,O1 After Regain,Successful,Progress to Next Phase,
+137,138,1,2471.9472615327923,2503.9471971581265,O3 Break Through,O3 Break Through,1st Half,Wide Link Up Play,Successful,"Cross, Shot, Set-Piece or Box Entry",Established Play
+138,139,1,2472.411004575126,2490.747277657793,O2 Build Up,O2 Build Up,1st Half,O1 to O2,Successful,Progress to Next Phase,
+139,140,1,2484.713453075127,2507.5451656581254,O4 Finishing,O4 Finishing,1st Half,Chipball,Neutral,"Cross, Shot, Set-Piece or Box Entry",Established Play
+140,141,1,2506.1114081164596,2529.5121323244593,D3 High Pressing,,1st Half,After Ball Loss,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+141,142,1,2537.246424782793,2576.31344365846,D4 Defending the Box,,1st Half,Back Area,Successful,Intercepted by Defence,Lateral Free Kick
+142,143,1,2557.545370658126,2574.545370658126,def free kick,,1st Half,,,,
+143,144,1,2573.814657866126,2580.34566319946,O1 Play from the Back,O1 Play from the Back,1st Half,O1 After Regain,Unsuccessful,Ball Loss --> D3 Press,
+144,145,1,2577.611225991126,2592.8480832827927,D3 High Pressing,,1st Half,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+145,146,1,2580.478668116793,2603.2470436577933,O3 Break Through,O3 Break Through,1st Half,Quick Restart,Unsuccessful,Ball Loss --> D3 Press,Throw In
+146,147,1,2591.179819282793,2616.9467230331265,O3 Break Through,O3 Break Through,1st Half,Transition After CP,Unsuccessful,Ball Loss --> D3 Press,Transition
+147,148,1,2595.6123256164597,2609.646235199792,D1 Counterpress,,1st Half,After O3/O4,Successful,Direct to O3/O4 OFF Transit,
+148,149,1,2609.78030215846,2621.9470999914593,D1 Counterpress,,1st Half,After O3/O4,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+149,150,1,2619.2797435327934,2667.982080575126,O2 Build Up,O2 Build Up,1st Half,O2 Throw-In,Unsuccessful,Ball Loss --> D3 Press,
+150,151,1,2659.446728700126,2672.836328616793,D1 Counterpress,,1st Half,After O3/O4,Neutral,Establishing Pressing,
+151,152,1,2664.2138250751254,2685.04526711646,D2 Finding Balance,,1st Half,After Ball Loss,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+152,153,1,2723.647870282793,2771.949590575126,D4 Defending the Box,,1st Half,Close Range 16-20 m.,Neutral,"Cross, Shot, Set-Piece or Box Entry",Direct Free Kick
+153,154,1,2751.848815491792,2768.848815491792,def free kick,,1st Half,,,,
+154,155,1,2767.916231324793,2801.0158811994597,O1 Play from the Back,O1 Play from the Back,1st Half,O1 Goal Kick or Free Kick,Neutral,Stay In Phase,
+155,156,1,2800.8144030334597,2810.1829281994596,O1 Play from the Back,O1 Play from the Back,1st Half,O2 to O1,Neutral, ,
+156,157,1,2806.1808444914595,2823.3145857417926,O2 Build Up,O2 Build Up,1st Half,O1 to O2,Unsuccessful,Ball Loss --> D3 Press,
+157,158,1,2819.4477316167927,2848.5068229501258,D3 High Pressing,,1st Half,After Ball Loss,Neutral,Stay In Phase,
+158,159,1,2850.048364741793,2870.54768644946,D3 Middle / Lower Pressing,,1st Half,D3 Press on Throw-In,Neutral,Stay In Phase,
+159,160,1,2866.3147020331267,2880.548052949793,D3 High Pressing,,1st Half,D3 From Low/Med to High,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+160,161,1,2980.4266666666667,2994.4808651855233,D3 Middle / Lower Pressing,,2nd Half,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+161,162,1,2990.882480436189,3000.4838436855243,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 After Regain,Unsuccessful,Ball Loss --> D3 Press,
+162,163,1,2996.7851134765233,3014.281029018855,D3 High Pressing,,2nd Half,After Ball Loss,Neutral,Stay In Phase,
+163,164,1,3011.8839254355225,3036.5801418835226,D3 Middle / Lower Pressing,,2nd Half,D3 Press on Throw-In,Neutral,Stay In Phase,
+164,165,1,3032.3831242581896,3047.7840912125234,D3 High Pressing,,2nd Half,D3 From Low/Med to High,Neutral,Stay In Phase,
+165,166,1,3036.184468074189,3063.7841821348557,O3 Break Through,O3 Break Through,2nd Half,D3 Win Ball Low/Middle,Unsuccessful,Ball Loss --> D3 Press,Transition
+166,167,1,3043.5830186725225,3055.381052865857,D3 Middle / Lower Pressing,,2nd Half,D3 From High to Med/Low,Successful,Direct to O3/O4 OFF Transit,
+167,168,1,3067.3832495898555,3100.5832304725227,D3 High Pressing,,2nd Half,D3 Press on Throw-In,Neutral,Stay In Phase,
+168,169,1,3097.7839331621904,3118.78463574119,D3 High Pressing,,2nd Half,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,
+169,170,1,3110.082946823856,3126.9810978235246,D2 Finding Balance,,2nd Half,D3 High Press on Opp. Half,Neutral,Establishing Pressing,
+170,171,1,3122.6838174491904,3139.182354532857,D3 Middle / Lower Pressing,,2nd Half,D3 From High to Med/Low,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+171,172,1,3123.884323865524,3142.5831132405224,D4 Defending the Box,,2nd Half,Chipball,Successful,Intercepted by Defence,Established Play
+172,173,1,3138.5764363645235,3164.8827170531904,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 After Regain,Neutral,Stay In Phase,
+173,174,1,3160.482500802525,3187.083534953857,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Neutral,Stay In Phase,
+174,175,1,3182.6841100781894,3191.784049667525,O1 Play from the Back,O1 Play from the Back,2nd Half,O2 to O1,Successful,Progress to Next Phase,
+175,176,1,3187.7843751261917,3205.285033375525,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Unsuccessful,Ball Loss --> D3 Press,
+176,177,1,3203.3837375005232,3225.7841674798565,D3 High Pressing,,2nd Half,After Ball Loss,Neutral,Stay In Phase,
+177,178,1,3221.682944562522,3279.082696361523,D3 Middle / Lower Pressing,,2nd Half,D3 From High to Med/Low,Successful,Direct to O3/O4 OFF Transit,
+178,179,1,3259.8842783195237,3284.8833395705246,O3 Break Through,O3 Break Through,2nd Half,After D4 Def. Box,Unsuccessful,Ball Loss --> D3 Press,Transition
+179,180,1,3293.8817901818566,3309.98350041419,D3 High Pressing,,2nd Half,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+180,181,1,3325.48387656619,3350.38559279219,O2 Build Up,O2 Build Up,2nd Half,O2 Throw-In,Neutral,Stay In Phase,
+181,182,1,3346.184308542191,3363.7840117175233,O1 Play from the Back,O1 Play from the Back,2nd Half,O2 to O1,Successful,Progress to Next Phase,
+182,183,1,3356.9822767315245,3373.7833304818555,D2 Finding Balance,,2nd Half,Transition on Transition,Unsuccessful,D4 Chance,
+183,184,1,3358.5835746901894,3378.0798973158567,D4 Defending the Box,,2nd Half,Through Pass,Unsuccessful,Chance,Transition
+184,185,1,3359.4838294261904,3368.8837704668567,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Unsuccessful,Ball Loss --> D3 Press,
+185,186,1,3388.4853413578567,3412.585069887524,D3 Middle / Lower Pressing,,2nd Half,D3 Press on Throw-In,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+186,187,1,3397.2834288035237,3416.486258386857,D4 Defending the Box,,2nd Half,Chipball,Neutral,"Cross, Shot, Set-Piece or Box Entry",Established Play
+187,188,1,3412.184449096191,3430.074457225523,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 After Regain,Neutral,Stay In Phase,
+188,189,1,3425.6844199748584,3441.8820810175225,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Unsuccessful,Ball Loss --> D3 Press,
+189,190,1,3433.5830569355226,3449.481970601858,D2 Finding Balance,,2nd Half,After Ball Loss,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+190,191,1,3434.1847626441913,3452.983908602525,D4 Defending the Box,,2nd Half,Chipball,Neutral,"Cross, Shot, Set-Piece or Box Entry",Transition
+191,192,1,3450.2840377275243,3471.479637337856,D3 Middle / Lower Pressing,,2nd Half,After Ball Loss,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+192,193,1,3456.3826719208573,3475.1848485881915,D4 Defending the Box,,2nd Half,Chipball,Successful,Intercepted by Defence,Established Play
+193,194,1,3470.0840911185232,3491.18001994719,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 After Regain,Neutral,Stay In Phase,
+194,195,1,3486.8831148201907,3509.184732526856,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Unsuccessful,Ball Loss --> D3 Press,
+195,196,1,3501.4854684441884,3517.1857687355227,D2 Finding Balance,,2nd Half,After Ball Loss,Neutral,Establishing Pressing,
+196,197,1,3507.984294674857,3536.180981930856,O3 Break Through,O3 Break Through,2nd Half,D3 Win Ball Low/Middle,Unsuccessful,Ball Loss --> D3 Press,Transition
+197,198,1,3512.784454985856,3527.384441966522,D3 Middle / Lower Pressing,,2nd Half,After Ball Loss,Successful,Direct to O3/O4 OFF Transit,
+198,199,1,3546.2840208548564,3561.985584350524,D3 Middle / Lower Pressing,,2nd Half,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,
+199,200,1,3557.584419850189,3577.483642287857,D3 High Pressing,,2nd Half,D3 From Low/Med to High,Neutral,Stay In Phase,
+200,201,1,3577.5825720895236,3621.183975487855,D3 Middle / Lower Pressing,,2nd Half,D3 Press on Throw-In,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+201,202,1,3617.5843525705236,3630.783369689856,O2 Build Up,O2 Build Up,2nd Half,O2 After Regain,Unsuccessful,Ball Loss --> D3 Press,
+202,203,1,3622.581757523523,3637.4836835658566,D1 Counterpress,,2nd Half,After O2 build-up,Neutral,Establishing Pressing,
+203,204,1,3633.2833609815234,3641.5837273151897,D3 Middle / Lower Pressing,,2nd Half,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+204,205,1,3644.6749236301894,3658.1858597768564,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 Throw-In,Unsuccessful,Ball Loss --> D3 Press,
+205,206,1,3648.9846573191894,3676.7843594925216,D1 Counterpress,,2nd Half,After O1 build-up,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+206,207,1,3661.7838892015234,3680.883925493522,D4 Defending the Box,,2nd Half,Pass Infront of Backline,Neutral,"Cross, Shot, Set-Piece or Box Entry",Transition
+207,208,1,3717.065325557524,3734.065325557524,def corner,,2nd Half,,,,
+208,209,1,3747.564818224524,3759.365274515524,D3 Middle / Lower Pressing,,2nd Half,D3 Press on Throw-In,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+209,210,1,3779.6320267655237,3794.4324292655238,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 Goal Kick or Free Kick,Neutral,Stay In Phase,
+210,211,1,3790.065575098857,3818.730971224191,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Neutral,Stay In Phase,
+211,212,1,3818.264203265524,3838.9991575995246,O2 Build Up,O2 Build Up,2nd Half,O2 Throw-In,Successful,Progress to Next Phase,
+212,213,1,3820.198832307524,3852.765706932191,O3 Break Through,O3 Break Through,2nd Half,,Successful,"Cross, Shot, Set-Piece or Box Entry",Established Play
+213,214,1,3833.5347354745245,3856.431191099191,O4 Finishing,O4 Finishing,2nd Half,Chipball,Unsuccessful,DEF Transition,Established Play
+214,215,1,3849.165473265524,3868.0344384328573,D2 Finding Balance,,2nd Half,After Ball Loss,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+215,216,1,3853.6314818908577,3872.001305099191,D4 Defending the Box,,2nd Half,Square Pass,Neutral,"Cross, Shot, Set-Piece or Box Entry",Transition
+216,217,1,3869.8329460161913,3884.0016070155248,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 After Regain,Neutral,Stay In Phase,
+217,218,1,3879.7004489738574,3974.765702099192,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Successful,Progress to Next Phase,
+218,219,1,3955.4673436821904,3980.2671991411917,O3 Break Through,O3 Break Through,2nd Half,Early Through Pass or Cross,Successful,"Cross, Shot, Set-Piece or Box Entry",Established Play
+219,220,1,3960.968089307191,3983.4669375991916,O4 Finishing,O4 Finishing,2nd Half,Pass Infront of Backline,Neutral,"Cross, Shot, Set-Piece or Box Entry",Established Play
+220,221,1,3986.2340731821905,4016.666745057524,D3 High Pressing,,2nd Half,D3 Goal Kick or Free Kick,Successful,Direct to O3/O4 OFF Transit,
+221,222,1,3997.7673052655246,4022.0691994321915,O3 Break Through,O3 Break Through,2nd Half,D3 High Press on Opp. Half,Neutral,Keep The Ball,Transition
+222,223,1,4018.1004580161907,4056.9333340991907,O2 Build Up,O2 Build Up,2nd Half,O3 to O2,Unsuccessful,Ball Loss --> D3 Press,
+223,224,1,4048.5338091825242,4066.303149473858,D2 Finding Balance,,2nd Half,After Ball Loss,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+224,225,1,4051.1685955155244,4079.000004599191,O3 Break Through,O3 Break Through,2nd Half,After D4 Def. Box,Successful,"Cross, Shot, Set-Piece or Box Entry",Transition
+225,226,1,4051.5696652241913,4070.201311224525,D4 Defending the Box,,2nd Half,1v1,Successful,OFF Transition,Transition
+226,227,1,4059.635450224191,4082.3320558491914,O4 Finishing,O4 Finishing,2nd Half,1v1,Neutral,"Cross, Shot, Set-Piece or Box Entry",Transition
+227,228,1,4095.0695640995236,4153.937003807858,O4 Finishing,O4 Finishing,2nd Half,Back Area,Unsuccessful,Intercepted by Defence,Corner Kick
+228,229,1,4133.866677932191,4150.866677932191,off corner,,2nd Half,,,,
+229,230,1,4157.268572432191,4186.167805099191,D3 High Pressing,,2nd Half,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,
+230,231,1,4184.937403641191,4195.604063182858,D3 Middle / Lower Pressing,,2nd Half,D3 From High to Med/Low,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+231,232,1,4191.6691533075245,4208.6012215988585,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 After Regain,Successful,Progress to Next Phase,
+232,233,1,4204.303002349191,4272.503073515858,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Unsuccessful,Ball Loss --> D3 Press,
+233,234,1,4270.604727182525,4319.704456598858,D3 High Pressing,,2nd Half,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,
+234,235,1,4315.469651307858,4332.503123807524,D3 Middle / Lower Pressing,,2nd Half,D3 From High to Med/Low,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+235,236,1,4317.270193598858,4335.403040516191,D4 Defending the Box,,2nd Half,Chipball,Neutral,"Cross, Shot, Set-Piece or Box Entry",Established Play
+236,237,1,4346.16934568219,4380.536987932858,D3 Middle / Lower Pressing,,2nd Half,D3 Press on Throw-In,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+237,238,1,4376.670393141192,4399.1704635571905,O2 Build Up,O2 Build Up,2nd Half,O2 After Regain,Neutral,Stay In Phase,
+238,239,1,4395.005787557191,4421.304662474525,O1 Play from the Back,O1 Play from the Back,2nd Half,O2 to O1,Successful,Progress to Next Phase,
+239,240,1,4417.005864682524,4442.270340557191,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Neutral,Stay In Phase,
+240,241,1,4438.53791547419,4450.404042140524,O1 Play from the Back,O1 Play from the Back,2nd Half,O2 to O1,Unsuccessful,Ball Loss --> D3 Press,
+241,242,1,4442.506203432191,4460.072763474524,D1 Counterpress,,2nd Half,After O2 build-up,Neutral,Establishing Pressing,
+242,243,1,4468.806320432191,4481.606298599525,D3 Middle / Lower Pressing,,2nd Half,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+243,244,1,4480.204602641191,4512.138876265524,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 Throw-In,Unsuccessful,Ball Loss --> D3 Press,
+244,245,1,4509.5044893488575,4538.872734807858,D3 Middle / Lower Pressing,,2nd Half,After Ball Loss,Successful,Direct to O3/O4 OFF Transit,
+245,246,1,4520.006619016191,4545.902995266191,O3 Break Through,O3 Break Through,2nd Half,D3 Win Ball Low/Middle,Neutral,Keep The Ball,Transition
+246,247,1,4542.205082307858,4640.67276247419,O2 Build Up,O2 Build Up,2nd Half,O3 to O2,Neutral,Stay In Phase,
+247,248,1,4632.338606307524,4654.8378361411915,O3 Break Through,O3 Break Through,2nd Half,Early Through Pass or Cross,Successful,"Cross, Shot, Set-Piece or Box Entry",Established Play
+248,249,1,4635.607587557525,4658.738347474192,O4 Finishing,O4 Finishing,2nd Half,Chipball,Unsuccessful,Intercepted by Defence,Established Play
+249,250,1,4636.372009515525,4651.73932126619,O2 Build Up,O2 Build Up,2nd Half,O2 Free Kick,Successful,Progress to Next Phase,
+250,251,1,4644.107335682859,4667.005386140859,O3 Break Through,O3 Break Through,2nd Half,D3 High Press on Opp. Half,Neutral,Keep The Ball,Transition
+251,252,1,4655.403911141192,4663.272080973858,D3 High Pressing,,2nd Half,After Ball Loss,Successful,Direct to O3/O4 OFF Transit,
+252,253,1,4663.171926891192,4692.772708974191,O2 Build Up,O2 Build Up,2nd Half,O3 to O2,Unsuccessful,Ball Loss --> D3 Press,
+253,254,1,4698.672881349192,4729.239202640858,D3 High Pressing,,2nd Half,D3 Goal Kick or Free Kick,Successful,Direct to O3/O4 OFF Transit,
+254,255,1,4710.672818474192,4743.874948848858,O3 Break Through,O3 Break Through,2nd Half,D3 High Press on Opp. Half,Unsuccessful,Ball Loss --> D3 Press,Transition
+255,256,1,4737.204513432858,4749.106045598859,D1 Counterpress,,2nd Half,After O3/O4,Neutral,Establishing Pressing,
+256,257,1,4745.337363349525,4800.406548599192,D3 Middle / Lower Pressing,,2nd Half,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+257,258,1,4796.239880890524,4809.106304973858,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 After Regain,Neutral,Stay In Phase,
+258,259,1,4800.606315432192,4827.706995016192,O3 Break Through,O3 Break Through,2nd Half,Wide Link Up Play,Neutral,Keep The Ball,Established Play
+259,260,1,4804.908776891191,4819.772618807526,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Successful,Progress to Next Phase,
+260,261,1,4823.540285807525,4851.174224348857,O2 Build Up,O2 Build Up,2nd Half,O3 to O2,Successful,Progress to Next Phase,
+261,262,1,4832.505972765858,4862.505734599525,O3 Break Through,O3 Break Through,2nd Half,1v1 Wide / Halfspace,Successful,Lead to O4 chance,Established Play
+262,263,1,4842.873133849192,4875.873133849192,Goal FCN,,2nd Half,,,,
+263,264,1,4843.875949849524,4871.092798974193,O4 Finishing,O4 Finishing,2nd Half,Chipball,Successful,Open Chance,Established Play
+264,265,1,4962.0078327658575,4979.442007473858,D3 Middle / Lower Pressing,,2nd Half,D3 Goal Kick or Free Kick,Neutral,Stay In Phase,
+265,266,1,4977.342491099525,5007.8436578911915,D3 Middle / Lower Pressing,,2nd Half,D3 Press on Throw-In,Successful,Direct to O3/O4 OFF Transit,
+266,267,1,4988.673461807858,5012.573212098857,O3 Break Through,O3 Break Through,2nd Half,D3 Win Ball Low/Middle,Neutral,Keep The Ball,Transition
+267,268,1,5014.510422265526,5039.643819099192,O2 Build Up,O2 Build Up,2nd Half,O2 Free Kick,Neutral,Stay In Phase,
+268,269,1,5035.342701390858,5055.344107599192,O1 Play from the Back,O1 Play from the Back,2nd Half,O2 to O1,Successful,Progress to Next Phase,
+269,270,1,5050.97619001619,5057.509435015525,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Unsuccessful,Ball Loss --> D3 Press,
+270,271,1,5055.674995557859,5095.009030473857,D3 Middle / Lower Pressing,,2nd Half,After Ball Loss,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+271,272,1,5117.944631848859,5172.0114833495245,D4 Defending the Box,,2nd Half,Central Area,Successful,OFF Transition,Lateral Free Kick
+272,273,1,5139.076897848858,5156.076897848858,def free kick,,2nd Half,,,,
+273,274,1,5153.878297265858,5189.173497182524,O3 Break Through,O3 Break Through,2nd Half,After D4 Def. Box,Neutral,Keep The Ball,Transition
+274,275,1,5295.0790427658585,5331.1782517658585,O2 Build Up,O2 Build Up,2nd Half,O2 Free Kick,Neutral,Stay In Phase,
+275,276,1,5327.211993682191,5338.111292807525,O2 Build Up,O2 Build Up,2nd Half,O2 Throw-In,Neutral,Stay In Phase,
+276,277,1,5334.011208849193,5347.010219432858,O1 Play from the Back,O1 Play from the Back,2nd Half,O2 to O1,Successful,Progress to Next Phase,
+277,278,1,5343.277851099191,5351.445573015859,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Neutral,Stay In Phase,
+278,279,1,5347.211841224525,5364.643193724192,O2 Build Up,O2 Build Up,2nd Half,O2 Throw-In,Unsuccessful,Ball Loss --> D3 Press,
+279,280,1,5375.611380932192,5395.746684807193,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 After Regain,Successful,Progress to Next Phase,
+280,281,1,5384.777644807526,5407.7116805161895,O3 Break Through,O3 Break Through,2nd Half,Early Through Pass or Cross,Successful,"Cross, Shot, Set-Piece or Box Entry",Established Play
+281,282,1,5388.544410848857,5411.511325890525,O4 Finishing,O4 Finishing,2nd Half,Square Pass,Neutral,"Cross, Shot, Set-Piece or Box Entry",Established Play
+282,283,1,5392.210776473859,5400.079774016192,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Successful,Progress to Next Phase,
+283,284,1,5407.844759723859,5444.945121057192,O2 Build Up,O2 Build Up,2nd Half,O3 to O2,Neutral,Stay In Phase,
+284,285,1,5448.480589890858,5472.578446432524,O2 Build Up,O2 Build Up,2nd Half,O2 Throw-In,Unsuccessful,Ball Loss --> D3 Press,
+285,286,1,5467.276959974525,5485.912510391192,D2 Finding Balance,,2nd Half,After Offensive Set-Piece,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+286,287,1,5470.87829680719,5493.045069140526,D4 Defending the Box,,2nd Half,Square Pass,Successful,OFF Transition,Transition
+287,288,1,5474.013643599192,5496.945251849525,O3 Break Through,O3 Break Through,2nd Half,After D4 Def. Box,Unsuccessful,Ball Loss --> D3 Press,Transition
+288,289,1,5493.280811890859,5540.9106289325255,D3 Middle / Lower Pressing,,2nd Half,After Ball Loss,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+289,290,1,5525.814518516191,5544.645434099191,D4 Defending the Box,,2nd Half,Chipball,Successful,Intercepted by Defence,Established Play
+290,291,1,5541.045619682191,5562.711919599193,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 After Regain,Unsuccessful,Ball Loss --> D3 Press,
+291,292,1,5559.2468215575245,5580.846314724526,D3 Middle / Lower Pressing,,2nd Half,After Ball Loss,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+292,293,1,5565.746191932523,5584.578989682191,D4 Defending the Box,,2nd Half,Chipball,Successful,Intercepted by Defence,Established Play
+293,294,1,5580.481371474525,5601.745225182525,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 After Regain,Unsuccessful,Ball Loss --> D3 Press,
+294,295,1,5598.747043474192,5614.312984057857,D3 Middle / Lower Pressing,,2nd Half,After Ball Loss,Unsuccessful,D4 Chance,
+295,296,1,5599.146296223858,5631.245947224525,D4 Defending the Box,,2nd Half,Through Pass,Unsuccessful,Open Chance,Transition
+296,297,1,5617.112734349524,5671.680161224525,D4 Defending the Box,,2nd Half,Front Area,Neutral,"Cross, Shot, Set-Piece or Box Entry",Corner Kick
+297,298,1,5641.1814075991915,5658.1814075991915,def corner,,2nd Half,,,,
+298,299,1,5718.946778349525,5754.249418932524,D4 Defending the Box,,2nd Half,"Middle 20,5 - 23 m",Unsuccessful,Open Chance,Direct Free Kick
+299,300,1,5726.079365848857,5759.079365848857,Goal OPP,,2nd Half,,,,
+300,301,1,5736.448474224525,5753.448474224525,def free kick,,2nd Half,,,,
+301,302,1,5775.082300932525,5796.51635772419,O2 Build Up,O2 Build Up,2nd Half,O2 Free Kick,Unsuccessful,Ball Loss --> D3 Press,
+302,303,1,5788.481879682524,5808.547640182858,D1 Counterpress,,2nd Half,After O2 build-up,Successful,Direct to O3/O4 OFF Transit,
+303,304,1,5790.347516182191,5819.515333807524,O3 Break Through,O3 Break Through,2nd Half,Transition After CP,Neutral,Keep The Ball,Transition
+304,305,1,5803.114752640526,5830.481889015526,O3 Break Through,O3 Break Through,2nd Half,1v1 Wide / Halfspace,Unsuccessful,Ball Loss --> D3 Press,Established Play
+305,306,1,5826.516599182523,5832.281680057526,D3 High Pressing,,2nd Half,,,,
+306,307,1,5827.714605223858,5836.747110557525,D3 High Pressing,,2nd Half,After Ball Loss,Neutral,Stay In Phase,
+307,308,1,5835.214475474191,5855.483547641192,D3 High Pressing,,2nd Half,D3 Press on Throw-In,Neutral,Stay In Phase,
+308,309,1,5851.879481057193,5874.714822765858,D3 Middle / Lower Pressing,,2nd Half,After Ball Loss,Neutral,Stay In Phase,
+309,310,1,5872.516990641192,5906.448850890858,D3 Middle / Lower Pressing,,2nd Half,D3 Press on Throw-In,Unsuccessful,"Cross, Shot, Set-Piece or Box Entry",
+310,311,1,5891.413858224525,5910.017117307524,D4 Defending the Box,,2nd Half,Chipball,Neutral,"Cross, Shot, Set-Piece or Box Entry",Established Play
+311,312,1,5906.18228964119,5930.982163807192,D3 Middle / Lower Pressing,,2nd Half,After Ball Loss,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+312,313,1,5927.349098765859,5949.714119391191,O1 Play from the Back,O1 Play from the Back,2nd Half,O1 After Regain,Successful,Progress to Next Phase,
+313,314,1,5945.681190599191,5967.082296682192,O2 Build Up,O2 Build Up,2nd Half,O1 to O2,Successful,Progress to Next Phase,
+314,315,1,5948.0508521405245,5979.317716473859,O3 Break Through,O3 Break Through,2nd Half,1v1 Wide / Halfspace,Successful,"Cross, Shot, Set-Piece or Box Entry",Established Play
+315,316,1,5960.017523140524,5982.648670140525,O4 Finishing,O4 Finishing,2nd Half,Square Pass,Neutral,"Cross, Shot, Set-Piece or Box Entry",Established Play
+316,317,1,5982.015333057525,6009.951186432192,D3 Middle / Lower Pressing,,2nd Half,D3 Goal Kick or Free Kick,Successful,"Intercept. -> Estab. (O1, O2, O3)",
+317,318,1,6007.903823765524,6056.450470598858,O4 Finishing,O4 Finishing,2nd Half,Back Area,Unsuccessful,Intercepted by Defence,Lateral Free Kick
+318,319,1,6034.851175641194,6051.851175641194,off free kick,,2nd Half,,,,

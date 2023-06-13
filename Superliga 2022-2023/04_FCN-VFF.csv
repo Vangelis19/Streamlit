@@ -1,0 +1,357 @@
+,code_id,period_id,timestamp,end_timestamp,code,02. Situation Type,03. Outcomes,04. Rating,Time Period,Opponent,Half,00. Start Phase,01. Phase,<flag>New Flag
+0,1,1,0.0,14.79981695899536,D1 Counterpress,After O2 build-up,Establishing Pressing,Neutral,0 - 15 min,Viborg,,,,
+1,2,1,0.0,15.397979401998674,D2 Finding Balance,Transition After CP,Establishing Pressing,Neutral,0 - 15 min,Viborg,,,,
+2,3,1,0.0,2709.1977521300514,KO,,,,,Viborg,1st Half,,,
+3,4,1,1.2984460979991759,12.897650357997431,O2 Build Up,O2 Free Kick,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Viborg,,O2 Build Up,,
+4,5,1,22.286398444324504,33.914444331708864,D3 Middle / Lower Pressing,D3 Press on Throw-In,,,0 - 15 min,Viborg,1st Half,,,
+5,6,1,25.089874851000758,52.99747963499554,D4 Defending the Box,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Viborg,,,Established Play,True
+6,7,1,39.09185324973146,47.35204769870302,D1 Counterpress,After O2 build-up,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,0 - 15 min,Viborg,1st Half,,,
+7,8,1,56.115163314195115,61.330237314036594,D3 High Pressing,D3 From Low/Med to High,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Viborg,1st Half,,,
+8,9,1,65.26776400963058,91.59697014563949,O2 Build Up,O2 After Regain,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Viborg,1st Half,O2 Build Up,,True
+9,10,1,81.79671329875487,106.94239367827026,O3 Break Through,Transition After CP,"Cross, Shot, Set-Piece or Box Entry",Successful,0 - 15 min,Viborg,1st Half,O3 Break Through,Transition,
+10,11,1,88.25085584988096,112.15629093377333,O4 Finishing,Square Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Viborg,1st Half,O4 Finishing,Transition,True
+11,12,1,89.87747724015983,100.91151960801615,D1 Counterpress,After O2 build-up,Direct to O3/O4 OFF Transit,Successful,0 - 15 min,Viborg,1st Half,,,
+12,13,1,113.29860338591493,126.8469657715957,O2 Build Up,O2 Throw-In,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Viborg,1st Half,O2 Build Up,,
+13,14,1,126.66788587549883,132.98135484990667,D1 Counterpress,After O2 build-up,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Viborg,1st Half,,,
+14,15,1,144.07820553901615,172.54209953142686,O2 Build Up,O1 to O2,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Viborg,1st Half,O2 Build Up,,True
+15,16,1,175.30543825752352,199.61172720877198,D3 High Pressing,D3 Press on Throw-In,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Viborg,1st Half,,,
+16,17,1,201.1222969156213,228.73241760851738,O2 Build Up,O2 After Regain,Progress to Next Phase,Successful,0 - 15 min,Viborg,1st Half,O2 Build Up,,True
+17,18,1,209.53257757684946,234.6911180585564,O3 Break Through,,"Cross, Shot, Set-Piece or Box Entry",Successful,0 - 15 min,Viborg,1st Half,O3 Break Through,Established Play,True
+18,19,1,216.3768169244829,241.48828192224641,O4 Finishing,Square Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Viborg,1st Half,O4 Finishing,Established Play,True
+19,20,1,243.21345961004386,284.1186971417326,D3 High Pressing,After Ball Loss,Stay In Phase,Neutral,0 - 15 min,Viborg,1st Half,,,
+20,21,1,285.08487946479886,305.9791160902412,D3 Middle / Lower Pressing,D3 From High to Med/Low,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Viborg,1st Half,,,True
+21,22,1,310.5643,325.19227134599583,O1 Play from the Back,O1 Throw-In,Ball Loss --> D4 Defend The Box,Unsuccessful,0 - 15 min,Viborg,,O1 Play from the Back,,
+22,23,1,311.1190396178788,335.71232095617484,D4 Defending the Box,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Viborg,1st Half,,Transition,
+23,24,1,337.47778815204197,379.4857156460937,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to Next Phase,Successful,0 - 15 min,Viborg,1st Half,O1 Play from the Back,,True
+24,25,1,364.36571394611104,383.58324655632873,O2 Build Up,O1 to O2,Progress to Next Phase,Successful,0 - 15 min,Viborg,1st Half,O2 Build Up,,
+25,26,1,364.48593827120453,390.7478667606181,O3 Break Through,1v1 Wide / Halfspace,Keep The Ball,Neutral,0 - 15 min,Viborg,1st Half,O3 Break Through,Established Play,True
+26,27,1,371.53092818510027,399.026421359649,O3 Break Through,Quick Restart,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Viborg,1st Half,O3 Break Through,Throw In,
+27,28,1,381.5755,401.5755,Ndividucal,,,,,Viborg,,,,True
+28,29,1,405.7749883496051,426.8221800963564,D3 High Pressing,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Viborg,1st Half,,,True
+29,30,1,425.79978902800127,452.6991154019966,O3 Break Through,Early Through Pass or Cross,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Viborg,,O3 Break Through,Established Play,
+30,31,1,427.2558991960202,450.23740238697405,O2 Build Up,O2 Throw-In,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Viborg,1st Half,O2 Build Up,,
+31,32,1,442.286108057001,465.09878167699173,D1 Counterpress,After O2 build-up,Establishing Pressing,Neutral,0 - 15 min,Viborg,,,,
+32,33,1,444.1964524019991,463.6973224029981,D2 Finding Balance,Transition After CP,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Viborg,,,,
+33,34,1,461.1321232209255,483.9762240757949,O1 Play from the Back,O1 After Regain,Progress to Next Phase,Successful,0 - 15 min,Viborg,1st Half,O1 Play from the Back,,True
+34,35,1,488.50808189647586,508.22024024428333,O2 Build Up,O2 Free Kick,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Viborg,1st Half,O2 Build Up,,True
+35,36,1,508.5075424853801,513.1880002118749,D1 Counterpress,After O2 build-up,Establishing Pressing,Neutral,0 - 15 min,Viborg,1st Half,,,True
+36,37,1,516.166827540658,530.7763520023387,D3 Middle / Lower Pressing,D3 Goal Kick or Free Kick,Stay In Phase,Neutral,0 - 15 min,Viborg,1st Half,,,True
+37,38,1,521.4711204082139,532.2381715911204,D3 High Pressing,D3 From Low/Med to High,Stay In Phase,Neutral,0 - 15 min,Viborg,1st Half,,,
+38,39,1,533.6842265358771,540.0777925203345,D2 Finding Balance,D3 High Press on Opp. Half,Establishing Pressing,Neutral,0 - 15 min,Viborg,1st Half,,,
+39,40,1,538.6411835980878,564.1687081226353,D4 Defending the Box,Through Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Viborg,1st Half,,Transition,True
+40,41,1,544.198902448177,555.622687365372,D3 Middle / Lower Pressing,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,0 - 15 min,Viborg,1st Half,,,
+41,42,1,547.779309205627,594.3779004828764,D4 Defending the Box,Front Area,Intercepted by Defence,Successful,0 - 15 min,Viborg,1st Half,,Corner Kick,
+42,43,1,570.7322888888889,593.097069976997,O3 Break Through,After D4 Def. Box,Ball Loss --> D4 Defend The Box,Unsuccessful,0 - 15 min,Viborg,,O3 Break Through,Transition,
+43,44,1,577.0225812232836,603.7713678578409,D4 Defending the Box,Cutback,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Viborg,1st Half,,Transition,
+44,45,1,579.7862180273003,641.2686349128362,def corner,Front Area,,,,Viborg,1st Half,,,
+45,46,1,585.083291219593,628.3963,Bench,,,,,Viborg,,,,True
+46,47,1,586.8950972748596,626.8332531326548,D4 Defending the Box,1v1,Open Chance,Unsuccessful,0 - 15 min,Viborg,1st Half,,Established Play,True
+47,48,1,607.2515555555556,627.2515555555556,Ndividucal,,,,,Viborg,,,,True
+48,49,1,623.7579444444444,643.7579444444444,Ndividual,,,,,Viborg,,,,True
+49,50,1,635.5809816689541,658.8355454841583,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to Next Phase,Successful,0 - 15 min,Viborg,1st Half,O1 Play from the Back,,
+50,51,1,644.8106340364172,669.6435273572458,O3 Break Through,Early Through Pass or Cross,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Viborg,1st Half,O3 Break Through,Established Play,True
+51,52,1,645.6845333333333,666.6947265889958,O4 Finishing,Through Pass,Intercepted by Defence,Unsuccessful,0 - 15 min,Viborg,,O4 Finishing,Established Play,
+52,53,1,659.5630029692072,662.8147387282031,O2 Build Up,O1 to O2,Progress to Next Phase,Successful,0 - 15 min,Viborg,1st Half,O2 Build Up,,
+53,54,1,671.4869466176782,702.7721397495756,D3 High Pressing,D3 Goal Kick or Free Kick,Direct to O3/O4 OFF Transit,Successful,0 - 15 min,Viborg,1st Half,,,True
+54,55,1,677.275945867126,703.5946273813995,O3 Break Through,D3 High Press on Opp. Half,"Cross, Shot, Set-Piece or Box Entry",Successful,0 - 15 min,Viborg,1st Half,O3 Break Through,Transition,
+55,56,1,686.8297579167945,711.4068440593235,O4 Finishing,Quick Restart,"Cross, Shot, Set-Piece or Box Entry",Neutral,0 - 15 min,Viborg,1st Half,O4 Finishing,Throw In,
+56,57,1,712.6765001548181,736.3643605402328,D3 High Pressing,After Ball Loss,Stay In Phase,Neutral,0 - 15 min,Viborg,1st Half,,,True
+57,58,1,720.5991905949985,746.7964401079965,D4 Defending the Box,Through Pass,Intercepted by Defence,Successful,0 - 15 min,Viborg,,,Established Play,
+58,59,1,737.4750209244637,743.9817722307341,D2 Finding Balance,D3 High Press on Opp. Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Viborg,1st Half,,,
+59,60,1,746.8980711298589,756.2831735096331,O1 Play from the Back,O1 After Regain,Progress to Next Phase,Successful,0 - 15 min,Viborg,1st Half,O1 Play from the Back,,True
+60,61,1,757.1460678482706,767.7725629054992,O2 Build Up,O1 to O2,Stay In Phase,Neutral,0 - 15 min,Viborg,1st Half,O2 Build Up,,
+61,62,1,773.722992073074,793.8186832877534,O2 Build Up,O2 Throw-In,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Viborg,1st Half,O2 Build Up,,
+62,63,1,779.690817190003,799.690817190003,Ndividucal,,,,,Viborg,,,,True
+63,64,1,795.4089308527516,797.9968539057243,D1 Counterpress,After O2 build-up,Establishing Pressing,Neutral,0 - 15 min,Viborg,1st Half,,,
+64,65,1,800.496273406995,826.3987472469978,O4 Finishing,Through Pass,Intercepted by Defence,Unsuccessful,0 - 15 min,Viborg,,O4 Finishing,Transition,
+65,66,1,801.2315660041002,820.6657937872976,D3 Middle / Lower Pressing,After Ball Loss,Direct to O3/O4 OFF Transit,Successful,0 - 15 min,Viborg,1st Half,,,
+66,67,1,801.9202627946186,823.902982011324,O3 Break Through,D3 Win Ball Low/Middle,Keep The Ball,Neutral,0 - 15 min,Viborg,1st Half,O3 Break Through,Transition,
+67,68,1,833.489423361875,839.2860957617966,O3 Break Through,Short Throw-In,Keep The Ball,Neutral,0 - 15 min,Viborg,1st Half,O3 Break Through,Throw In,
+68,69,1,840.9792533455873,866.9729187207756,O2 Build Up,O3 to O2,Ball Loss --> D3 Press,Unsuccessful,0 - 15 min,Viborg,1st Half,O2 Build Up,,True
+69,70,1,853.3636444444444,873.3636444444444,Ndividucal,,,,,Viborg,,,,True
+70,71,1,882.4135932570772,896.3604124699801,D3 High Pressing,D3 Press on Throw-In,Stay In Phase,Neutral,0 - 15 min,Viborg,1st Half,,,True
+71,72,1,892.9808333333333,914.5121,D4 Defending the Box,Through Pass,Intercepted by Defence,Successful,0 - 15 min,Viborg,,,Established Play,
+72,73,1,894.291344106701,911.4391650846937,D2 Finding Balance,D3 High Press on Opp. Half,"Intercept. -> Estab. (O1, O2, O3)",Successful,0 - 15 min,Viborg,1st Half,,,True
+73,74,1,918.7981321559934,945.4992690030017,D3 High Pressing,After Ball Loss,Stay In Phase,Neutral,16 - 30 min,Viborg,,,,True
+74,75,1,944.47062614734,971.7382560820231,D3 Middle / Lower Pressing,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Viborg,1st Half,,,
+75,76,1,944.7505653973926,980.2733444444447,Bench,,,,,Viborg,,,,True
+76,77,1,975.2357391738576,1030.627342791682,O2 Build Up,O2 After Regain,Progress to Next Phase,Successful,16 - 30 min,Viborg,1st Half,O2 Build Up,,
+77,78,1,982.0267754481544,1006.3981999999999,Ndividucal,,,,,Viborg,,,,True
+78,79,1,994.7935,1038.2968928259963,O3 Break Through,Central Play Infront of Backline,"Cross, Shot, Set-Piece or Box Entry",Successful,16 - 30 min,Viborg,,O3 Break Through,Established Play,
+79,80,1,1015.0425777777778,1037.095708259998,O4 Finishing,Through Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,16 - 30 min,Viborg,,O4 Finishing,Established Play,
+80,81,1,1067.81624626189,1102.1776371027224,O4 Finishing,"Long Range + 23,5 m",,,16 - 30 min,Viborg,1st Half,O4 Finishing,Direct Free Kick,
+81,82,1,1092.5680019469798,1116.708745116844,off free kick,,"Cross, Shot, Set-Piece or Box Entry",Neutral,,Viborg,1st Half,,,
+82,83,1,1108.1177751049543,1130.1089470310635,D3 High Pressing,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Viborg,1st Half,,,
+83,84,1,1125.267148601644,1144.5063484744712,O2 Build Up,O2 After Regain,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Viborg,1st Half,O2 Build Up,,
+84,85,1,1136.367854885361,1162.310696857179,O3 Break Through,Transition After CP,"Cross, Shot, Set-Piece or Box Entry",Successful,16 - 30 min,Viborg,1st Half,O3 Break Through,Transition,True
+85,86,1,1143.0934342330418,1167.9101479663684,O4 Finishing,Square Pass,Chance,Neutral,16 - 30 min,Viborg,1st Half,O4 Finishing,Transition,True
+86,87,1,1146.0079161684987,1169.6249583920833,D1 Counterpress,After O2 build-up,Direct to O3/O4 OFF Transit,Successful,16 - 30 min,Viborg,1st Half,,,
+87,88,1,1149.651678553131,1180.4837039378579,O3 Break Through,Central Play Infront of Backline,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Viborg,1st Half,O3 Break Through,Established Play,
+88,89,1,1171.7990616598083,1188.3977087213086,O4 Finishing,Through Pass,Intercepted by Defence,Unsuccessful,16 - 30 min,Viborg,1st Half,O4 Finishing,Established Play,
+89,90,1,1187.5908739859922,1218.694511111111,D2 Finding Balance,D3 High Press on Opp. Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,16 - 30 min,Viborg,,,,
+90,91,1,1193.5842153970787,1213.5588842577968,D3 High Pressing,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Viborg,1st Half,,,True
+91,92,1,1198.694511111111,1218.694511111111,D4 Defending the Box,Through Pass,Intercepted by Defence,Successful,16 - 30 min,Viborg,,,Established Play,
+92,93,1,1226.7858214901878,1242.7487689985794,O2 Build Up,O1 to O2,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Viborg,1st Half,O2 Build Up,,True
+93,94,1,1240.711326942014,1245.8717822334354,D1 Counterpress,After O2 build-up,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Viborg,1st Half,,,
+94,95,1,1248.675551524593,1285.753669203247,O2 Build Up,O2 After Regain,Progress to Next Phase,Successful,16 - 30 min,Viborg,1st Half,O2 Build Up,,
+95,96,1,1266.7601306292233,1299.522687920107,O3 Break Through,Wide Link Up Play,Lead to O4 chance,Successful,16 - 30 min,Viborg,1st Half,O3 Break Through,Established Play,
+96,97,1,1269.4429611362893,1302.7977333333333,Bench,,,,,Viborg,,,,True
+97,98,1,1270.4427333333333,1303.9963816170075,O4 Finishing,Pass Infront of Backline,Chance,Successful,,Viborg,,O4 Finishing,Established Play,
+98,99,1,1311.671275415976,1330.0259257682608,D3 High Pressing,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Viborg,1st Half,,,
+99,100,1,1311.9653444444446,1337.398270990997,O3 Break Through,D3 High Press on Opp. Half,Keep The Ball,Neutral,16 - 30 min,Viborg,,O3 Break Through,Transition,
+100,101,1,1359.5814069038504,1398.8876945710178,O2 Build Up,O2 Free Kick,Stay In Phase,Neutral,16 - 30 min,Viborg,1st Half,O2 Build Up,,True
+101,102,1,1373.8963377747816,1581.456,Bench,,,,,Viborg,,,,True
+102,103,1,1383.6693777777778,1403.6693777777778,Ndividucal,,,,,Viborg,,,,True
+103,104,1,1399.5979873211525,1425.787102294276,O2 Build Up,O2 After Regain,Stay In Phase,Neutral,16 - 30 min,Viborg,1st Half,O2 Build Up,,
+104,105,1,1426.697410958264,1443.0426817035739,O1 Play from the Back,O2 to O1,Progress to Next Phase,Successful,16 - 30 min,Viborg,1st Half,O1 Play from the Back,,True
+105,106,1,1444.440300587539,1473.5433858253107,O2 Build Up,O1 to O2,Progress to Next Phase,Successful,16 - 30 min,Viborg,1st Half,O2 Build Up,,
+106,107,1,1455.3245991578603,1484.1688479109741,O3 Break Through,1v1 Wide / Halfspace,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Viborg,1st Half,O3 Break Through,Established Play,
+107,108,1,1486.0721196595057,1524.6764117696937,O3 Break Through,Central Play Infront of Backline,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Viborg,1st Half,O3 Break Through,Established Play,
+108,109,1,1486.5810358947745,1489.5685711588328,D1 Counterpress,After O3/O4,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Viborg,1st Half,,,
+109,110,1,1490.9266948822203,1505.0898094751599,O2 Build Up,O2 After Regain,Progress to Next Phase,Successful,16 - 30 min,Viborg,1st Half,O2 Build Up,,
+110,111,1,1510.6509816323949,1538.7268488208563,O3 Break Through,Short Throw-In,Keep The Ball,Neutral,16 - 30 min,Viborg,1st Half,O3 Break Through,Throw In,
+111,112,1,1520.3963356699167,1547.7324566976438,O3 Break Through,Wide Link Up Play,Lead to O4 chance,Successful,16 - 30 min,Viborg,1st Half,O3 Break Through,Established Play,
+112,113,1,1528.5955796688438,1553.6914213890593,O4 Finishing,Square Pass,Chance,Successful,16 - 30 min,Viborg,1st Half,O4 Finishing,Established Play,True
+113,114,1,1536.8067931628545,1564.8931293369703,O3 Break Through,Wide Link Up Play,"Cross, Shot, Set-Piece or Box Entry",Successful,16 - 30 min,Viborg,1st Half,O3 Break Through,Established Play,
+114,115,1,1568.5907086859759,1617.9008796524756,O4 Finishing,Close Range 16-20 m.,Chance,Successful,16 - 30 min,Viborg,1st Half,O4 Finishing,Direct Free Kick,True
+115,116,1,1579.4563563931438,1586.9508509325524,Ndividucal,,,,,Viborg,,,,True
+116,117,1,1600.7521836123585,1656.8208990459214,O4 Finishing,Front Area,Open Chance,Successful,16 - 30 min,Viborg,1st Half,O4 Finishing,Corner Kick,
+117,118,1,1605.1050101854062,1628.9494875244861,off free kick,,,,,Viborg,1st Half,,Direct Free Kick,
+118,119,1,1641.2094214130707,1711.1885197882593,off corner,,,,,Viborg,1st Half,,,True
+119,120,1,1643.9157403411502,1709.9279608764855,Goal FCN,Corner Kick,,,,Viborg,1st Half,,,True
+120,121,1,1708.1103826352826,1732.1554661538946,D3 Middle / Lower Pressing,D3 Goal Kick or Free Kick,Stay In Phase,Neutral,16 - 30 min,Viborg,1st Half,,,
+121,122,1,1735.5498689106787,1743.278055279328,D3 Middle / Lower Pressing,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Viborg,1st Half,,,
+122,123,1,1745.290860258692,1793.3713442980695,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to Next Phase,Successful,16 - 30 min,Viborg,1st Half,O1 Play from the Back,,
+123,124,1,1781.7161755565292,1808.2814149151734,O3 Break Through,1v1 Wide / Halfspace,Ball Loss --> D3 Press,Unsuccessful,16 - 30 min,Viborg,1st Half,O3 Break Through,Established Play,
+124,125,1,1783.2018,1809.3307882514187,O4 Finishing,1v1,Intercepted by Defence,Unsuccessful,16 - 30 min,Viborg,,O4 Finishing,Established Play,True
+125,126,1,1794.2903278238025,1800.5497711895648,O2 Build Up,O1 to O2,Progress to Next Phase,Successful,16 - 30 min,Viborg,1st Half,O2 Build Up,,
+126,127,1,1803.343660416637,1809.0113126603922,D1 Counterpress,After O3/O4,"Intercept. -> Estab. (O1, O2, O3)",Successful,16 - 30 min,Viborg,1st Half,,,
+127,128,1,1810.9334666666666,1830.9334666666666,O3 Break Through,Quick Restart,"Cross, Shot, Set-Piece or Box Entry",Successful,31 - 45 min,Viborg,,O3 Break Through,Throw In,
+128,129,1,1810.9334666666666,1830.9334666666666,O4 Finishing,Quick Restart,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,Viborg,,O4 Finishing,Throw In,
+129,130,1,1870.0351161856568,1908.7646685094085,D3 Middle / Lower Pressing,D3 Press on Throw-In,Stay In Phase,Neutral,31 - 45 min,Viborg,1st Half,,,
+130,131,1,1909.6035585183097,1927.175630245273,D3 High Pressing,D3 From Low/Med to High,Stay In Phase,Neutral,31 - 45 min,Viborg,1st Half,,,
+131,132,1,1919.8358948333087,1944.5804918738347,D4 Defending the Box,Square Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,Viborg,1st Half,,Established Play,True
+132,133,1,1928.597668495612,1935.9381951237726,D2 Finding Balance,D3 High Press on Opp. Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,31 - 45 min,Viborg,1st Half,,,
+133,134,1,1949.4038982722238,1976.889288962008,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to Next Phase,Successful,31 - 45 min,Viborg,1st Half,O1 Play from the Back,,True
+134,135,1,1949.7233463976993,2123.0982777777776,Bench,,,,,Viborg,,,,True
+135,136,1,1978.007228929221,2065.7158003238137,O2 Build Up,O1 to O2,Stay In Phase,Neutral,31 - 45 min,Viborg,1st Half,O2 Build Up,,
+136,137,1,2066.4103539180587,2084.5948692802585,O1 Play from the Back,O2 to O1,Progress to Next Phase,Successful,31 - 45 min,Viborg,1st Half,O1 Play from the Back,,
+137,138,1,2085.345405938461,2090.4920925946944,O2 Build Up,O1 to O2,Stay In Phase,Neutral,31 - 45 min,Viborg,1st Half,O2 Build Up,,
+138,139,1,2091.4429365237656,2111.3465460151683,O2 Build Up,O2 Throw-In,Progress to Next Phase,Successful,31 - 45 min,Viborg,1st Half,O2 Build Up,,
+139,140,1,2092.4024468074213,2118.879755393259,O3 Break Through,Early Through Pass or Cross,"Cross, Shot, Set-Piece or Box Entry",Successful,31 - 45 min,Viborg,1st Half,O3 Break Through,Established Play,
+140,141,1,2119.368623873451,2160.8453215244763,O4 Finishing,Front Area,,,31 - 45 min,Viborg,1st Half,O4 Finishing,Corner Kick,
+141,142,1,2150.5407942990596,2177.7910154643114,off corner,Front Area,Intercepted by Defence,Unsuccessful,,Viborg,1st Half,,,True
+142,143,1,2175.7843750709953,2189.599619256,D3 High Pressing,D3 Goal Kick or Free Kick,D4 Chance,Unsuccessful,31 - 45 min,Viborg,,,,
+143,144,1,2177.967664016476,2213.0347782346716,D4 Defending the Box,Through Pass,Open Chance,Unsuccessful,31 - 45 min,Viborg,1st Half,,Established Play,True
+144,145,1,2180.398871088999,2196.9995968799985,D2 Finding Balance,D3 High Press on Opp. Half,D4 Chance,Unsuccessful,31 - 45 min,Viborg,,,,
+145,146,1,2209.8046959190824,2235.1006292052343,O3 Break Through,Quick Restart,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Viborg,1st Half,O3 Break Through,Throw In,
+146,147,1,2213.1028783824013,2228.414539862625,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to O3-O4,Successful,31 - 45 min,Viborg,1st Half,O1 Play from the Back,,True
+147,148,1,2227.571966666667,2243.3974115070014,D1 Counterpress,After O3/O4,Establishing Pressing,Neutral,31 - 45 min,Viborg,,,,
+148,149,1,2236.490639996705,2247.8181026574794,D3 High Pressing,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,Viborg,1st Half,,,
+149,150,1,2239.2790635357333,2266.7950240124183,O3 Break Through,Early Through Pass or Cross,Lead to O4 chance,Successful,31 - 45 min,Viborg,1st Half,O3 Break Through,Established Play,
+150,151,1,2247.6177555141558,2284.039155626243,O4 Finishing,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,31 - 45 min,Viborg,1st Half,O4 Finishing,Established Play,
+151,152,1,2249.383462093022,2258.5993814652657,O2 Build Up,O2 After Regain,Progress to Next Phase,Successful,31 - 45 min,Viborg,1st Half,O2 Build Up,,
+152,153,1,2251.57856255503,2268.2651222517234,Ndividucal,,,,,Viborg,,,,True
+153,154,1,2277.0000862912793,2311.7296209779697,O4 Finishing,Short Variation,Intercepted by Defence,Unsuccessful,31 - 45 min,Viborg,1st Half,O4 Finishing,Corner Kick,
+154,155,1,2295.5116226674827,2323.1082980073697,off corner,,,,,Viborg,1st Half,,,
+155,156,1,2315.3720014913606,2336.8168463792526,D3 High Pressing,D3 Press on Throw-In,Stay In Phase,Neutral,31 - 45 min,Viborg,1st Half,,,
+156,157,1,2319.6205054514285,2400.1895555555548,Bench,,,,,Viborg,,,,True
+157,158,1,2333.7204956199175,2343.952539250739,D2 Finding Balance,D3 High Press on Opp. Half,Establishing Pressing,Neutral,31 - 45 min,Viborg,1st Half,,,
+158,159,1,2345.531889724573,2364.0305893214554,D3 Middle / Lower Pressing,D3 From High to Med/Low,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,Viborg,1st Half,,,True
+159,160,1,2364.3951722248066,2367.861821192958,D1 Counterpress,After O2 build-up,Establishing Pressing,Neutral,31 - 45 min,Viborg,1st Half,,,
+160,161,1,2370.5218044687635,2372.231124955152,D3 Middle / Lower Pressing,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,Viborg,1st Half,,,
+161,162,1,2376.6082982161415,2397.1689515392527,D3 Middle / Lower Pressing,After Ball Loss,D4 Chance,Unsuccessful,31 - 45 min,Viborg,1st Half,,,
+162,163,1,2378.52659641415,2402.975947129543,D4 Defending the Box,Pass Infront of Backline,Open Chance,Unsuccessful,31 - 45 min,Viborg,1st Half,,Established Play,
+163,164,1,2402.4541555555556,2426.1934732549967,O3 Break Through,4v4 or Less On Half Pitch,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Viborg,,O3 Break Through,Established Play,
+164,165,1,2405.490885093001,2426.6998449719986,O1 Play from the Back,O1 After Regain,Progress to O3-O4,Successful,31 - 45 min,Viborg,,O1 Play from the Back,,
+165,166,1,2431.891446332299,2445.016716790965,D3 High Pressing,After Ball Loss,Stay In Phase,Neutral,31 - 45 min,Viborg,1st Half,,,
+166,167,1,2439.898198890998,2469.8982961820016,O3 Break Through,,Ball Loss --> D4 Defend The Box,Unsuccessful,31 - 45 min,Viborg,,O3 Break Through,Transition,
+167,168,1,2446.2550882852493,2461.0914836793427,D3 Middle / Lower Pressing,D3 From High to Med/Low,Direct to O3/O4 OFF Transit,Successful,31 - 45 min,Viborg,1st Half,,,
+168,169,1,2446.547734801349,2470.8767358976374,D4 Defending the Box,Chipball,Intercepted by Defence,Successful,31 - 45 min,Viborg,1st Half,,Transition,
+169,170,1,2479.680098545826,2506.218620194172,O2 Build Up,O1 to O2,Stay In Phase,Neutral,31 - 45 min,Viborg,1st Half,O2 Build Up,,
+170,171,1,2496.7872555555555,2524.198787613991,O3 Break Through,4v4 or Less On Half Pitch,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Viborg,,O3 Break Through,Established Play,
+171,172,1,2507.0016316251667,2517.242760993363,O1 Play from the Back,O2 to O1,Progress to Next Phase,Successful,31 - 45 min,Viborg,1st Half,O1 Play from the Back,,
+172,173,1,2525.1177902350164,2528.1619309744774,D1 Counterpress,After O2 build-up,Establishing Pressing,Neutral,31 - 45 min,Viborg,1st Half,,,
+173,174,1,2530.3819750302237,2541.948701980068,D3 Middle / Lower Pressing,D3 Press on Throw-In,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,Viborg,1st Half,,,
+174,175,1,2546.9894961071304,2566.544928872784,O2 Build Up,O2 After Regain,Stay In Phase,Neutral,31 - 45 min,Viborg,1st Half,O2 Build Up,,
+175,176,1,2567.2801466264127,2585.225611948238,O1 Play from the Back,O2 to O1,Progress to Next Phase,Successful,31 - 45 min,Viborg,1st Half,O1 Play from the Back,,
+176,177,1,2575.7127505935287,2600.761421621216,O3 Break Through,1v1 Wide / Halfspace,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Viborg,1st Half,O3 Break Through,Established Play,
+177,178,1,2586.0328731102245,2594.8339285639768,O2 Build Up,O1 to O2,Progress to Next Phase,Successful,31 - 45 min,Viborg,1st Half,O2 Build Up,,
+178,179,1,2604.821344879013,2627.9125719839058,D3 High Pressing,D3 Goal Kick or Free Kick,Stay In Phase,Neutral,31 - 45 min,Viborg,1st Half,,,
+179,180,1,2608.1865954041486,2655.1257675738602,Bench,,,,,Viborg,,,,True
+180,181,1,2618.598113039997,2644.499453546999,D2 Finding Balance,D3 High Press on Opp. Half,Establishing Pressing,Neutral,31 - 45 min,Viborg,,,,
+181,182,1,2621.8845221680026,2647.899655803,O3 Break Through,D3 Win Ball Low/Middle,Ball Loss --> D4 Defend The Box,Unsuccessful,31 - 45 min,Viborg,,O3 Break Through,Transition,
+182,183,1,2628.735191253031,2644.4614834019276,D3 Middle / Lower Pressing,D3 From High to Med/Low,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,Viborg,1st Half,,,
+183,184,1,2629.9251851145737,2657.0670016974937,D4 Defending the Box,Chipball,Chance,Unsuccessful,31 - 45 min,Viborg,1st Half,,Transition,True
+184,185,1,2662.259246891471,2687.720114471912,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,31 - 45 min,Viborg,1st Half,O1 Play from the Back,,
+185,186,1,2690.037287617838,2701.6410451274014,D3 Middle / Lower Pressing,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,31 - 45 min,Viborg,1st Half,,,
+186,187,1,2709.1977521300514,5809.495191235895,KO,,,,,Viborg,2nd Half,,,
+187,188,1,2710.1617006127735,2724.7433187313336,D3 Middle / Lower Pressing,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,Viborg,2nd Half,,,
+188,189,1,2718.9415385004227,2733.1944674324764,Bench,,,,,Viborg,,,,True
+189,190,1,2730.169424754514,2736.7499756510397,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to Next Phase,Successful,46 - 60 min,Viborg,2nd Half,O1 Play from the Back,,True
+190,191,1,2738.2674928329443,2747.408220847329,O2 Build Up,O1 to O2,Stay In Phase,Neutral,46 - 60 min,Viborg,2nd Half,O2 Build Up,,
+191,192,1,2748.214879626955,2764.2891572861236,O1 Play from the Back,O2 to O1,Progress to Next Phase,Successful,46 - 60 min,Viborg,2nd Half,O1 Play from the Back,,
+192,193,1,2749.928896435441,2788.4996714799263,O3 Break Through,Wide Link Up Play,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Viborg,2nd Half,O3 Break Through,Established Play,True
+193,194,1,2765.0719334141477,2769.1538529880645,O2 Build Up,O1 to O2,Progress to Next Phase,Successful,46 - 60 min,Viborg,2nd Half,O2 Build Up,,
+194,195,1,2773.3225807226017,2799.488934798602,O4 Finishing,Chipball,Intercepted by Defence,Unsuccessful,46 - 60 min,Viborg,2nd Half,O4 Finishing,Established Play,
+195,196,1,2802.8439355882156,2810.2513691846025,D3 Middle / Lower Pressing,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,Viborg,2nd Half,,,
+196,197,1,2822.245148072908,2856.8963514817597,O3 Break Through,Central Play Infront of Backline,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Viborg,2nd Half,O3 Break Through,Established Play,
+197,198,1,2826.497651011,2837.197006222998,O2 Build Up,O2 After Regain,Stay In Phase,Neutral,46 - 60 min,Viborg,,O2 Build Up,,
+198,199,1,2838.198986097996,2850.299906097999,O1 Play from the Back,O2 to O1,Progress to O3-O4,Successful,46 - 60 min,Viborg,,O1 Play from the Back,,
+199,200,1,2843.99775694614,2867.9199705738474,O3 Break Through,Transition After CP,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Viborg,2nd Half,O3 Break Through,Transition,
+200,201,1,2858.605553375105,2861.633182651435,D1 Counterpress,After O3/O4,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,Viborg,2nd Half,,,
+201,202,1,2868.4574099745796,2895.8903242571914,O3 Break Through,Wide Link Up Play,Keep The Ball,Neutral,46 - 60 min,Viborg,2nd Half,O3 Break Through,Established Play,
+202,203,1,2870.2249666666667,2877.7997154739983,D1 Counterpress,After O3/O4,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,Viborg,,,,
+203,204,1,2872.897130418779,2887.4270047188083,O2 Build Up,O2 After Regain,Progress to Next Phase,Successful,46 - 60 min,Viborg,2nd Half,O2 Build Up,,
+204,205,1,2882.9597188660327,2914.47780455914,O3 Break Through,Early Through Pass or Cross,Keep The Ball,Neutral,46 - 60 min,Viborg,2nd Half,O3 Break Through,Established Play,
+205,206,1,2906.385641430188,2962.3116333333332,Bench,,,,,Viborg,,,,True
+206,207,1,2907.058756303887,2934.1522588380712,O3 Break Through,Central Play Infront of Backline,Keep The Ball,Neutral,46 - 60 min,Viborg,2nd Half,O3 Break Through,Established Play,
+207,208,1,2917.904748590793,2924.590818498843,D3 High Pressing,D3 Press on Throw-In,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,Viborg,2nd Half,,,
+208,209,1,2920.6142668863204,2946.719193677204,O3 Break Through,Early Through Pass or Cross,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Viborg,2nd Half,O3 Break Through,Established Play,
+209,210,1,2935.0626114495253,2939.855148738944,O2 Build Up,O3 to O2,Progress to Next Phase,Successful,46 - 60 min,Viborg,2nd Half,O2 Build Up,,
+210,211,1,2949.6590114029377,2965.187197210559,D2 Finding Balance,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,Viborg,2nd Half,,,
+211,212,1,2970.9796259506816,2985.23978987204,O1 Play from the Back,O1 Throw-In,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Viborg,2nd Half,O1 Play from the Back,,
+212,213,1,2976.81034058135,2979.502581806052,D3 Middle / Lower Pressing,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,Viborg,2nd Half,,,
+213,214,1,2985.4753918110355,3013.3957495792883,D4 Defending the Box,Pass Infront of Backline,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,Viborg,2nd Half,,Transition,
+214,215,1,2986.997549441,3006.6989127520005,O1 Play from the Back,O1 Throw-In,Ball Loss --> D4 Defend The Box,Unsuccessful,46 - 60 min,Viborg,,O1 Play from the Back,,
+215,216,1,3018.5696183018254,3054.464167548125,D4 Defending the Box,Back Area,,,46 - 60 min,Viborg,2nd Half,,Corner Kick,
+216,217,1,3029.4820196059977,3065.399052522999,O3 Break Through,After D4 Def. Box,Keep The Ball,Neutral,46 - 60 min,Viborg,,O3 Break Through,Transition,
+217,218,1,3036.8741064426495,3063.5555175252584,def corner,Back Area,Intercepted by Defence,Successful,,Viborg,2nd Half,,,
+218,219,1,3046.965101132859,3088.096409617001,O4 Finishing,Square Pass,Intercepted by Defence,Unsuccessful,46 - 60 min,Viborg,,O4 Finishing,Established Play,True
+219,220,1,3055.540158240249,3081.949914679898,O3 Break Through,1v1 Wide / Halfspace,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Viborg,2nd Half,O3 Break Through,Established Play,
+220,221,1,3055.882361333189,3074.04626588914,O2 Build Up,O3 to O2,Progress to Next Phase,Successful,46 - 60 min,Viborg,2nd Half,O2 Build Up,,
+221,222,1,3089.314193513953,3117.943963715554,D3 High Pressing,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,Viborg,2nd Half,,,
+222,223,1,3090.7981024889277,3136.357011498334,O1 Play from the Back,O1 After Regain,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Viborg,2nd Half,O1 Play from the Back,,True
+223,224,1,3121.264318652491,3155.0819024035027,D4 Defending the Box,Square Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,Viborg,2nd Half,,Established Play,
+224,225,1,3133.2129411526284,3138.6446933449074,D3 Middle / Lower Pressing,D3 Press on Throw-In,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,46 - 60 min,Viborg,2nd Half,,,
+225,226,1,3156.9045413828844,3173.976068040369,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to Next Phase,Successful,46 - 60 min,Viborg,2nd Half,O1 Play from the Back,,
+226,227,1,3167.7026026648928,3204.0367189576705,Bench,,,,,Viborg,,,,True
+227,228,1,3175.0787418634463,3194.0403088160238,O2 Build Up,O1 to O2,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Viborg,2nd Half,O2 Build Up,,
+228,229,1,3195.877778325481,3203.5304309463354,D1 Counterpress,After O2 build-up,Establishing Pressing,Neutral,46 - 60 min,Viborg,2nd Half,,,
+229,230,1,3206.4220963092266,3227.5708165549368,D3 Middle / Lower Pressing,After Ball Loss,Stay In Phase,Neutral,46 - 60 min,Viborg,2nd Half,,,
+230,231,1,3220.2168788653107,3245.313276767816,D4 Defending the Box,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,Viborg,2nd Half,,Established Play,
+231,232,1,3229.2082069336775,3238.4761242926634,D3 Middle / Lower Pressing,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,46 - 60 min,Viborg,2nd Half,,,
+232,233,1,3246.9993620521363,3259.8217889258576,O1 Play from the Back,O1 After Regain,Progress to Next Phase,Successful,46 - 60 min,Viborg,2nd Half,O1 Play from the Back,,
+233,234,1,3248.5998359397286,3291.557744444445,Bench,,,,,Viborg,,,,True
+234,235,1,3250.4459215839943,3284.460116027596,O3 Break Through,Wide Link Up Play,Keep The Ball,Neutral,46 - 60 min,Viborg,2nd Half,O3 Break Through,Established Play,
+235,236,1,3260.612611552404,3269.5114916981565,O2 Build Up,O1 to O2,Progress to Next Phase,Successful,46 - 60 min,Viborg,2nd Half,O2 Build Up,,
+236,237,1,3276.5299266776856,3310.90217762254,O3 Break Through,Central Play Infront of Backline,"Cross, Shot, Set-Piece or Box Entry",Successful,46 - 60 min,Viborg,2nd Half,O3 Break Through,Established Play,
+237,238,1,3282.6814252219997,3290.598514457997,D1 Counterpress,After O3/O4,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,Viborg,,,,
+238,239,1,3286.9283459789694,3295.650963967055,O2 Build Up,O2 After Regain,Progress to Next Phase,Successful,46 - 60 min,Viborg,2nd Half,O2 Build Up,,
+239,240,1,3292.0445532794965,3316.7011846671976,O4 Finishing,Square Pass,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,Viborg,2nd Half,O4 Finishing,Established Play,True
+240,241,1,3296.198179339999,3325.915911111111,O3 Break Through,Wide Link Up Play,"Cross, Shot, Set-Piece or Box Entry",Successful,46 - 60 min,Viborg,,O3 Break Through, ,
+241,242,1,3311.062391680196,3335.1198026847887,O4 Finishing,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,46 - 60 min,Viborg,2nd Half,O4 Finishing,Established Play,
+242,243,1,3314.2828050810003,3318.598764456998,D1 Counterpress,After O3/O4,"Intercept. -> Estab. (O1, O2, O3)",Successful,46 - 60 min,Viborg,,,,
+243,244,1,3338.5348226499027,3357.440486904652,D3 High Pressing,D3 Goal Kick or Free Kick,Stay In Phase,Neutral,46 - 60 min,Viborg,2nd Half,,,True
+244,245,1,3340.988733333333,3365.298682837999,D4 Defending the Box,Chipball,Chance,Unsuccessful,46 - 60 min,Viborg,,,,True
+245,246,1,3352.8593406169566,3384.3426124134385,O3 Break Through,1v1 Wide / Halfspace,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Viborg,2nd Half,O3 Break Through,Established Play,
+246,247,1,3363.1942488027908,3371.940872866331,O2 Build Up,O1 to O2,Progress to Next Phase,Successful,46 - 60 min,Viborg,2nd Half,O2 Build Up,,
+247,248,1,3385.9487409719695,3391.6831946774037,D1 Counterpress,After O3/O4,Establishing Pressing,Neutral,46 - 60 min,Viborg,2nd Half,,,
+248,249,1,3460.0943570719965,3486.196473696998,D4 Defending the Box,Through Pass,Intercepted by Defence,Successful,46 - 60 min,Viborg,,,Established Play,True
+249,250,1,3460.203116518718,3482.862354311953,D3 Middle / Lower Pressing,D3 Goal Kick or Free Kick,Stay In Phase,Neutral,46 - 60 min,Viborg,2nd Half,,,
+250,251,1,3472.560452952619,3483.2096337986222,D2 Finding Balance,D3 High Press on Opp. Half,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,46 - 60 min,Viborg,2nd Half,,,
+251,252,1,3483.57765074469,3516.863186553671,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,46 - 60 min,Viborg,2nd Half,O1 Play from the Back,,
+252,253,1,3486.9734709212157,3552.629388888889,Bench,,,,,Viborg,,,,True
+253,254,1,3511.5436605404375,3538.319087062566,D3 Middle / Lower Pressing,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,46 - 60 min,Viborg,2nd Half,,,
+254,255,1,3519.309955637591,3550.958073656362,D4 Defending the Box,Square Pass,Chance,Unsuccessful,46 - 60 min,Viborg,2nd Half,,Established Play,
+255,256,1,3580.22507836801,3597.6743996026908,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to Next Phase,Successful,46 - 60 min,Viborg,2nd Half,O1 Play from the Back,,True
+256,257,1,3580.5644833260462,3647.515388888889,Bench,,,,,Viborg,,,,True
+257,258,1,3588.5977481392656,3608.5361506843656,O2 Build Up,O1 to O2,Stay In Phase,Neutral,46 - 60 min,Viborg,2nd Half,O2 Build Up,,
+258,259,1,3605.6272222556404,3629.496274093002,Ndividucal,,,,,Viborg,,,,True
+259,260,1,3609.4875340529966,3630.448188888889,O1 Play from the Back,O2 to O1,Ball Loss --> D4 Defend The Box,Unsuccessful,46 - 60 min,Viborg,,O1 Play from the Back,,True
+260,261,1,3616.3990326126986,3643.364114279366,D4 Defending the Box,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Viborg,2nd Half,,Transition,True
+261,262,1,3656.21885032022,3689.404518187701,D4 Defending the Box,Central Area,Intercepted by Defence,Successful,61 - 75 min,Viborg,2nd Half,,Corner Kick,
+262,263,1,3667.474813700655,3689.4877655504524,def corner,Central Area,,,,Viborg,2nd Half,,,
+263,264,1,3685.000649194586,3719.614717164568,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to Next Phase,Successful,61 - 75 min,Viborg,2nd Half,O1 Play from the Back,,
+264,265,1,3694.508590056143,3997.681999999999,Bench,,,,,Viborg,,,,True
+265,266,1,3710.7955791913027,3737.6321102171028,O3 Break Through,Wide Link Up Play,Keep The Ball,Neutral,61 - 75 min,Viborg,2nd Half,O3 Break Through,Established Play,
+266,267,1,3720.900725011319,3729.9258089972827,O2 Build Up,O1 to O2,Progress to Next Phase,Successful,61 - 75 min,Viborg,2nd Half,O2 Build Up,,
+267,268,1,3738.1011843980896,3772.7685792975676,O3 Break Through,Quick Restart,Keep The Ball,Neutral,61 - 75 min,Viborg,,O3 Break Through,Throw In,
+268,269,1,3740.4989,3772.3997872629975,O4 Finishing,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Viborg,,O4 Finishing,Established Play,
+269,270,1,3757.598569179,3783.0000706799988,O4 Finishing,Chipball,Intercepted by Defence,Unsuccessful,61 - 75 min,Viborg,,O4 Finishing,Established Play,True
+270,271,1,3779.172648140935,3791.2387615199677,D3 High Pressing,After Ball Loss,Stay In Phase,Neutral,61 - 75 min,Viborg,2nd Half,,,
+271,272,1,3792.4936738358465,3822.6902822388874,D2 Finding Balance,D3 High Press on Opp. Half,Establishing Pressing,Neutral,61 - 75 min,Viborg,2nd Half,,,
+272,273,1,3803.2671439353944,3829.719158409687,D3 Middle / Lower Pressing,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,Viborg,2nd Half,,,True
+273,274,1,3812.14729338454,3836.340046184494,D4 Defending the Box,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Viborg,2nd Half,,Established Play,
+274,275,1,3837.4185472223967,3938.7600270771436,D3 Middle / Lower Pressing,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,Viborg,2nd Half,,,
+275,276,1,3918.7600222222222,3943.2956067479977,D4 Defending the Box,Pass Infront of Backline,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Viborg,,,Established Play,
+276,277,1,3946.896597455997,3982.750177777778,D3 Middle / Lower Pressing,,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,61 - 75 min,Viborg,,,,
+277,278,1,3968.9979464870003,3995.682508102458,Ndividucal,,,,,Viborg,,,,True
+278,279,1,4049.5770700918583,4080.1942131775963,D4 Defending the Box,Front Area,"Cross, Shot, Set-Piece or Box Entry",Neutral,61 - 75 min,Viborg,2nd Half,,Lateral Free Kick,
+279,280,1,4060.434638466699,4096.60272106271,def free kick,Front Area,,,,Viborg,2nd Half,,,
+280,281,1,4065.4022178722025,4097.586404625939,O3 Break Through,D3 Win Ball Low/Middle,Keep The Ball,Neutral,61 - 75 min,Viborg,2nd Half,O3 Break Through,Transition,
+281,282,1,4078.4083036202155,4106.676205655427,O3 Break Through,Wide Link Up Play,Keep The Ball,Neutral,61 - 75 min,Viborg,2nd Half,O3 Break Through,Established Play,
+282,283,1,4078.5433500915537,4087.098590905255,D3 Middle / Lower Pressing,D3 Press on Throw-In,"Intercept. -> Estab. (O1, O2, O3)",Successful,61 - 75 min,Viborg,2nd Half,,,
+283,284,1,4085.5968140288965,4168.483299999999,Bench,,,,,Viborg,,,,True
+284,285,1,4107.482983024845,4119.524660494493,O2 Build Up,O3 to O2,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,Viborg,2nd Half,O2 Build Up,,
+285,286,1,4123.854490160282,4157.124483301806,O2 Build Up,O2 After Regain,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,Viborg,2nd Half,O2 Build Up,,
+286,287,1,4159.528427294277,4212.403012243751,D3 Middle / Lower Pressing,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,61 - 75 min,Viborg,2nd Half,,,
+287,288,1,4278.422773149927,4305.1228612799605,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to Next Phase,Successful,61 - 75 min,Viborg,2nd Half,O1 Play from the Back,,
+288,289,1,4292.437346397332,4320.153938609299,O3 Break Through,Early Through Pass or Cross,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,Viborg,2nd Half,O3 Break Through,Established Play,True
+289,290,1,4318.699146604566,4348.357562906665,D3 High Pressing,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,61 - 75 min,Viborg,2nd Half,,,
+290,291,1,4404.851728804549,4437.375847502455,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,Viborg,2nd Half,O1 Play from the Back,,
+291,292,1,4419.429217796682,4446.721934573821,O3 Break Through,Transition After CP,Ball Loss --> D3 Press,Unsuccessful,61 - 75 min,Viborg,2nd Half,O3 Break Through,Transition,
+292,293,1,4428.551407402334,4451.929717852994,O4 Finishing,Through Pass,Intercepted by Defence,Unsuccessful,61 - 75 min,Viborg,2nd Half,O4 Finishing,Transition,
+293,294,1,4455.771761229702,4501.566601159404,D3 Middle / Lower Pressing,D3 Goal Kick or Free Kick,"Intercept. -> Estab. (O1, O2, O3)",Successful,61 - 75 min,Viborg,2nd Half,,,
+294,295,1,4482.851777777778,4506.297308065,D4 Defending the Box,Through Pass,Intercepted by Defence,Successful,61 - 75 min,Viborg,,,Established Play,
+295,296,1,4507.983367262259,4528.536940621696,O1 Play from the Back,O1 Goal Kick or Free Kick,Progress to O3-O4,Successful,76 - 90 min,Viborg,2nd Half,O1 Play from the Back,,
+296,297,1,4513.504772082106,4547.472054752767,O3 Break Through,Central Play Infront of Backline,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Viborg,2nd Half,O3 Break Through,Established Play,
+297,298,1,4526.952511111112,4552.990255555555,O4 Finishing,Chipball,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,Viborg,,O4 Finishing,Established Play,
+298,299,1,4548.638266165834,4552.369049512872,D1 Counterpress,After O3/O4,"Intercept. -> Estab. (O1, O2, O3)",Successful,76 - 90 min,Viborg,2nd Half,,,
+299,300,1,4555.93130189186,4589.660415309063,O2 Build Up,O3 to O2,Stay In Phase,Neutral,76 - 90 min,Viborg,2nd Half,O2 Build Up,,True
+300,301,1,4590.426772287816,4617.810883230946,O1 Play from the Back,O2 to O1,Progress to Next Phase,Successful,76 - 90 min,Viborg,2nd Half,O1 Play from the Back,,True
+301,302,1,4616.877841437329,4643.354422222222,Ndividucal,,,,,Viborg,,,,True
+302,303,1,4644.537896707121,4696.769403194923,O2 Build Up,O2 Free Kick,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Viborg,2nd Half,O2 Build Up,,
+303,304,1,4685.16534946715,4714.192928093047,O3 Break Through,Wide Link Up Play,"Cross, Shot, Set-Piece or Box Entry",Successful,76 - 90 min,Viborg,2nd Half,O3 Break Through,Established Play,
+304,305,1,4689.944473809188,4702.0898660829,D1 Counterpress,After O2 build-up,Direct to O3/O4 OFF Transit,Successful,76 - 90 min,Viborg,2nd Half,,,True
+305,306,1,4695.0954234952005,4720.175873496239,O4 Finishing,Cutback,Chance,Unsuccessful,76 - 90 min,Viborg,2nd Half,O4 Finishing,Established Play,
+306,307,1,4721.781664665999,4730.098441355999,D2 Finding Balance,After Ball Loss,"Intercept. -> Estab. (O1, O2, O3)",Successful,76 - 90 min,Viborg,,,,
+307,308,1,4730.016821982295,4781.639089818696,D3 Middle / Lower Pressing,D3 Press on Throw-In,Direct to O3/O4 OFF Transit,Successful,76 - 90 min,Viborg,2nd Half,,,
+308,309,1,4762.99683729272,4799.943095637214,O3 Break Through,D3 Win Ball Low/Middle,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Viborg,2nd Half,O3 Break Through,Transition,True
+309,310,1,4793.037033360739,4799.547110703541,D2 Finding Balance,Transition After CP,"Intercept. -> Estab. (O1, O2, O3)",Successful,76 - 90 min,Viborg,2nd Half,,,
+310,311,1,4800.8086884672975,4820.298000389772,O2 Build Up,O2 After Regain,Stay In Phase,Neutral,76 - 90 min,Viborg,2nd Half,O2 Build Up,,
+311,312,1,4808.825855555556,4828.825855555556,Ndividucal,,,,,Viborg,,,,True
+312,313,1,4815.248525486928,4838.365709455999,O1 Play from the Back,O2 to O1,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Viborg,2nd Half,O1 Play from the Back,,True
+313,314,1,4836.150666802907,4880.289707794063,D3 Middle / Lower Pressing,D3 Press on Throw-In,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,76 - 90 min,Viborg,2nd Half,,,
+314,315,1,4861.416005148378,4888.349270329314,D4 Defending the Box,Chipball,Intercepted by Defence,Successful,76 - 90 min,Viborg,2nd Half,,Established Play,
+315,316,1,4889.443833209631,4899.187565797787,O1 Play from the Back,O1 After Regain,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Viborg,2nd Half,O1 Play from the Back,,
+316,317,1,4900.721412190091,4940.838531983716,D3 Middle / Lower Pressing,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,76 - 90 min,Viborg,2nd Half,,,
+317,318,1,4921.481676029997,4944.0975448379995,D4 Defending the Box,1v1,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,Viborg,,,Established Play,
+318,319,1,4984.163888165569,5006.071299516931,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Viborg,2nd Half,O1 Play from the Back,,
+319,320,1,5010.249718718202,5015.545300991658,D3 High Pressing,After Ball Loss,Stay In Phase,Neutral,76 - 90 min,Viborg,2nd Half,,,
+320,321,1,5016.544055346789,5067.0827596816525,D3 Middle / Lower Pressing,D3 From High to Med/Low,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,76 - 90 min,Viborg,2nd Half,,,
+321,322,1,5096.576535050737,5139.935411544056,D4 Defending the Box,,"Cross, Shot, Set-Piece or Box Entry",Neutral,76 - 90 min,Viborg,2nd Half,,Lateral Free Kick,True
+322,323,1,5112.512020566858,5139.733710798587,def free kick,,,,,Viborg,2nd Half,,Lateral Free Kick,
+323,324,1,5137.060213345207,5187.923945897364,D3 Middle / Lower Pressing,After Ball Loss,Stay In Phase,Neutral,76 - 90 min,Viborg,2nd Half,,,
+324,325,1,5189.0339063760475,5225.06527645355,D3 Middle / Lower Pressing,After Ball Loss,Stay In Phase,Neutral,76 - 90 min,Viborg,2nd Half,,,
+325,326,1,5228.404084186845,5256.7372953762915,D3 Middle / Lower Pressing,After Ball Loss,Direct to O3/O4 OFF Transit,Successful,76 - 90 min,Viborg,2nd Half,,,
+326,327,1,5260.771358834463,5296.737210618785,D3 Middle / Lower Pressing,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,76 - 90 min,Viborg,2nd Half,,,
+327,328,1,5279.270209736187,5306.587561171001,D4 Defending the Box,Chipball,Intercepted by Defence,Successful,76 - 90 min,Viborg,2nd Half,,Established Play,True
+328,329,1,5308.471704131811,5335.78032391986,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Viborg,2nd Half,O1 Play from the Back,,
+329,330,1,5337.434393286983,5358.2880048452935,D3 Middle / Lower Pressing,D3 Press on Throw-In,"Intercept. -> Estab. (O1, O2, O3)",Successful,76 - 90 min,Viborg,2nd Half,,,
+330,331,1,5339.661291218774,5367.138415077388,D4 Defending the Box,Chipball,Intercepted by Defence,Successful,76 - 90 min,Viborg,2nd Half,,Established Play,True
+331,332,1,5368.631991511089,5390.640477695439,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,76 - 90 min,Viborg,2nd Half,O1 Play from the Back,,
+332,333,1,5393.02887286373,5422.381472673973,D3 Middle / Lower Pressing,D3 Goal Kick or Free Kick,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,76 - 90 min,Viborg,2nd Half,,,
+333,334,1,5403.259456205587,5429.658155453348,D4 Defending the Box,Back Area,"Cross, Shot, Set-Piece or Box Entry",Neutral,90+ min,Viborg,2nd Half,,Lateral Free Kick,
+334,335,1,5417.004736953608,5456.121080644427,D4 Defending the Box,Long Throw,"Cross, Shot, Set-Piece or Box Entry",Neutral,90+ min,Viborg,2nd Half,,Throw In,True
+335,336,1,5418.760213862135,5439.129844924877,def free kick,,,,,Viborg,2nd Half,,Throw In,
+336,337,1,5436.040839003796,5470.576975417839,def throw,Long Throw,,,,Viborg,2nd Half,,Throw In,
+337,338,1,5477.052319422057,5491.723915357707,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,90+ min,Viborg,2nd Half,O1 Play from the Back,,
+338,339,1,5492.063705226704,5525.777065751718,Bench,,,,,Viborg,,,,True
+339,340,1,5498.189524753999,5508.198708338,D1 Counterpress,After O1 build-up,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,90+ min,Viborg,,,,
+340,341,1,5506.929218285766,5535.29382293259,D4 Defending the Box,Short Variation,"Cross, Shot, Set-Piece or Box Entry",Neutral,90+ min,Viborg,2nd Half,,Lateral Free Kick,
+341,342,1,5517.729623599827,5542.65889454315,D4 Defending the Box,Chipball,Intercepted by Defence,Successful,90+ min,Viborg,2nd Half,,Established Play,
+342,343,1,5523.387560423749,5561.934382610801,def free kick,Short Variation,,,,Viborg,2nd Half,,Lateral Free Kick,
+343,344,1,5548.88954477221,5567.004340123909,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,90+ min,Viborg,2nd Half,O1 Play from the Back,,
+344,345,1,5568.479181675122,5596.091792677233,D4 Defending the Box,Chipball,Intercepted by Defence,Successful,90+ min,Viborg,2nd Half,,Established Play,True
+345,346,1,5569.265248109741,5587.416803005401,D3 Middle / Lower Pressing,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,90+ min,Viborg,2nd Half,,,
+346,347,1,5598.440706070694,5637.321903311822,O1 Play from the Back,O1 Goal Kick or Free Kick,Ball Loss --> D3 Press,Unsuccessful,90+ min,Viborg,2nd Half,O1 Play from the Back,,
+347,348,1,5639.415283460743,5666.698973082604,D3 Middle / Lower Pressing,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,90+ min,Viborg,2nd Half,,,
+348,349,1,5647.977081195311,5672.090816224067,D4 Defending the Box,1v1,Intercepted by Defence,Successful,90+ min,Viborg,2nd Half,,Established Play,
+349,350,1,5663.450937046198,5686.933943504504,D4 Defending the Box,Chipball,Intercepted by Defence,Successful,90+ min,Viborg,2nd Half,,Established Play,
+350,351,1,5673.137402555338,5682.627850064684,D3 Middle / Lower Pressing,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,90+ min,Viborg,2nd Half,,,
+351,352,1,5675.28893318231,5702.757819856726,O3 Break Through,After D4 Def. Box,Keep The Ball,Neutral,90+ min,Viborg,2nd Half,O3 Break Through,Transition,True
+352,353,1,5718.856548729193,5726.197308496195,O2 Build Up,O2 Throw-In,Ball Loss --> D3 Press,Unsuccessful,90+ min,Viborg,2nd Half,O2 Build Up,,True
+353,354,1,5728.138811213705,5751.29026506419,D3 Middle / Lower Pressing,After Ball Loss,"Cross, Shot, Set-Piece or Box Entry",Unsuccessful,90+ min,Viborg,2nd Half,,,
+354,355,1,5732.256913678957,5757.800394481084,D4 Defending the Box,Chipball,Intercepted by Defence,Successful,90+ min,Viborg,2nd Half,,Established Play,
+355,356,1,5759.6535473044405,5777.112822039613,O1 Play from the Back,O1 Goal Kick or Free Kick,Stay In Phase,Neutral,90+ min,Viborg,2nd Half,O1 Play from the Back,,
