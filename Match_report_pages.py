@@ -5,6 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
+import glob
+
 
 
 def set_background_image(image_url):
@@ -477,7 +479,7 @@ def statistics_page(df):
         values = np.array([[A_SEp, A_ST, A_SSp], [A_NEp, A_NT, A_NSp], [A_UEp, A_UT, A_USp]])
 
         # Define custom colors for the bars
-        colors = ['green', 'red', 'grey']
+        colors = ['green', 'grey', 'red']
 
         # Create a stacked bar chart
         fig3, ax = plt.subplots(figsize=(8, 6.25))
@@ -517,7 +519,7 @@ def statistics_page(df):
         values = np.array([[D_SEp, D_ST, D_SSp], [D_NEp, D_NT, D_NSp], [D_UEp, D_UT, D_USp]])
 
         # Define custom colors for the bars
-        colors = ['green', 'red', 'grey']
+        colors = ['green', 'grey', 'red']
 
         # Create a stacked bar chart
         fig4, ax = plt.subplots(figsize=(8, 6))
@@ -705,6 +707,97 @@ def visualization_page(df):
             print("15 Minutes intervals do not exist")
             st.write("15 Minutes intervals do not exist")
 
+def table_page():
+    folder_path = 'https://raw.githubusercontent.com/Vangelis19/Streamlit/main/Superliga%202022-2023/'
+    csv_files = ['01_OB-FCN','01_OB-FCN','03_FCN-LBK',
+                '04_FCN-VFF','05_AAB-FCN','06_FCN-SIF',
+                '07_FCN-FCK','08_AGF-FCN','09_FCN-FCM',
+                '10_ACH-FCN','11_FCN-RFC','12_FCK-FCN',
+                '13_FCN-AGF','14_RFC-FCN','15_FCN-ACH',
+                '16_FCM-FCN','17_FCN-AAB','18_LBK-FCN',
+                '19_FCN-OB','20_SIF-FCN','21_VFF-FCN',
+                '22_FCN-BIF','23_FCK-FCN','24_FCN-BIF',
+                '25_RFC-FCN','26_VFF-FCN','27_FCN-AGF',
+                '28_FCN-FCK','29_AGF-FCN','30_FCN-RFC',
+                '31_BIF-FCN','32_FCN-VFF'
+                ]
+
+    # Iterate over each CSV file and read it into a DataFrame
+    files=[]
+    dataframes = []
+    for i in range (len(csv_files)):
+        item=folder_path+csv_files[i]+'.csv'
+        files.append(item)
+    us_ep = []
+    s_ep = []
+    n_ep = []
+    us_tr = []
+    s_tr = []
+    n_tr = []
+    us_sp = []
+    s_sp = []
+    n_sp = []
+    
+
+
+    for file in files:
+        #print("Reading file:", file)
+        df = pd.read_csv(file)
+        required_columns = ['Half', '00. Start Phase', '02. Situation Type','03. Outcomes','04. Rating','01. Phase']
+        if all(column in df.columns for column in required_columns):
+            if 'code' in df:
+                filtered_df = df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Unsuccessful')]
+                filtered_df1 = df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Successful')]
+                filtered_df2 = df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Neutral')]
+                tr_df = df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['04. Rating'] == 'Unsuccessful')]
+                tr_df1 = df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['04. Rating'] == 'Successful')]
+                tr_df2 = df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['04. Rating'] == 'Neutral')]
+                sp_df = df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Unsuccessful')]
+                sp_df1 = df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Successful')]
+                sp_df2 = df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Neutral')]
+            else:
+                filtered_df = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Unsuccessful')]
+                filtered_df1 = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Successful')]
+                filtered_df2 = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Neutral')]
+                tr_df = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['04. Rating'] == 'Unsuccessful')]
+                tr_df1 = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['04. Rating'] == 'Successful')]
+                tr_df2 = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['04. Rating'] == 'Neutral')]
+                sp_df = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Unsuccessful')]
+                sp_df1 = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Successful')]
+                sp_df2 = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Neutral')]
+            us_ep.append(filtered_df['04. Rating'].str.count('Unsuccessful').sum())
+            s_ep.append(filtered_df1['04. Rating'].str.count('Successful').sum())
+            n_ep.append(filtered_df2['04. Rating'].str.count('Neutral').sum())
+            us_tr.append(tr_df['04. Rating'].str.count('Unsuccessful').sum())
+            s_tr.append(tr_df1['04. Rating'].str.count('Successful').sum())
+            n_tr.append(tr_df2['04. Rating'].str.count('Neutral').sum())
+            us_sp.append(sp_df['04. Rating'].str.count('Unsuccessful').sum())
+            s_sp.append(sp_df1['04. Rating'].str.count('Successful').sum())
+            n_sp.append(sp_df2['04. Rating'].str.count('Neutral').sum())
+        else:
+            us_ep.append(0)
+            s_ep.append(0)
+            n_ep.append(0)
+            us_tr.append(0)
+            s_tr.append(0)
+            n_tr.append(0)
+            us_sp.append(0)
+            s_sp.append(0)
+            n_sp.append(0)
+
+    
+    epO4=pd.DataFrame({'Unsuccessful':us_ep,'Successful':s_ep,'Neutral':n_ep})
+    spO4=pd.DataFrame({'Unsuccessful':us_sp,'Successful':s_sp,'Neutral':n_sp})
+    trO4=pd.DataFrame({'Unsuccessful':us_tr,'Successful':s_tr,'Neutral':n_tr})
+    #print(epO4)
+    #print(trO4)
+    #print(spO4)
+
+    final = pd.concat([epO4, trO4, spO4], axis=1, keys=['Established Play', 'Transition', 'Set Pieces'], )
+    final.index.name = 'Matchday'
+
+    st.write(final)
+
 def main():
     st.title("Automated Report")
     # Upload a CSV file
@@ -715,7 +808,7 @@ def main():
         df = pd.read_csv(csv_file)
 
         # Create a page navigation sidebar
-        page = st.sidebar.selectbox("Select a page", ("Match Details", "Finishing & Defending", "15-Minutes O4 & D4 from phases"))
+        page = st.sidebar.selectbox("Select a page", ("Match Details", "Finishing & Defending", "15-Minutes O4 & D4 from phases", "O4 Table"))
 
         # Display the selected page
         if page == "Match Details":
@@ -724,6 +817,8 @@ def main():
             statistics_page(df)
         elif page == "15-Minutes O4 & D4 from phases":
             visualization_page(df)
+        elif page == "O4 Table":
+            table_page()
 
 
 if __name__ == "__main__":
