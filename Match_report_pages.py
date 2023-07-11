@@ -4,24 +4,31 @@ from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 import plotly.express as px
-import plotly.graph_objects as go
+import plotly.graph_objects as go 
 import glob
+import base64
+import requests
 
 
+@st.cache_data
+def get_base64_of_bin_file(bin_file):
+    response = requests.get(bin_file)
+    data = response.content
+    return base64.b64encode(data).decode()
 
-def set_background_image(image_url):
+def set_png_as_page_bg(png_file):
+    bin_str = get_base64_of_bin_file(png_file)
     page_bg_img = '''
     <style>
     .stApp {
-        background-image: url("%s");
-        background-size: cover;
+    background-image: url("data:image/png;base64,%s");
+    background-size: cover;
     }
     </style>
-    ''' % image_url
+    ''' % bin_str
+    
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-# Set the background image
-set_background_image('https://example.com/background_image.jpg')
 
 def chances(df):
     if 'code' in df.columns:
@@ -399,8 +406,7 @@ def overview_page(df):
     st.subheader("Match Details")
     st.write("Information about the game and pics")
     st.write("Sunday 14/05/2023 19:00")
-    # Set the background image
-    set_background_image('https://example.com/background_image.jpg')
+    set_png_as_page_bg("https://www.sgclark.com/blog/wp-content/uploads/europe_soccer_danish_fc_nordsjaelland_home-2048x1152.png")
     
 
 def statistics_page(df):
@@ -409,9 +415,6 @@ def statistics_page(df):
 
     SF,UF,NF,SD,UD,ND,A_SEp,A_UEp,A_NEp,A_ST,A_UT,A_NT,A_SSp,A_USp,A_NSp,D_SEp,D_UEp,D_NEp,D_ST,D_UT,D_NT,D_SSp,D_USp,D_NSp=O4_D4(df)
     max1,max2=max_values(df)
-    print('succesful ep:',A_SEp)
-    print('neutra tr:',A_NT)
-    print('unsuccesful sp:',A_USp)
 
     # Create two columns for the charts
     col1, col2 = st.columns(2)
@@ -550,6 +553,7 @@ def statistics_page(df):
 
         # Display the chart in Streamlit
         st.pyplot(fig4)
+    set_png_as_page_bg("https://tactical-times.com/wp-content/uploads/2021/07/Untitled.png")
 
 
     
@@ -559,7 +563,8 @@ def visualization_page(df):
     st.write("This is the visualization page.")
     EP0_15,TR0_15,SP0_15,EP16_30,TR16_30,SP16_30,EP31_45,TR31_45,SP31_45,EP46_60,TR46_60,SP46_60,EP61_75,TR61_75,SP61_75,EP76_90,TR76_90,SP76_90,SEP0_15,STR0_15,SSP0_15,SEP16_30,STR16_30,SSP16_30,SEP31_45,STR31_45,SSP31_45,SEP46_60,STR46_60,SSP46_60,SEP61_75,STR61_75,SSP61_75,SEP76_90,STR76_90,SSP76_90=time_period_O4(df)
     DEP0_15,DTR0_15,DSP0_15,DEP16_30,DTR16_30,DSP16_30,DEP31_45,DTR31_45,DSP31_45,DEP46_60,DTR46_60,DSP46_60,DEP61_75,DTR61_75,DSP61_75,DEP76_90,DTR76_90,DSP76_90,DSEP0_15,DSTR0_15,DSSP0_15,DSEP16_30,DSTR16_30,DSSP16_30,DSEP31_45,DSTR31_45,DSSP31_45,DSEP46_60,DSTR46_60,DSSP46_60,DSEP61_75,DSTR61_75,DSSP61_75,DSEP76_90,DSTR76_90,DSSP76_90=time_period_D4(df)
-    
+    ep_table,tr_table,sp_table,final,jtable=avg_calculations()
+    d_ep_table,d_tr_table,d_sp_table,d_final,d_jtable=def_avg_calculations()
     maxbar=max(EP0_15,TR0_15,SP0_15,EP16_30,TR16_30,SP16_30,EP31_45,
                TR31_45,SP31_45,EP46_60,TR46_60,SP46_60,EP61_75,TR61_75,
                SP61_75,EP76_90,TR76_90,SP76_90,SEP0_15,STR0_15,SSP0_15,
@@ -570,6 +575,12 @@ def visualization_page(df):
                DTR76_90,DSP76_90,DSEP0_15,DSTR0_15,DSSP0_15,DSEP16_30,DSTR16_30,DSSP16_30,
                DSEP31_45,DSTR31_45,DSSP31_45,DSEP46_60,DSTR46_60,DSSP46_60,DSEP61_75,
                DSTR61_75,DSSP61_75,DSEP76_90,DSTR76_90,DSSP76_90)
+    set_png_as_page_bg("https://tactical-times.com/wp-content/uploads/2021/07/Untitled.png")
+
+    array = jtable.values
+    d_array=d_jtable.values
+
+    print(array)
     
     col1, col2 = st.columns(2)
     with col1:
@@ -587,6 +598,8 @@ def visualization_page(df):
                                         [EP46_60, TR46_60, SP46_60],
                                         [EP61_75, TR61_75, SP61_75],
                                         [EP76_90, TR76_90, SP76_90]])
+            
+            print(situation_counts1)
 
             # Set up the chart
             fig, ax = plt.subplots()
@@ -610,12 +623,25 @@ def visualization_page(df):
 
                 # Create the bar for the situation
                 bar = ax.bar(situation_positions, counts, bar_width, label=situation, color=colors[i], linewidth=2, edgecolor='black')
-            c=max(EP0_15,EP16_30,EP31_45,EP46_60,EP61_75,EP76_90)
-            for i in range(len(time_periods) - 1):
-                    line_x = i + 0.75  # x-coordinate of the line (adjust as needed)
 
-                    # Plotting the dotted line
-                    ax.plot([line_x, line_x], [0, c], linestyle='dotted', color='gray')
+            # Add average lines
+            for i in range(len(time_periods)):
+                for j in range(len(situations)):
+                    value = array[i, j]
+                    bar_position = bar_positions[i] + j * bar_width  # x-coordinate of the bar
+
+                    # Calculate the starting and ending positions of the line
+                    start = bar_position - bar_width / 2  # Starting position of the line
+                    end = bar_position + bar_width / 2    # Ending position of the line
+
+                    ax.plot([start, end], [value] * 2, color='red', linestyle='-')
+
+            c = max(EP0_15, EP16_30, EP31_45, EP46_60, EP61_75, EP76_90,DEP0_15,DEP16_30,DEP31_45,DEP46_60,DEP61_75,DEP76_90)
+            for i in range(len(time_periods) - 1):
+                line_x = i + 0.75  # x-coordinate of the line (adjust as needed)
+
+                # Plotting the dotted line
+                ax.plot([line_x, line_x], [0, c], linestyle='dotted', color='gray')
 
                 
             ax.set_ylim(ylim)
@@ -627,6 +653,7 @@ def visualization_page(df):
             # Set the x-axis ticks and labels
             ax.set_xticks(bar_positions)
             ax.set_xticklabels(time_periods)
+            
 
             # Add a legend
             ax.legend()
@@ -677,7 +704,20 @@ def visualization_page(df):
 
                 # Create the bar for the situation
                 bar = ax.bar(situation_positions, counts, bar_width, label=situation, color=colors[i], linewidth=2, edgecolor='black')
-            c=max(EP0_15,EP16_30,EP31_45,EP46_60,EP61_75,EP76_90)
+
+            # Add average lines
+            for i in range(len(time_periods)):
+                for j in range(len(situations)):
+                    value = d_array[i, j]
+                    bar_position = bar_positions[i] + j * bar_width  # x-coordinate of the bar
+
+                    # Calculate the starting and ending positions of the line
+                    start = bar_position - bar_width / 2  # Starting position of the line
+                    end = bar_position + bar_width / 2    # Ending position of the line
+
+                    ax.plot([start, end], [value] * 2, color='red', linestyle='-')
+
+            c=max(EP0_15, EP16_30, EP31_45, EP46_60, EP61_75, EP76_90, DEP0_15,DEP16_30,DEP31_45,DEP46_60,DEP61_75,DEP76_90)
             for i in range(len(time_periods) - 1):
                     line_x = i + 0.75  # x-coordinate of the line (adjust as needed)
 
@@ -707,9 +747,9 @@ def visualization_page(df):
             print("15 Minutes intervals do not exist")
             st.write("15 Minutes intervals do not exist")
 
-def table_page():
+def avg_calculations():
     folder_path = 'https://raw.githubusercontent.com/Vangelis19/Streamlit/main/Superliga%202022-2023/'
-    csv_files = ['01_OB-FCN','01_OB-FCN','03_FCN-LBK',
+    csv_files = ['01_OB-FCN','02_BIF-FCN','03_FCN-LBK',
                 '04_FCN-VFF','05_AAB-FCN','06_FCN-SIF',
                 '07_FCN-FCK','08_AGF-FCN','09_FCN-FCM',
                 '10_ACH-FCN','11_FCN-RFC','12_FCK-FCN',
@@ -737,13 +777,42 @@ def table_page():
     us_sp = []
     s_sp = []
     n_sp = []
+    total_ep=[]
+    total_tr=[]
+    total_sp=[]
+    tp1=[]
+    tp2=[]
+    tp3=[]
+    tp4=[]
+    tp5=[]
+    tp6=[]
+    tp_tr1=[]
+    tp_tr2=[]
+    tp_tr3=[]
+    tp_tr4=[]
+    tp_tr5=[]
+    tp_tr6=[]
+
+    tp_sp1=[]
+    tp_sp2=[]
+    tp_sp3=[]
+    tp_sp4=[]
+    tp_sp5=[]
+    tp_sp6=[]
+
+    a_t1=[]
+    a_t2=[]
+    a_t3=[]
+    a_t4=[]
+    a_t5=[]
+    a_t6=[]
+
     
 
 
     for file in files:
-        #print("Reading file:", file)
         df = pd.read_csv(file)
-        required_columns = ['Half', '00. Start Phase', '02. Situation Type','03. Outcomes','04. Rating','01. Phase']
+        required_columns = ['00. Start Phase', '02. Situation Type','03. Outcomes','04. Rating','01. Phase']
         if all(column in df.columns for column in required_columns):
             if 'code' in df:
                 filtered_df = df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Unsuccessful')]
@@ -755,6 +824,51 @@ def table_page():
                 sp_df = df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Unsuccessful')]
                 sp_df1 = df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Successful')]
                 sp_df2 = df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Neutral')]
+                total1=filtered_df['04. Rating'].str.count('Unsuccessful').sum()+filtered_df1['04. Rating'].str.count('Successful').sum()+filtered_df2['04. Rating'].str.count('Neutral').sum()
+                total2=tr_df['04. Rating'].str.count('Unsuccessful').sum()+tr_df1['04. Rating'].str.count('Successful').sum()+tr_df2['04. Rating'].str.count('Neutral').sum()
+                total3=sp_df['04. Rating'].str.count('Unsuccessful').sum()+sp_df1['04. Rating'].str.count('Successful').sum()+sp_df2['04. Rating'].str.count('Neutral').sum()
+                if 'Time Period' in df:
+                    time_15=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='0 - 15 min')]
+                    time_30=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='16 - 30 min')]
+                    time_45=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='31 - 45 min')]
+                    time_60=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='46 - 60 min')]
+                    time_75=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='61 - 75 min')]
+                    time_90=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='76 - 90 min')]
+
+                    time_15_tr=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='0 - 15 min')]
+                    time_30_tr=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='16 - 30 min')]
+                    time_45_tr=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='31 - 45 min')]
+                    time_60_tr=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='46 - 60 min')]
+                    time_75_tr=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='61 - 75 min')]
+                    time_90_tr=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='76 - 90 min')]
+
+                    time_15_sp=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='0 - 15 min')]
+                    time_30_sp=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='16 - 30 min')]
+                    time_45_sp=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='31 - 45 min')]
+                    time_60_sp=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='46 - 60 min')]
+                    time_75_sp=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='61 - 75 min')]
+                    time_90_sp=df.loc[(df['code'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='76 - 90 min')]
+                else:
+                    time_15=0
+                    time_30=0
+                    time_45=0
+                    time_60=0
+                    time_75=0
+                    time_90=0
+
+                    time_15_tr=0
+                    time_30_tr=0
+                    time_45_tr=0
+                    time_60_tr=0
+                    time_75_tr=0
+                    time_90_tr=0
+
+                    time_15_sp=0
+                    time_30_sp=0
+                    time_45_sp=0
+                    time_60_sp=0
+                    time_75_sp=0
+                    time_90_sp=0
             else:
                 filtered_df = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Unsuccessful')]
                 filtered_df1 = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Successful')]
@@ -765,6 +879,51 @@ def table_page():
                 sp_df = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Unsuccessful')]
                 sp_df1 = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Successful')]
                 sp_df2 = df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Neutral')]
+                total1=filtered_df['04. Rating'].str.count('Unsuccessful').sum()+filtered_df1['04. Rating'].str.count('Successful').sum()+filtered_df2['04. Rating'].str.count('Neutral').sum()
+                total2=tr_df['04. Rating'].str.count('Unsuccessful').sum()+tr_df1['04. Rating'].str.count('Successful').sum()+tr_df2['04. Rating'].str.count('Neutral').sum()
+                total3=sp_df['04. Rating'].str.count('Unsuccessful').sum()+sp_df1['04. Rating'].str.count('Successful').sum()+sp_df2['04. Rating'].str.count('Neutral').sum()
+                if 'Time Period' in df:
+                    time_15=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='0 - 15 min')]
+                    time_30=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='16 - 30 min')]
+                    time_45=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='31 - 45 min')]
+                    time_60=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='46 - 60 min')]
+                    time_75=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='61 - 75 min')]
+                    time_90=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='76 - 90 min')]
+
+                    time_15_tr=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='0 - 15 min')]
+                    time_30_tr=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='16 - 30 min')]
+                    time_45_tr=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='31 - 45 min')]
+                    time_60_tr=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='46 - 60 min')]
+                    time_75_tr=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='61 - 75 min')]
+                    time_90_tr=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='76 - 90 min')]
+
+                    time_15_sp=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='0 - 15 min')]
+                    time_30_sp=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='16 - 30 min')]
+                    time_45_sp=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='31 - 45 min')]
+                    time_60_sp=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='46 - 60 min')]
+                    time_75_sp=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='61 - 75 min')]
+                    time_90_sp=df.loc[(df['Row'] == 'O4 Finishing') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='76 - 90 min')]
+                else:
+                    time_15=0
+                    time_30=0
+                    time_45=0
+                    time_60=0
+                    time_75=0
+                    time_90=0
+
+                    time_15_tr=0
+                    time_30_tr=0
+                    time_45_tr=0
+                    time_60_tr=0
+                    time_75_tr=0
+                    time_90_tr=0
+
+                    time_15_sp=0
+                    time_30_sp=0
+                    time_45_sp=0
+                    time_60_sp=0
+                    time_75_sp=0
+                    time_90_sp=0
             us_ep.append(filtered_df['04. Rating'].str.count('Unsuccessful').sum())
             s_ep.append(filtered_df1['04. Rating'].str.count('Successful').sum())
             n_ep.append(filtered_df2['04. Rating'].str.count('Neutral').sum())
@@ -774,6 +933,52 @@ def table_page():
             us_sp.append(sp_df['04. Rating'].str.count('Unsuccessful').sum())
             s_sp.append(sp_df1['04. Rating'].str.count('Successful').sum())
             n_sp.append(sp_df2['04. Rating'].str.count('Neutral').sum())
+            total_ep.append(total1)
+            total_tr.append(total2)
+            total_sp.append(total3)
+            if 'Time Period' in df:
+                tp1.append(time_15['Time Period'].str.count('0 - 15 min').sum())
+                tp2.append(time_30['Time Period'].str.count('16 - 30 min').sum())
+                tp3.append(time_45['Time Period'].str.count('31 - 45 min').sum())
+                tp4.append(time_60['Time Period'].str.count('46 - 60 min').sum())
+                tp5.append(time_75['Time Period'].str.count('61 - 75 min').sum())
+                tp6.append(time_90['Time Period'].str.count('76 - 90 min').sum())
+
+                tp_tr1.append(time_15_tr['Time Period'].str.count('0 - 15 min').sum())
+                tp_tr2.append(time_30_tr['Time Period'].str.count('16 - 30 min').sum())
+                tp_tr3.append(time_45_tr['Time Period'].str.count('31 - 45 min').sum())
+                tp_tr4.append(time_60_tr['Time Period'].str.count('46 - 60 min').sum())
+                tp_tr5.append(time_75_tr['Time Period'].str.count('61 - 75 min').sum())
+                tp_tr6.append(time_90_tr['Time Period'].str.count('76 - 90 min').sum())
+
+                tp_sp1.append(time_15_sp['Time Period'].str.count('0 - 15 min').sum())
+                tp_sp2.append(time_30_sp['Time Period'].str.count('16 - 30 min').sum())
+                tp_sp3.append(time_45_sp['Time Period'].str.count('31 - 45 min').sum())
+                tp_sp4.append(time_60_sp['Time Period'].str.count('46 - 60 min').sum())
+                tp_sp5.append(time_75_sp['Time Period'].str.count('61 - 75 min').sum())
+                tp_sp6.append(time_90_sp['Time Period'].str.count('76 - 90 min').sum())
+            else:
+                tp1.append(0)
+                tp2.append(0)
+                tp3.append(0)
+                tp4.append(0)
+                tp5.append(0)
+                tp6.append(0)
+
+                time_15_tr=0
+                time_30_tr=0
+                time_45_tr=0
+                time_60_tr=0
+                time_75_tr=0
+                time_90_tr=0
+
+                time_15_sp=0
+                time_30_sp=0
+                time_45_sp=0
+                time_60_sp=0
+                time_75_sp=0
+                time_90_sp=0
+            
         else:
             us_ep.append(0)
             s_ep.append(0)
@@ -784,24 +989,443 @@ def table_page():
             us_sp.append(0)
             s_sp.append(0)
             n_sp.append(0)
+            total_ep.append(0)
+            total_tr.append(0)
+            total_sp.append(0)
+            tp1.append(0)
+            tp2.append(0)
+            tp3.append(0)
+            tp4.append(0)
+            tp5.append(0)
+            tp6.append(0)
+            time_15_tr=0
+            time_30_tr=0
+            time_45_tr=0
+            time_60_tr=0
+            time_75_tr=0
+            time_90_tr=0
 
+            time_15_sp=0
+            time_30_sp=0
+            time_45_sp=0
+            time_60_sp=0
+            time_75_sp=0
+            time_90_sp=0
+    denominator=len(files)
+    att_ep_avg_1=sum(tp1)/denominator
+    att_ep_avg_2=sum(tp2)/denominator
+    att_ep_avg_3=sum(tp3)/denominator
+    att_ep_avg_4=sum(tp4)/denominator
+    att_ep_avg_5=sum(tp5)/denominator
+    att_ep_avg_6=sum(tp6)/denominator
+    print(att_ep_avg_1)
+    print(att_ep_avg_2)
+    print(att_ep_avg_3)
+    print(att_ep_avg_4)
+    print(att_ep_avg_5)
+    print(att_ep_avg_6)
+
+    att_tr_avg_1=sum(tp_tr1)/denominator
+    att_tr_avg_2=sum(tp_tr2)/denominator
+    att_tr_avg_3=sum(tp_tr3)/denominator
+    att_tr_avg_4=sum(tp_tr4)/denominator
+    att_tr_avg_5=sum(tp_tr5)/denominator
+    att_tr_avg_6=sum(tp_tr6)/denominator
+
+    att_sp_avg_1=sum(tp_sp1)/denominator
+    att_sp_avg_2=sum(tp_sp2)/denominator
+    att_sp_avg_3=sum(tp_sp3)/denominator
+    att_sp_avg_4=sum(tp_sp4)/denominator
+    att_sp_avg_5=sum(tp_sp5)/denominator
+    att_sp_avg_6=sum(tp_sp6)/denominator
+
+    ep_table=[]
     
-    epO4=pd.DataFrame({'Unsuccessful':us_ep,'Successful':s_ep,'Neutral':n_ep})
-    spO4=pd.DataFrame({'Unsuccessful':us_sp,'Successful':s_sp,'Neutral':n_sp})
-    trO4=pd.DataFrame({'Unsuccessful':us_tr,'Successful':s_tr,'Neutral':n_tr})
-    #print(epO4)
-    #print(trO4)
-    #print(spO4)
+    ep_table.append(att_ep_avg_1)
+    ep_table.append(att_ep_avg_2)
+    ep_table.append(att_ep_avg_3)
+    ep_table.append(att_ep_avg_4)
+    ep_table.append(att_ep_avg_5)
+    ep_table.append(att_ep_avg_6)
+    print(ep_table)
+    
+    tr_table=[]
+    tr_table.append(att_tr_avg_1)
+    tr_table.append(att_tr_avg_2)
+    tr_table.append(att_tr_avg_3)
+    tr_table.append(att_tr_avg_4)
+    tr_table.append(att_tr_avg_5)
+    tr_table.append(att_tr_avg_6)
+    print(tr_table)
+
+    sp_table=[]
+    sp_table.append(att_sp_avg_1)
+    sp_table.append(att_sp_avg_2)
+    sp_table.append(att_sp_avg_3)
+    sp_table.append(att_sp_avg_4)
+    sp_table.append(att_sp_avg_5)
+    sp_table.append(att_sp_avg_6)
+    print(sp_table)
+    
+    epO4=pd.DataFrame({'Unsuccessful':us_ep,'Successful':s_ep,'Neutral':n_ep,'Total':total_ep})
+    spO4=pd.DataFrame({'Unsuccessful':us_sp,'Successful':s_sp,'Neutral':n_sp,'Total':total_sp})
+    trO4=pd.DataFrame({'Unsuccessful':us_tr,'Successful':s_tr,'Neutral':n_tr,'Total':total_tr})
 
     final = pd.concat([epO4, trO4, spO4], axis=1, keys=['Established Play', 'Transition', 'Set Pieces'], )
     final.index.name = 'Matchday'
+    final.index += 1
 
+    conc = {'ep': ep_table, 'tr': tr_table, 'sp': sp_table}
+    jtable = pd.DataFrame(conc)
+    for i in range(1, 6):
+        jtable.iloc[i] = [ep_table[i], tr_table[i], sp_table[i]]
+
+    return ep_table,tr_table,sp_table,final,jtable
+
+def def_avg_calculations():
+    folder_path = 'https://raw.githubusercontent.com/Vangelis19/Streamlit/main/Superliga%202022-2023/'
+    csv_files = ['01_OB-FCN','02_BIF-FCN','03_FCN-LBK',
+                '04_FCN-VFF','05_AAB-FCN','06_FCN-SIF',
+                '07_FCN-FCK','08_AGF-FCN','09_FCN-FCM',
+                '10_ACH-FCN','11_FCN-RFC','12_FCK-FCN',
+                '13_FCN-AGF','14_RFC-FCN','15_FCN-ACH',
+                '16_FCM-FCN','17_FCN-AAB','18_LBK-FCN',
+                '19_FCN-OB','20_SIF-FCN','21_VFF-FCN',
+                '22_FCN-BIF','23_FCK-FCN','24_FCN-BIF',
+                '25_RFC-FCN','26_VFF-FCN','27_FCN-AGF',
+                '28_FCN-FCK','29_AGF-FCN','30_FCN-RFC',
+                '31_BIF-FCN','32_FCN-VFF'
+                ]
+
+    # Iterate over each CSV file and read it into a DataFrame
+    d_files=[]
+    dataframes = []
+    for i in range (len(csv_files)):
+        item=folder_path+csv_files[i]+'.csv'
+        d_files.append(item)
+    d_us_ep = []
+    d_s_ep = []
+    d_n_ep = []
+    d_us_tr = []
+    d_s_tr = []
+    d_n_tr = []
+    d_us_sp = []
+    d_s_sp = []
+    d_n_sp = []
+    d_total_ep=[]
+    d_total_tr=[]
+    d_total_sp=[]
+    d_tp1=[]
+    d_tp2=[]
+    d_tp3=[]
+    d_tp4=[]
+    d_tp5=[]
+    d_tp6=[]
+    d_tp_tr1=[]
+    d_tp_tr2=[]
+    d_tp_tr3=[]
+    d_tp_tr4=[]
+    d_tp_tr5=[]
+    d_tp_tr6=[]
+
+    d_tp_sp1=[]
+    d_tp_sp2=[]
+    d_tp_sp3=[]
+    d_tp_sp4=[]
+    d_tp_sp5=[]
+    d_tp_sp6=[]
+
+    d_t1=[]
+    d_t2=[]
+    d_t3=[]
+    d_t4=[]
+    d_t5=[]
+    d_t6=[]
+
+    
+
+
+    for file in d_files:
+        df = pd.read_csv(file)
+        required_columns = ['00. Start Phase', '02. Situation Type','03. Outcomes','04. Rating','01. Phase']
+        if all(column in df.columns for column in required_columns):
+            if 'code' in df:
+                d_filtered_df = df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Unsuccessful')]
+                d_filtered_df1 = df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Successful')]
+                d_filtered_df2 = df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Neutral')]
+                d_tr_df = df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['04. Rating'] == 'Unsuccessful')]
+                d_tr_df1 = df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['04. Rating'] == 'Successful')]
+                d_tr_df2 = df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['04. Rating'] == 'Neutral')]
+                d_sp_df = df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Unsuccessful')]
+                d_sp_df1 = df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Successful')]
+                d_sp_df2 = df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Neutral')]
+                d_total1=d_filtered_df['04. Rating'].str.count('Unsuccessful').sum()+d_filtered_df1['04. Rating'].str.count('Successful').sum()+d_filtered_df2['04. Rating'].str.count('Neutral').sum()
+                d_total2=d_tr_df['04. Rating'].str.count('Unsuccessful').sum()+d_tr_df1['04. Rating'].str.count('Successful').sum()+d_tr_df2['04. Rating'].str.count('Neutral').sum()
+                d_total3=d_sp_df['04. Rating'].str.count('Unsuccessful').sum()+d_sp_df1['04. Rating'].str.count('Successful').sum()+d_sp_df2['04. Rating'].str.count('Neutral').sum()
+                if 'Time Period' in df:
+                    d_time_15=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='0 - 15 min')]
+                    d_time_30=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='16 - 30 min')]
+                    d_time_45=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='31 - 45 min')]
+                    d_time_60=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='46 - 60 min')]
+                    d_time_75=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='61 - 75 min')]
+                    d_time_90=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='76 - 90 min')]
+
+                    d_time_15_tr=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='0 - 15 min')]
+                    d_time_30_tr=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='16 - 30 min')]
+                    d_time_45_tr=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='31 - 45 min')]
+                    d_time_60_tr=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='46 - 60 min')]
+                    d_time_75_tr=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='61 - 75 min')]
+                    d_time_90_tr=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='76 - 90 min')]
+
+                    d_time_15_sp=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='0 - 15 min')]
+                    d_time_30_sp=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='16 - 30 min')]
+                    d_time_45_sp=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='31 - 45 min')]
+                    d_time_60_sp=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='46 - 60 min')]
+                    d_time_75_sp=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='61 - 75 min')]
+                    d_time_90_sp=df.loc[(df['code'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='76 - 90 min')]
+                else:
+                    d_time_15=0
+                    d_time_30=0
+                    d_time_45=0
+                    d_time_60=0
+                    d_time_75=0
+                    d_time_90=0
+
+                    d_time_15_tr=0
+                    d_time_30_tr=0
+                    d_time_45_tr=0
+                    d_time_60_tr=0
+                    d_time_75_tr=0
+                    d_time_90_tr=0
+
+                    d_time_15_sp=0
+                    d_time_30_sp=0
+                    d_time_45_sp=0
+                    d_time_60_sp=0
+                    d_time_75_sp=0
+                    d_time_90_sp=0
+            else:
+                d_filtered_df = df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Unsuccessful')]
+                d_filtered_df1 = df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Successful')]
+                d_filtered_df2 = df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['04. Rating'] == 'Neutral')]
+                d_tr_df = df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['04. Rating'] == 'Unsuccessful')]
+                d_tr_df1 = df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['04. Rating'] == 'Successful')]
+                d_tr_df2 = df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['04. Rating'] == 'Neutral')]
+                d_sp_df = df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Unsuccessful')]
+                d_sp_df1 = df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Successful')]
+                d_sp_df2 = df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['04. Rating'] == 'Neutral')]
+                d_total1=d_filtered_df['04. Rating'].str.count('Unsuccessful').sum()+d_filtered_df1['04. Rating'].str.count('Successful').sum()+d_filtered_df2['04. Rating'].str.count('Neutral').sum()
+                d_total2=d_tr_df['04. Rating'].str.count('Unsuccessful').sum()+d_tr_df1['04. Rating'].str.count('Successful').sum()+d_tr_df2['04. Rating'].str.count('Neutral').sum()
+                d_total3=d_sp_df['04. Rating'].str.count('Unsuccessful').sum()+d_sp_df1['04. Rating'].str.count('Successful').sum()+d_sp_df2['04. Rating'].str.count('Neutral').sum()
+                if 'Time Period' in df:
+                    d_time_15=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='0 - 15 min')]
+                    d_time_30=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='16 - 30 min')]
+                    d_time_45=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='31 - 45 min')]
+                    d_time_60=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='46 - 60 min')]
+                    d_time_75=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='61 - 75 min')]
+                    d_time_90=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Established Play') & (df['Time Period']=='76 - 90 min')]
+
+                    d_time_15_tr=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='0 - 15 min')]
+                    d_time_30_tr=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='16 - 30 min')]
+                    d_time_45_tr=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='31 - 45 min')]
+                    d_time_60_tr=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='46 - 60 min')]
+                    d_time_75_tr=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='61 - 75 min')]
+                    d_time_90_tr=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'] == 'Transition') & (df['Time Period']=='76 - 90 min')]
+
+                    d_time_15_sp=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='0 - 15 min')]
+                    d_time_30_sp=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='16 - 30 min')]
+                    d_time_45_sp=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='31 - 45 min')]
+                    d_time_60_sp=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='46 - 60 min')]
+                    d_time_75_sp=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='61 - 75 min')]
+                    d_time_90_sp=df.loc[(df['Row'] == 'D4 Defending the Box') & (df['01. Phase'].isin(['Corner Kick', 'Direct Free Kick','Lateral Free Kick','Throw In'])) & (df['Time Period']=='76 - 90 min')]
+                else:
+                    d_time_15=0
+                    d_time_30=0
+                    d_time_45=0
+                    d_time_60=0
+                    d_time_75=0
+                    d_time_90=0
+
+                    d_time_15_tr=0
+                    d_time_30_tr=0
+                    d_time_45_tr=0
+                    d_time_60_tr=0
+                    d_time_75_tr=0
+                    d_time_90_tr=0
+
+                    d_time_15_sp=0
+                    d_time_30_sp=0
+                    d_time_45_sp=0
+                    d_time_60_sp=0
+                    d_time_75_sp=0
+                    d_time_90_sp=0
+            d_us_ep.append(d_filtered_df['04. Rating'].str.count('Unsuccessful').sum())
+            d_s_ep.append(d_filtered_df1['04. Rating'].str.count('Successful').sum())
+            d_n_ep.append(d_filtered_df2['04. Rating'].str.count('Neutral').sum())
+            d_us_tr.append(d_tr_df['04. Rating'].str.count('Unsuccessful').sum())
+            d_s_tr.append(d_tr_df1['04. Rating'].str.count('Successful').sum())
+            d_n_tr.append(d_tr_df2['04. Rating'].str.count('Neutral').sum())
+            d_us_sp.append(d_sp_df['04. Rating'].str.count('Unsuccessful').sum())
+            d_s_sp.append(d_sp_df1['04. Rating'].str.count('Successful').sum())
+            d_n_sp.append(d_sp_df2['04. Rating'].str.count('Neutral').sum())
+            d_total_ep.append(d_total1)
+            d_total_tr.append(d_total2)
+            d_total_sp.append(d_total3)
+            if 'Time Period' in df:
+                d_tp1.append(d_time_15['Time Period'].str.count('0 - 15 min').sum())
+                d_tp2.append(d_time_30['Time Period'].str.count('16 - 30 min').sum())
+                d_tp3.append(d_time_45['Time Period'].str.count('31 - 45 min').sum())
+                d_tp4.append(d_time_60['Time Period'].str.count('46 - 60 min').sum())
+                d_tp5.append(d_time_75['Time Period'].str.count('61 - 75 min').sum())
+                d_tp6.append(d_time_90['Time Period'].str.count('76 - 90 min').sum())
+
+                d_tp_tr1.append(d_time_15_tr['Time Period'].str.count('0 - 15 min').sum())
+                d_tp_tr2.append(d_time_30_tr['Time Period'].str.count('16 - 30 min').sum())
+                d_tp_tr3.append(d_time_45_tr['Time Period'].str.count('31 - 45 min').sum())
+                d_tp_tr4.append(d_time_60_tr['Time Period'].str.count('46 - 60 min').sum())
+                d_tp_tr5.append(d_time_75_tr['Time Period'].str.count('61 - 75 min').sum())
+                d_tp_tr6.append(d_time_90_tr['Time Period'].str.count('76 - 90 min').sum())
+
+                d_tp_sp1.append(d_time_15_sp['Time Period'].str.count('0 - 15 min').sum())
+                d_tp_sp2.append(d_time_30_sp['Time Period'].str.count('16 - 30 min').sum())
+                d_tp_sp3.append(d_time_45_sp['Time Period'].str.count('31 - 45 min').sum())
+                d_tp_sp4.append(d_time_60_sp['Time Period'].str.count('46 - 60 min').sum())
+                d_tp_sp5.append(d_time_75_sp['Time Period'].str.count('61 - 75 min').sum())
+                d_tp_sp6.append(d_time_90_sp['Time Period'].str.count('76 - 90 min').sum())
+            else:
+                d_tp1.append(0)
+                d_tp2.append(0)
+                d_tp3.append(0)
+                d_tp4.append(0)
+                d_tp5.append(0)
+                d_tp6.append(0)
+
+                d_time_15_tr=0
+                d_time_30_tr=0
+                d_time_45_tr=0
+                d_time_60_tr=0
+                d_time_75_tr=0
+                d_time_90_tr=0
+
+                d_time_15_sp=0
+                d_time_30_sp=0
+                d_time_45_sp=0
+                d_time_60_sp=0
+                d_time_75_sp=0
+                d_time_90_sp=0
+            
+        else:
+            d_us_ep.append(0)
+            d_s_ep.append(0)
+            d_n_ep.append(0)
+            d_us_tr.append(0)
+            d_s_tr.append(0)
+            d_n_tr.append(0)
+            d_us_sp.append(0)
+            d_s_sp.append(0)
+            d_n_sp.append(0)
+            d_total_ep.append(0)
+            d_total_tr.append(0)
+            d_total_sp.append(0)
+            d_tp1.append(0)
+            d_tp2.append(0)
+            d_tp3.append(0)
+            d_tp4.append(0)
+            d_tp5.append(0)
+            d_tp6.append(0)
+            d_time_15_tr=0
+            d_time_30_tr=0
+            d_time_45_tr=0
+            d_time_60_tr=0
+            d_time_75_tr=0
+            d_time_90_tr=0
+
+            d_time_15_sp=0
+            d_time_30_sp=0
+            d_time_45_sp=0
+            d_time_60_sp=0
+            d_time_75_sp=0
+            d_time_90_sp=0
+    denominator=len(d_files)
+    d_ep_avg_1=sum(d_tp1)/denominator
+    d_ep_avg_2=sum(d_tp2)/denominator
+    d_ep_avg_3=sum(d_tp3)/denominator
+    d_ep_avg_4=sum(d_tp4)/denominator
+    d_ep_avg_5=sum(d_tp5)/denominator
+    d_ep_avg_6=sum(d_tp6)/denominator
+    print(d_ep_avg_1)
+    print(d_ep_avg_2)
+    print(d_ep_avg_3)
+    print(d_ep_avg_4)
+    print(d_ep_avg_5)
+    print(d_ep_avg_6)
+
+    d_tr_avg_1=sum(d_tp_tr1)/denominator
+    d_tr_avg_2=sum(d_tp_tr2)/denominator
+    d_tr_avg_3=sum(d_tp_tr3)/denominator
+    d_tr_avg_4=sum(d_tp_tr4)/denominator
+    d_tr_avg_5=sum(d_tp_tr5)/denominator
+    d_tr_avg_6=sum(d_tp_tr6)/denominator
+
+    d_sp_avg_1=sum(d_tp_sp1)/denominator
+    d_sp_avg_2=sum(d_tp_sp2)/denominator
+    d_sp_avg_3=sum(d_tp_sp3)/denominator
+    d_sp_avg_4=sum(d_tp_sp4)/denominator
+    d_sp_avg_5=sum(d_tp_sp5)/denominator
+    d_sp_avg_6=sum(d_tp_sp6)/denominator
+
+    d_ep_table=[]
+    
+    d_ep_table.append(d_ep_avg_1)
+    d_ep_table.append(d_ep_avg_2)
+    d_ep_table.append(d_ep_avg_3)
+    d_ep_table.append(d_ep_avg_4)
+    d_ep_table.append(d_ep_avg_5)
+    d_ep_table.append(d_ep_avg_6)
+    print(d_ep_table)
+    
+    d_tr_table=[]
+    d_tr_table.append(d_tr_avg_1)
+    d_tr_table.append(d_tr_avg_2)
+    d_tr_table.append(d_tr_avg_3)
+    d_tr_table.append(d_tr_avg_4)
+    d_tr_table.append(d_tr_avg_5)
+    d_tr_table.append(d_tr_avg_6)
+    print(d_tr_table)
+
+    d_sp_table=[]
+    d_sp_table.append(d_sp_avg_1)
+    d_sp_table.append(d_sp_avg_2)
+    d_sp_table.append(d_sp_avg_3)
+    d_sp_table.append(d_sp_avg_4)
+    d_sp_table.append(d_sp_avg_5)
+    d_sp_table.append(d_sp_avg_6)
+    print(d_sp_table)
+    
+    d_epO4=pd.DataFrame({'Unsuccessful':d_us_ep,'Successful':d_s_ep,'Neutral':d_n_ep,'Total':d_total_ep})
+    d_spO4=pd.DataFrame({'Unsuccessful':d_us_sp,'Successful':d_s_sp,'Neutral':d_n_sp,'Total':d_total_sp})
+    d_trO4=pd.DataFrame({'Unsuccessful':d_us_tr,'Successful':d_s_tr,'Neutral':d_n_tr,'Total':d_total_tr})
+
+    d_final = pd.concat([d_epO4, d_trO4, d_spO4], axis=1, keys=['Established Play', 'Transition', 'Set Pieces'], )
+    d_final.index.name = 'Matchday'
+    d_final.index += 1
+
+    conc = {'ep': d_ep_table, 'tr': d_tr_table, 'sp': d_sp_table}
+    d_jtable = pd.DataFrame(conc)
+    for i in range(1, 6):
+        d_jtable.iloc[i] = [d_ep_table[i], d_tr_table[i], d_sp_table[i]]
+
+    return d_ep_table,d_tr_table,d_sp_table,d_final,d_jtable
+
+def table_page():
+    ep_table,tr_table,sp_table,final,jtable=avg_calculations()
+    set_png_as_page_bg("https://tactical-times.com/wp-content/uploads/2021/07/Untitled.png")
     st.write(final)
-
 def main():
     st.title("Automated Report")
     # Upload a CSV file
     csv_file = st.file_uploader("Upload a CSV file", type=["csv"])
+    set_png_as_page_bg("https://www.sgclark.com/blog/wp-content/uploads/europe_soccer_danish_fc_nordsjaelland_home-2048x1152.png")
 
     if csv_file is not None:
         # Read the CSV file into a pandas DataFrame
